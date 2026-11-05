@@ -1,0 +1,485 @@
+<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"><meta content="mobile_tab" name="shell-type"><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&amp;family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100..900&amp;display=swap" rel="stylesheet"><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { colors: { "background": "#f7f9fb", "on-error": "#ffffff", "primary-fixed-dim": "#b3c7ec", "on-background": "#191c1e", "surface-container": "#eceef0", "error": "#ba1a1a", "inverse-surface": "#2d3133", "tertiary-fixed-dim": "#68dba9", "on-surface-variant": "#44474d", "secondary": "#904d00", "on-primary-fixed-variant": "#334766", "on-primary-fixed": "#031c38", "surface-bright": "#f7f9fb", "surface-container-high": "#e6e8ea", "on-tertiary": "#ffffff", "surface-container-lowest": "#ffffff", "on-error-container": "#93000a", "primary": "#000d21", "tertiary-fixed": "#85f8c4", "primary-fixed": "#d5e3ff", "inverse-primary": "#b3c7ec", "surface": "#f7f9fb", "on-primary-container": "#778bad", "on-secondary-fixed": "#2f1500", "surface-dim": "#d8dadc", "surface-container-highest": "#e0e3e5", "tertiary": "#001008", "inverse-on-surface": "#eff1f3", "outline": "#74777e", "secondary-fixed": "#ffdcc3", "on-secondary-container": "#663500", "surface-tint": "#4b5f7f", "on-secondary": "#ffffff", "on-tertiary-fixed": "#002114", "tertiary-container": "#00291a", "on-tertiary-fixed-variant": "#005137", "on-tertiary-container": "#199d6f", "error-container": "#ffdad6", "on-surface": "#191c1e", "surface-container-low": "#f2f4f6", "on-primary": "#ffffff", "on-secondary-fixed-variant": "#6e3900", "surface-variant": "#e0e3e5", "outline-variant": "#c4c6ce", "secondary-fixed-dim": "#ffb77d", "primary-container": "#0c2340", "secondary-container": "#fe932c" }, borderRadius: { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, spacing: { "space-xl": "2.5rem", "gutter-mobile": "1rem", "space-lg": "1.5rem", "gutter": "1.5rem", "margin": "3rem", "space-sm": "0.5rem", "space-md": "1rem", "space-xs": "0.25rem", "margin-mobile": "1.25rem" }, fontFamily: { "body-sm": ["Plus Jakarta Sans"], "label-lg": ["Plus Jakarta Sans"], "display-lg-mobile": ["Plus Jakarta Sans"], "headline-sm": ["Plus Jakarta Sans"], "body-md": ["Plus Jakarta Sans"], "headline-lg": ["Plus Jakarta Sans"], "label-sm": ["Plus Jakarta Sans"], "title-md": ["Plus Jakarta Sans"], "headline-xl-mobile": ["Plus Jakarta Sans"], "headline-xl": ["Plus Jakarta Sans"], "headline-md": ["Plus Jakarta Sans"], "display-lg": ["Plus Jakarta Sans"], "label-md": ["Plus Jakarta Sans"], "body-lg": ["Plus Jakarta Sans"] }, fontSize: { "body-sm": ["14px", { "lineHeight": "20px", "fontWeight": "400" }], "label-lg": ["14px", { "lineHeight": "20px", "letterSpacing": "0.02em", "fontWeight": "600" }], "display-lg-mobile": ["36px", { "lineHeight": "44px", "letterSpacing": "-0.02em", "fontWeight": "800" }], "headline-sm": ["20px", { "lineHeight": "28px", "fontWeight": "600" }], "body-md": ["16px", { "lineHeight": "24px", "fontWeight": "400" }], "headline-lg": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "label-sm": ["11px", { "lineHeight": "14px", "letterSpacing": "0.08em", "fontWeight": "700" }], "title-md": ["18px", { "lineHeight": "26px", "fontWeight": "600" }], "headline-xl-mobile": ["28px", { "lineHeight": "36px", "letterSpacing": "-0.01em", "fontWeight": "700" }], "headline-xl": ["40px", { "lineHeight": "48px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "headline-md": ["24px", { "lineHeight": "32px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "display-lg": ["56px", { "lineHeight": "64px", "letterSpacing": "-0.03em", "fontWeight": "800" }], "label-md": ["12px", { "lineHeight": "16px", "letterSpacing": "0.04em", "fontWeight": "600" }], "body-lg": ["18px", { "lineHeight": "28px", "fontWeight": "400" }] } } } }</script><style>@layer base{html,body{width:100vw;margin:0;padding:0;}body{overscroll-behavior:none;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style></head><body class="bg-background text-on-surface font-body-md flex flex-col min-h-screen"><header class="fixed top-0 w-full z-50 bg-primary-container/95 backdrop-blur-xl text-on-primary shadow-[0_4px_20px_-2px_rgba(12,35,64,0.12)] pt-safe"><div class="h-16 px-gutter-mobile flex items-center justify-between"><div class="flex items-center gap-space-sm"><div class="w-9 h-9 rounded-lg bg-surface-container-lowest/10 flex items-center justify-center"><span class="material-symbols-outlined text-secondary-container text-[20px]">verified</span></div><div class="flex flex-col"><div class="flex items-center gap-space-xs"><span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary-container">RDC • ATAC</span><span class="w-1.5 h-1.5 rounded-full bg-tertiary-fixed"></span></div><h1 class="font-title-md text-title-md font-bold tracking-tight text-on-primary leading-tight line-clamp-1">Tableau De Bord</h1></div></div><div class="flex items-center gap-space-xs"><span class="hidden xs:inline-block font-label-sm text-label-sm bg-surface-container-lowest/10 px-space-xs py-0.5 rounded text-on-primary/90 font-mono">CD-9824-KNS</span><button aria-label="Notifications consulaire" class="w-11 h-11 flex items-center justify-center rounded-full text-on-primary hover:bg-surface-container-lowest/10 transition-colors relative"><span class="material-symbols-outlined text-[22px]">notifications</span><span class="absolute top-2.5 right-2.5 w-2 h-2 rounded-full bg-secondary-container"></span></button><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida/AEtjO1XrAZUi7u56MMEegvAD3007Hif3fvLhFqi3xxWsZanlDmpEwuSVkiehkw3hgehagQX-3-vYPP0t672SHQMR0g4OdxdviXPmIuTa_GaqJ5fkvA-QQ5N7n6xC11nxCK3qKB64f_EcNV_kxGrzG1pq57olqfCX4i2LmrWbZBYBgD5mbqmnIdeg_89gqyU7HIxZX3keWKlNxGR9xpApcQNDYnp2BK6CWOiXuKxaVeW-Y09lYzkXcmlDfRcRNDGj"></div><!-- MODULE DE PAIEMENT MOBILE MONEY RDC -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-[0_4px_24px_-4px_rgba(12,35,64,0.08)] flex flex-col gap-space-md">
+  <div class="flex items-start justify-between gap-space-xs">
+    <div class="flex items-center gap-space-xs">
+      <div class="w-9 h-9 rounded-lg bg-surface-container flex items-center justify-center text-primary">
+        <span class="material-symbols-outlined text-[20px] text-secondary">payments</span>
+      </div>
+      <div>
+        <h3 class="font-title-md text-title-md font-bold text-primary leading-tight">Paiement Mobile Money</h3>
+        <p class="font-label-sm text-label-sm text-on-surface-variant font-mono">COTISATIONS &amp; SERVICES CONSULAIRES</p>
+      </div>
+    </div>
+    <span class="font-label-sm text-label-sm bg-tertiary-fixed text-on-tertiary-fixed font-bold px-2 py-0.5 rounded-full flex items-center gap-1 shrink-0">
+      <span class="material-symbols-outlined text-[13px]">verified</span>
+      Instantané RDC
+    </span>
+  </div>
+
+  <!-- Sélection des 3 opérateurs Mobile Money -->
+  <div class="flex flex-col gap-1.5">
+    <label class="font-label-sm text-label-sm font-semibold text-on-surface-variant">Opérateur Télécom (RDC)</label>
+    <div class="grid grid-cols-3 gap-space-xs">
+      <!-- M-Pesa -->
+      <button type="button" class="flex flex-col items-center justify-center p-2 rounded-lg border-2 border-secondary bg-surface-container-low transition-all text-center relative active:scale-[0.98]">
+        <span class="w-6 h-6 rounded-full bg-[#e60000] text-white flex items-center justify-center font-bold text-[11px] shadow-sm mb-1">M</span>
+        <span class="font-label-sm text-label-sm font-bold text-primary leading-tight">M-Pesa</span>
+        <span class="font-label-sm text-[10px] text-on-surface-variant">Vodacom</span>
+        <span class="absolute -top-1 -right-1 w-3.5 h-3.5 bg-secondary text-white rounded-full flex items-center justify-center text-[9px] font-bold">✓</span>
+      </button>
+      <!-- Orange Money -->
+      <button type="button" class="flex flex-col items-center justify-center p-2 rounded-lg border border-outline-variant bg-surface-container-lowest hover:bg-surface-container-low transition-all text-center active:scale-[0.98]">
+        <span class="w-6 h-6 rounded-full bg-[#ff7900] text-white flex items-center justify-center font-bold text-[11px] shadow-sm mb-1">OM</span>
+        <span class="font-label-sm text-label-sm font-bold text-primary leading-tight">Orange</span>
+        <span class="font-label-sm text-[10px] text-on-surface-variant">Money</span>
+      </button>
+      <!-- Airtel Money -->
+      <button type="button" class="flex flex-col items-center justify-center p-2 rounded-lg border border-outline-variant bg-surface-container-lowest hover:bg-surface-container-low transition-all text-center active:scale-[0.98]">
+        <span class="w-6 h-6 rounded-full bg-[#e31837] text-white flex items-center justify-center font-bold text-[11px] shadow-sm mb-1">AM</span>
+        <span class="font-label-sm text-label-sm font-bold text-primary leading-tight">Airtel</span>
+        <span class="font-label-sm text-[10px] text-on-surface-variant">Money</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Type de règlement / Montants rapides -->
+  <div class="flex flex-col gap-1.5">
+    <label class="font-label-sm text-label-sm font-semibold text-on-surface-variant">Motif de versement &amp; Montant</label>
+    <div class="grid grid-cols-2 gap-space-xs">
+      <div class="p-2.5 rounded-lg bg-surface-container-low border border-secondary flex flex-col justify-between cursor-pointer">
+        <span class="font-label-sm text-label-sm text-on-surface-variant line-clamp-1">Cotisation Annuelle 2025</span>
+        <div class="flex items-baseline justify-between mt-1">
+          <span class="font-title-md text-title-md font-bold text-primary">35 $</span>
+          <span class="font-label-sm text-[11px] text-secondary font-bold">~ 98 000 FC</span>
+        </div>
+      </div>
+      <div class="p-2.5 rounded-lg bg-surface-container-lowest border border-outline-variant hover:border-secondary flex flex-col justify-between cursor-pointer transition-colors">
+        <span class="font-label-sm text-label-sm text-on-surface-variant line-clamp-1">Formation CNC F.I.I.T.A.C.</span>
+        <div class="flex items-baseline justify-between mt-1">
+          <span class="font-title-md text-title-md font-bold text-primary">90 $</span>
+          <span class="font-label-sm text-[11px] text-on-surface-variant font-medium">~ 252 000 FC</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Saisie Numéro de téléphone Mobile Money -->
+  <div class="flex flex-col gap-1.5">
+    <label class="font-label-sm text-label-sm font-semibold text-on-surface-variant" for="mm-phone-input">Numéro Mobile Money du titulaire</label>
+    <div class="relative flex items-center bg-surface-container-low rounded-lg border border-outline-variant px-space-sm py-2 focus-within:border-secondary focus-within:ring-1 focus-within:ring-secondary transition-all">
+      <div class="flex items-center gap-1 pr-2 border-r border-outline-variant shrink-0">
+        <span class="text-[14px]">🇨🇩</span>
+        <span class="font-label-sm text-label-sm font-bold text-primary font-mono">+243</span>
+      </div>
+      <input id="mm-phone-input" type="tel" placeholder="81 234 56 78" value="82 458 91 20" class="w-full bg-transparent px-2.5 font-label-md text-label-md font-mono text-primary outline-none">
+      <span class="material-symbols-outlined text-[18px] text-tertiary-container shrink-0">verified</span>
+    </div>
+  </div>
+
+  <!-- Sécurité & validation instantanée -->
+  <div class="bg-surface-container-low p-2 rounded-lg flex items-center justify-between text-on-surface-variant font-label-sm text-[11px]">
+    <div class="flex items-center gap-1.5">
+      <span class="material-symbols-outlined text-[16px] text-secondary">lock</span>
+      <span class="">Chiffrement TLS 1.3 bancaire</span>
+    </div>
+    <span class="font-mono font-medium text-tertiary-container">Quittance numérique horodatée</span>
+  </div>
+
+  <!-- Bouton d'action principal -->
+  <button type="button" class="w-full bg-secondary-container hover:bg-secondary text-on-secondary-container hover:text-on-secondary font-label-md text-label-md py-3 px-space-md rounded-lg flex items-center justify-center gap-space-xs shadow active:scale-[0.98] transition-all font-bold">
+    <span class="material-symbols-outlined text-[19px]">send_to_mobile</span>
+    <span class="">Payer 35 $ USD via Mobile Money</span>
+  </button>
+</div></div></header><main class="flex-1 flex flex-col relative w-full pt-16 pb-24 bg-background min-h-screen"><div class="flex flex-col w-full">
+<div class="px-gutter-mobile pt-space-md pb-space-lg flex flex-col gap-space-lg">
+<!-- 1. IDENTITE OFFICIELLE DE L'ARTISAN -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-[0_4px_24px_-4px_rgba(12,35,64,0.08)] flex flex-col gap-space-md">
+<div class="flex items-start gap-space-md">
+<div class="relative shrink-0">
+<img class="w-16 h-16 rounded-xl object-cover shadow-md" data-alt="Portrait d'artisan congolais digne et fier, Maître Dieudonné Kalala, menuisier ébéniste d'art à Kinshasa, portant un tablier en cuir patiné dans son atelier de bois précieux aux reflets ambrés et chaleureux, éclairage naturel noble et précis." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAegfE-K6BqMBnk9Knd4Ius7Gguisr5A50UzYvH_DQKDCNls8hA4S2jdgXsBPMyJaGIJmtP3qj3h2ELxMkZ9epLryu4ruYk7pEKHa56_Gb0aYAphSreR2T2iFn-8zSPsReAsyyQNm4_SsGQRQdjmvgfiqUXfQEkRu5uPoT9odUFjwfMgBWTT6nsXFytPRwPG2G7SIccjixLte_5I6RupCEtd7_P0grsSGEEE9HSt0I8">
+<span class="absolute -bottom-1 -right-1 w-5 h-5 rounded-full bg-secondary-container text-on-secondary-container flex items-center justify-center shadow-sm">
+<span class="material-symbols-outlined text-[13px]" style="font-variation-settings: 'FILL' 1;">workspace_premium</span>
+</span>
+</div>
+<div class="flex flex-col min-w-0 flex-1">
+<div class="flex items-center gap-space-xs">
+<span class="font-label-sm text-label-sm text-secondary uppercase font-bold tracking-wider">Maître Artisan</span>
+<span class="w-1 h-1 rounded-full bg-outline-variant"></span>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-mono">RN-ATAC-2024-8842</span>
+</div>
+<h2 class="font-headline-sm text-headline-sm font-bold text-primary truncate leading-tight mt-0.5">Maître Dieudonné Kalala</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant flex items-center gap-1 mt-0.5">
+<span class="material-symbols-outlined text-[15px] text-secondary">handyman</span>
+<span class="truncate">Menuisier Ébéniste d'Art • Kinshasa, Gombe</span>
+</p>
+</div>
+</div>
+<div class="flex items-center justify-between bg-surface-container-low px-space-md py-space-sm rounded-lg">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-secondary-container text-[18px]">verified</span>
+<span class="font-label-md text-label-md font-semibold text-primary">Accréditation Étatique</span>
+</div>
+<div class="flex items-center gap-space-xs">
+<div class="w-2 h-2 rounded-full bg-tertiary-fixed"></div>
+<span class="font-label-md text-label-md font-bold text-on-surface">Conformité 98%</span>
+</div>
+</div>
+<div class="grid grid-cols-2 gap-space-sm">
+<button class="w-full bg-secondary-container text-on-secondary-container font-label-md text-label-md py-2.5 px-space-xs rounded-lg flex items-center justify-center gap-1.5 shadow-sm active:scale-[0.98] transition-transform" type="button">
+<span class="material-symbols-outlined text-[17px]">download_for_offline</span>
+<span class="truncate">Attestation 2025</span>
+</button>
+<button class="w-full bg-primary-container text-on-primary font-label-md text-label-md py-2.5 px-space-xs rounded-lg flex items-center justify-center gap-1.5 shadow-sm active:scale-[0.98] transition-transform" type="button">
+<span class="material-symbols-outlined text-[17px]">share</span>
+<span class="truncate">Partager ma fiche</span>
+</button>
+</div>
+</div>
+<!-- 2. PORTEFEUILLE CONSULAIRE & CARTE NUMERIQUE -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-[0_4px_24px_-4px_rgba(12,35,64,0.08)] flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-secondary text-[22px]">contactless</span>
+<div>
+<h3 class="font-title-md text-title-md font-bold text-primary leading-tight">Carte Consulaire Numérique</h3>
+<p class="font-label-sm text-label-sm text-on-surface-variant font-mono">ID-1 BIOMÉTRIQUE SECURE</p>
+</div>
+</div>
+<div class="flex items-center gap-1 bg-surface-container px-2 py-1 rounded-full">
+<span class="w-2 h-2 rounded-full bg-tertiary-fixed animate-pulse"></span>
+<span class="font-label-sm text-label-sm font-semibold text-primary">NFC Active</span>
+</div>
+</div>
+<!-- Pill Toggle Recto/Verso -->
+<div class="bg-surface-container p-1 rounded-full flex gap-1">
+<button class="flex-1 py-1.5 rounded-full font-label-md text-label-md text-center transition-all bg-primary-container text-on-primary font-bold shadow-sm" id="btn-recto" type="button">
+          Face Recto (Membre)
+        </button>
+<button class="flex-1 py-1.5 rounded-full font-label-md text-label-md text-center transition-all text-on-surface-variant font-medium" id="btn-verso" type="button">
+          Face Verso (Laisser-Passer)
+        </button>
+</div>
+<!-- Card Display Container -->
+<div class="relative w-full aspect-[1.54/1] rounded-xl overflow-hidden bg-primary-container shadow-xl">
+<img alt="Carte consulaire numérique recto officielle de la Chambre Nationale des Métiers RDC" class="w-full h-full object-cover transition-opacity duration-300" id="card-recto-img" src="https://lh3.googleusercontent.com/aida-public/AB6AXuANpEkQix9oJd9hNVXFCct9VUSy3W9QwrywZFFRIBFPiwgqQ5AcFFaEQwcYnBb6qzOJC8tC7Qt0NXQ6VzwSikfbml-d8_eadhNmZ-7ROLUD-aa2-crU53FPJqlFwfpj5gjlffRseXAQKZt8wkTY2ODm9LeTpgya_SYuI7VgfrzGpw63Pbv86EK9BJUj1y4IoMwRpmNeZjdeZ6d5HzE1T8Fg8NczY2fzbb59BH3KnA_7gAakKoVdPm-HiQ">
+<img alt="Carte consulaire numérique verso avec mention de laisser-passer consulaire et QR Code sécurisé" class="w-full h-full object-cover absolute inset-0 hidden transition-opacity duration-300" id="card-verso-img" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCRYXYI3TJDVkGss-EmE4G_4nJTl5jRZ0Q9FOU071ti3BRTBBuLnYygevepQFWJi4qoCJ5w-T0m4Tz6naCkYPjzlwCeLrbyMxqjvpYKB0b0_5-H8EJLGAWh-Man2KFexvDALBnyz7e8dGjvCBrNo1y2d9e9JNbY6BBUys2aEErt11azPIqO_KNY8yLdOmabpZdsRQVvk43MTO2js5s5vHS4tUs2A4EeSO62JqvmiZQP9F17Qkzqs-80Gg">
+</div>
+<!-- Statut et cryptographie -->
+<div class="flex items-center justify-between bg-surface-container-low p-space-sm rounded-lg text-on-surface">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-[18px] text-tertiary-container">verified_user</span>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm font-bold leading-none">DESFire EV3 256-bit</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-mono mt-0.5">Clé PGP: 0x8842...KNS</span>
+</div>
+</div>
+<div class="bg-surface-container px-2.5 py-1 rounded text-right">
+<span class="font-label-sm text-label-sm text-on-surface-variant block uppercase leading-none">Cotisation</span>
+<span class="font-label-md text-label-md font-bold text-tertiary-container leading-tight">À jour 2025</span>
+</div>
+</div>
+<!-- Encadré République & Légal -->
+<div class="bg-primary-container text-on-primary p-space-sm rounded-lg flex gap-space-sm items-start">
+<span class="material-symbols-outlined text-secondary-container text-[20px] shrink-0 mt-0.5">gavel</span>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm font-bold uppercase tracking-wider text-secondary-container">Ordonnance Ministérielle — Laisser-Passer</span>
+<p class="font-label-sm text-label-sm opacity-90 mt-0.5 leading-snug">
+            Les autorités civiles, militaires et de police sont requises de prêter secours et assistance au titulaire dans l'exercice loyal de ses prérogatives artisanales.
+          </p>
+</div>
+</div>
+<!-- Actions de portefeuille mobile -->
+<div class="flex flex-col gap-space-xs">
+<button class="w-full bg-primary text-on-primary font-label-md text-label-md py-3 px-space-md rounded-lg flex items-center justify-center gap-space-xs shadow active:scale-[0.98] transition-transform" type="button">
+<span class="material-symbols-outlined text-[20px]">account_balance_wallet</span>
+<span class="">Ajouter à Apple Wallet / Google Wallet</span>
+</button>
+<button class="w-full bg-surface-container text-on-surface font-label-md text-label-md py-2.5 px-space-md rounded-lg flex items-center justify-center gap-space-xs hover:bg-surface-container-high transition-colors" type="button">
+<span class="material-symbols-outlined text-[18px]">qr_code_scanner</span>
+<span class="">Contrôle QR Code &amp; Clé PGP</span>
+</button>
+</div>
+</div><!-- MODULE DE PAIEMENT MOBILE MONEY RDC -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-[0_4px_24px_-4px_rgba(12,35,64,0.08)] flex flex-col gap-space-md">
+  <div class="flex items-start justify-between gap-space-xs">
+    <div class="flex items-center gap-space-xs">
+      <div class="w-9 h-9 rounded-lg bg-surface-container flex items-center justify-center text-primary">
+        <span class="material-symbols-outlined text-[20px] text-secondary">payments</span>
+      </div>
+      <div>
+        <h3 class="font-title-md text-title-md font-bold text-primary leading-tight">Paiement Mobile Money</h3>
+        <p class="font-label-sm text-label-sm text-on-surface-variant font-mono">COTISATIONS &amp; SERVICES CONSULAIRES</p>
+      </div>
+    </div>
+    <span class="font-label-sm text-label-sm bg-tertiary-fixed text-on-tertiary-fixed font-bold px-2 py-0.5 rounded-full flex items-center gap-1 shrink-0">
+      <span class="material-symbols-outlined text-[13px]">verified</span>
+      Instantané RDC
+    </span>
+  </div>
+
+  <!-- Sélection des 3 opérateurs Mobile Money -->
+  <div class="flex flex-col gap-1.5">
+    <label class="font-label-sm text-label-sm font-semibold text-on-surface-variant">Opérateur Télécom (RDC)</label>
+    <div class="grid grid-cols-3 gap-space-xs">
+      <!-- M-Pesa -->
+      <button type="button" class="flex flex-col items-center justify-center p-2 rounded-lg border-2 border-secondary bg-surface-container-low transition-all text-center relative active:scale-[0.98]">
+        <span class="w-6 h-6 rounded-full bg-[#e60000] text-white flex items-center justify-center font-bold text-[11px] shadow-sm mb-1">M</span>
+        <span class="font-label-sm text-label-sm font-bold text-primary leading-tight">M-Pesa</span>
+        <span class="font-label-sm text-[10px] text-on-surface-variant">Vodacom</span>
+        <span class="absolute -top-1 -right-1 w-3.5 h-3.5 bg-secondary text-white rounded-full flex items-center justify-center text-[9px] font-bold">✓</span>
+      </button>
+      <!-- Orange Money -->
+      <button type="button" class="flex flex-col items-center justify-center p-2 rounded-lg border border-outline-variant bg-surface-container-lowest hover:bg-surface-container-low transition-all text-center active:scale-[0.98]">
+        <span class="w-6 h-6 rounded-full bg-[#ff7900] text-white flex items-center justify-center font-bold text-[11px] shadow-sm mb-1">OM</span>
+        <span class="font-label-sm text-label-sm font-bold text-primary leading-tight">Orange</span>
+        <span class="font-label-sm text-[10px] text-on-surface-variant">Money</span>
+      </button>
+      <!-- Airtel Money -->
+      <button type="button" class="flex flex-col items-center justify-center p-2 rounded-lg border border-outline-variant bg-surface-container-lowest hover:bg-surface-container-low transition-all text-center active:scale-[0.98]">
+        <span class="w-6 h-6 rounded-full bg-[#e31837] text-white flex items-center justify-center font-bold text-[11px] shadow-sm mb-1">AM</span>
+        <span class="font-label-sm text-label-sm font-bold text-primary leading-tight">Airtel</span>
+        <span class="font-label-sm text-[10px] text-on-surface-variant">Money</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Type de règlement / Montants rapides -->
+  <div class="flex flex-col gap-1.5">
+    <label class="font-label-sm text-label-sm font-semibold text-on-surface-variant">Motif de versement &amp; Montant</label>
+    <div class="grid grid-cols-2 gap-space-xs">
+      <div class="p-2.5 rounded-lg bg-surface-container-low border border-secondary flex flex-col justify-between cursor-pointer">
+        <span class="font-label-sm text-label-sm text-on-surface-variant line-clamp-1">Cotisation Annuelle 2025</span>
+        <div class="flex items-baseline justify-between mt-1">
+          <span class="font-title-md text-title-md font-bold text-primary">35 $</span>
+          <span class="font-label-sm text-[11px] text-secondary font-bold">~ 98 000 FC</span>
+        </div>
+      </div>
+      <div class="p-2.5 rounded-lg bg-surface-container-lowest border border-outline-variant hover:border-secondary flex flex-col justify-between cursor-pointer transition-colors">
+        <span class="font-label-sm text-label-sm text-on-surface-variant line-clamp-1">Formation CNC F.I.I.T.A.C.</span>
+        <div class="flex items-baseline justify-between mt-1">
+          <span class="font-title-md text-title-md font-bold text-primary">90 $</span>
+          <span class="font-label-sm text-[11px] text-on-surface-variant font-medium">~ 252 000 FC</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Saisie Numéro de téléphone Mobile Money -->
+  <div class="flex flex-col gap-1.5">
+    <label class="font-label-sm text-label-sm font-semibold text-on-surface-variant" for="mm-phone-input">Numéro Mobile Money du titulaire</label>
+    <div class="relative flex items-center bg-surface-container-low rounded-lg border border-outline-variant px-space-sm py-2 focus-within:border-secondary focus-within:ring-1 focus-within:ring-secondary transition-all">
+      <div class="flex items-center gap-1 pr-2 border-r border-outline-variant shrink-0">
+        <span class="text-[14px]">🇨🇩</span>
+        <span class="font-label-sm text-label-sm font-bold text-primary font-mono">+243</span>
+      </div>
+      <input id="mm-phone-input" type="tel" placeholder="81 234 56 78" value="82 458 91 20" class="w-full bg-transparent px-2.5 font-label-md text-label-md font-mono text-primary outline-none">
+      <span class="material-symbols-outlined text-[18px] text-tertiary-container shrink-0">verified</span>
+    </div>
+  </div>
+
+  <!-- Sécurité & validation instantanée -->
+  <div class="bg-surface-container-low p-2 rounded-lg flex items-center justify-between text-on-surface-variant font-label-sm text-[11px]">
+    <div class="flex items-center gap-1.5">
+      <span class="material-symbols-outlined text-[16px] text-secondary">lock</span>
+      <span class="">Chiffrement TLS 1.3 bancaire</span>
+    </div>
+    <span class="font-mono font-medium text-tertiary-container">Quittance numérique horodatée</span>
+  </div>
+
+  <!-- Bouton d'action principal -->
+  <button type="button" class="w-full bg-secondary-container hover:bg-secondary text-on-secondary-container hover:text-on-secondary font-label-md text-label-md py-3 px-space-md rounded-lg flex items-center justify-center gap-space-xs shadow active:scale-[0.98] transition-all font-bold">
+    <span class="material-symbols-outlined text-[19px]">send_to_mobile</span>
+    <span class="">Payer 35 $ USD via Mobile Money</span>
+  </button>
+</div>
+<!-- 3. INDICATEURS DE CONFORMITÉ (GRILLE 2x2) -->
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between px-space-xs">
+<h3 class="font-title-md text-title-md font-bold text-primary">Baromètre d'Activité</h3>
+<span class="font-label-sm text-label-sm text-secondary font-semibold">Mois en cours</span>
+</div>
+<div class="grid grid-cols-2 gap-space-sm">
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col justify-between">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-on-surface-variant font-medium">Vues annuaire</span>
+<span class="material-symbols-outlined text-secondary text-[20px]">visibility</span>
+</div>
+<div class="mt-space-md">
+<span class="font-headline-md text-headline-md font-bold text-primary">342</span>
+<span class="block font-label-sm text-label-sm text-tertiary-container font-semibold mt-0.5">+28% ce mois</span>
+</div>
+</div>
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col justify-between">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-on-surface-variant font-medium">Devis reçus</span>
+<span class="material-symbols-outlined text-secondary text-[20px]">request_quote</span>
+</div>
+<div class="mt-space-md">
+<span class="font-headline-md text-headline-md font-bold text-primary">18</span>
+<span class="block font-label-sm text-label-sm text-secondary-container font-semibold mt-0.5">4 à traiter</span>
+</div>
+</div>
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col justify-between">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-on-surface-variant font-medium">Marchés ARSP</span>
+<span class="material-symbols-outlined text-secondary text-[20px]">storefront</span>
+</div>
+<div class="mt-space-md">
+<span class="font-headline-md text-headline-md font-bold text-primary">6</span>
+<span class="block font-label-sm text-label-sm text-on-surface-variant font-semibold mt-0.5">Éligibilité 100%</span>
+</div>
+</div>
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col justify-between">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-on-surface-variant font-medium">Assurance</span>
+<span class="material-symbols-outlined text-tertiary-container text-[20px]">policy</span>
+</div>
+<div class="mt-space-md">
+<span class="font-title-md text-title-md font-bold text-primary">Valide</span>
+<span class="block font-label-sm text-label-sm text-on-surface-variant mt-0.5">Jusqu'à Nov 2025</span>
+</div>
+</div>
+</div>
+</div>
+<!-- 4. OPPORTUNITES ARSP & MARCHES PUBLICS -->
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-center justify-between px-space-xs">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-secondary text-[22px]">gavel</span>
+<h3 class="font-title-md text-title-md font-bold text-primary">Marchés ARSP Réservés</h3>
+</div>
+<span class="font-label-sm text-label-sm bg-secondary-container text-on-secondary-container font-bold px-2 py-0.5 rounded-full">Loi Sous-traitance</span>
+</div>
+<!-- Marché 1 -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-[0_4px_24px_-4px_rgba(12,35,64,0.08)] flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-secondary font-mono font-bold">DAO-ARSP-2025-081</span>
+<span class="font-label-sm text-label-sm bg-surface-container text-on-surface-variant px-2 py-0.5 rounded font-medium flex items-center gap-1">
+<span class="material-symbols-outlined text-[13px] text-error">hourglass_bottom</span>
+            Clôture : 6j
+          </span>
+</div>
+<h4 class="font-title-md text-title-md font-bold text-primary leading-snug">
+          Rénovation mobilière &amp; boiseries — Ministère des Finances
+        </h4>
+<div class="flex items-center justify-between text-on-surface-variant font-body-sm text-body-sm">
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">location_on</span>
+            Kinshasa, Gombe
+          </span>
+<span class="font-headline-sm text-headline-sm font-bold text-primary">
+            45 000 — 60 000 $
+          </span>
+</div>
+<button class="w-full mt-space-xs bg-secondary text-on-secondary font-label-md text-label-md py-2.5 px-space-md rounded-lg flex items-center justify-center gap-space-xs shadow active:scale-[0.98] transition-transform" type="button">
+<span class="">Déposer ma candidature</span>
+<span class="material-symbols-outlined text-[17px]">arrow_forward</span>
+</button>
+</div>
+<!-- Marché 2 -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-[0_4px_24px_-4px_rgba(12,35,64,0.08)] flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-secondary font-mono font-bold">DAO-ARSP-2025-094</span>
+<span class="font-label-sm text-label-sm bg-surface-container text-on-surface-variant px-2 py-0.5 rounded font-medium flex items-center gap-1">
+<span class="material-symbols-outlined text-[13px] text-secondary">schedule</span>
+            Clôture : 14j
+          </span>
+</div>
+<h4 class="font-title-md text-title-md font-bold text-primary leading-snug">
+          Menuiserie bois rouge &amp; structures décoratives de prestige
+        </h4>
+<div class="flex items-center justify-between text-on-surface-variant font-body-sm text-body-sm">
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">location_on</span>
+            Haut-Katanga, Lubumbashi
+          </span>
+<span class="font-headline-sm text-headline-sm font-bold text-primary">
+            120 000 $
+          </span>
+</div>
+<button class="w-full mt-space-xs bg-secondary text-on-secondary font-label-md text-label-md py-2.5 px-space-md rounded-lg flex items-center justify-center gap-space-xs shadow active:scale-[0.98] transition-transform" type="button">
+<span class="">Déposer ma candidature</span>
+<span class="material-symbols-outlined text-[17px]">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- 5. FORMATION F.I.I.T.A.C. -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-[0_4px_24px_-4px_rgba(12,35,64,0.08)] flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-secondary-container text-[20px]">school</span>
+<span class="font-label-sm text-label-sm font-bold text-primary uppercase">Institut F.I.I.T.A.C.</span>
+</div>
+<span class="font-label-sm text-label-sm bg-tertiary-fixed text-on-tertiary-fixed font-bold px-2 py-0.5 rounded-full">Subvention ATAC 80%</span>
+</div>
+<h4 class="font-title-md text-title-md font-bold text-primary">
+        Conception CAO 3D &amp; Découpe Numérique CNC pour Ébénisterie
+      </h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+        Session certifiante intensive de perfectionnement aux standards de production exportable.
+      </p>
+<div class="flex items-center justify-between pt-space-xs">
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant block">Reste à charge artisan</span>
+<span class="font-headline-sm text-headline-sm font-bold text-primary">90 $ USD</span>
+</div>
+<button class="bg-primary-container text-on-primary font-label-md text-label-md py-2 px-space-md rounded-lg flex items-center gap-1" type="button">
+<span class="">Réserver ma place</span>
+<span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</button>
+</div>
+</div>
+<!-- 6. GUICHET D'ASSISTANCE CONSULAIRE -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-[0_4px_24px_-4px_rgba(12,35,64,0.08)] flex flex-col gap-space-md">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center text-primary shrink-0">
+<span class="material-symbols-outlined text-[22px]">support_agent</span>
+</div>
+<div>
+<h4 class="font-title-md text-title-md font-bold text-primary leading-tight">Guichet Consulaire Permanent</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Assistance juridique, fiscale et technique</p>
+</div>
+</div>
+<div class="grid grid-cols-2 gap-space-sm">
+<a class="bg-surface-container-low text-on-surface py-2.5 px-space-sm rounded-lg flex items-center justify-center gap-2 font-label-md text-label-md active:bg-surface-container transition-colors" href="tel:+243895942963">
+<span class="material-symbols-outlined text-[18px] text-primary">call</span>
+<span class="">Appeler le +243</span>
+</a>
+<a class="bg-primary-container text-on-primary py-2.5 px-space-sm rounded-lg flex items-center justify-center gap-2 font-label-md text-label-md shadow active:scale-[0.98] transition-transform" href="https://wa.me/243895942963">
+<span class="material-symbols-outlined text-[18px] text-tertiary-fixed">chat</span>
+<span class="">WhatsApp ATAC</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+<script>
+  (function () {
+    const btnRecto = document.getElementById('btn-recto');
+    const btnVerso = document.getElementById('btn-verso');
+    const cardRectoImg = document.getElementById('card-recto-img');
+    const cardVersoImg = document.getElementById('card-verso-img');
+
+    if (btnRecto && btnVerso && cardRectoImg && cardVersoImg) {
+      btnRecto.addEventListener('click', function () {
+        cardRectoImg.classList.remove('hidden');
+        cardVersoImg.classList.add('hidden');
+
+        btnRecto.className = "flex-1 py-1.5 rounded-full font-label-md text-label-md text-center transition-all bg-primary-container text-on-primary font-bold shadow-sm";
+        btnVerso.className = "flex-1 py-1.5 rounded-full font-label-md text-label-md text-center transition-all text-on-surface-variant font-medium";
+      });
+
+      btnVerso.addEventListener('click', function () {
+        cardVersoImg.classList.remove('hidden');
+        cardRectoImg.classList.add('hidden');
+
+        btnVerso.className = "flex-1 py-1.5 rounded-full font-label-md text-label-md text-center transition-all bg-primary-container text-on-primary font-bold shadow-sm";
+        btnRecto.className = "flex-1 py-1.5 rounded-full font-label-md text-label-md text-center transition-all text-on-surface-variant font-medium";
+      });
+    }
+  })();
+</script></main><nav class="fixed bottom-0 w-full z-50 pb-safe bg-surface-container-lowest/90 backdrop-blur-xl shadow-[0_-4px_20px_rgba(12,35,64,0.06)]" data-active-classes="text-secondary font-semibold"><div class="flex items-center justify-around h-16 px-space-xs"><a aria-current="page" class="flex flex-col items-center justify-center flex-1 h-full min-w-[44px] min-h-[44px] transition-colors text-secondary font-semibold" data-path="tableau-de-bord" href="#"><span class="material-symbols-outlined text-[22px]">dashboard</span><span class="font-label-sm text-label-sm mt-0.5">Tableau</span></a><a class="flex flex-col items-center justify-center flex-1 h-full min-w-[44px] min-h-[44px] text-on-surface-variant transition-colors" data-path="carte-consulaire" href="#"><span class="material-symbols-outlined text-[22px]">badge</span><span class="font-label-sm text-label-sm mt-0.5">Carte</span></a><a class="flex flex-col items-center justify-center flex-1 h-full min-w-[44px] min-h-[44px] text-on-surface-variant transition-colors" data-path="marches-arsp" href="#"><span class="material-symbols-outlined text-[22px]">storefront</span><span class="font-label-sm text-label-sm mt-0.5">ARSP</span></a><a class="flex flex-col items-center justify-center flex-1 h-full min-w-[44px] min-h-[44px] text-on-surface-variant transition-colors" data-path="formations" href="#"><span class="material-symbols-outlined text-[22px]">school</span><span class="font-label-sm text-label-sm mt-0.5">Formation</span></a><a class="flex flex-col items-center justify-center flex-1 h-full min-w-[44px] min-h-[44px] text-on-surface-variant transition-colors" data-path="mon-profil" href="#"><span class="material-symbols-outlined text-[22px]">person</span><span class="font-label-sm text-label-sm mt-0.5">Profil</span></a></div></nav>
+
+</body></html>

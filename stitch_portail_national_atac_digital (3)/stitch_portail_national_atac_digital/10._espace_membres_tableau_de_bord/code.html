@@ -1,0 +1,431 @@
+<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0" name="viewport"><meta content="web_dashboard" name="shell-type"><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&amp;family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100..900&amp;display=swap" rel="stylesheet"><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { colors: { "on-primary-container": "#778bad", "on-surface-variant": "#44474d", "primary-fixed-dim": "#b3c7ec", "secondary-fixed-dim": "#ffb77d", "on-error": "#ffffff", "surface-container-highest": "#e0e3e5", "on-error-container": "#93000a", "on-primary-fixed-variant": "#334766", "surface-variant": "#e0e3e5", "on-secondary-container": "#663500", "tertiary-fixed": "#85f8c4", "background": "#f7f9fb", "on-tertiary-container": "#199d6f", "primary-container": "#0c2340", "secondary-fixed": "#ffdcc3", "inverse-primary": "#b3c7ec", "surface-container": "#eceef0", "on-background": "#191c1e", "on-secondary-fixed-variant": "#6e3900", "surface-container-high": "#e6e8ea", "surface-dim": "#d8dadc", "tertiary-fixed-dim": "#68dba9", "tertiary": "#001008", "error-container": "#ffdad6", "on-tertiary-fixed-variant": "#005137", "surface-container-lowest": "#ffffff", "on-secondary": "#ffffff", "primary": "#000d21", "tertiary-container": "#00291a", "secondary-container": "#fe932c", "on-primary-fixed": "#031c38", "inverse-on-surface": "eff1f3", "surface-tint": "#4b5f7f", "error": "#ba1a1a", "on-primary": "#ffffff", "surface-bright": "#f7f9fb", "on-tertiary": "#ffffff", "surface": "#f7f9fb", "outline": "#74777e", "inverse-surface": "#2d3133", "on-tertiary-fixed": "#002114", "secondary": "#904d00", "on-surface": "#191c1e", "surface-container-low": "#f2f4f6", "primary-fixed": "#d5e3ff", "on-secondary-fixed": "#2f1500", "outline-variant": "#c4c6ce" }, borderRadius: { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, spacing: { "gutter": "1.5rem", "space-xs": "0.25rem", "gutter-mobile": "1rem", "margin": "3rem", "margin-mobile": "1.25rem", "space-md": "1rem", "space-sm": "0.5rem", "space-lg": "1.5rem", "space-xl": "2.5rem" }, fontFamily: { "headline-xl-mobile": ["Plus Jakarta Sans"], "headline-md": ["Plus Jakarta Sans"], "headline-lg": ["Plus Jakarta Sans"], "body-lg": ["Plus Jakarta Sans"], "headline-sm": ["Plus Jakarta Sans"], "body-md": ["Plus Jakarta Sans"], "label-sm": ["Plus Jakarta Sans"], "label-lg": ["Plus Jakarta Sans"], "display-lg": ["Plus Jakarta Sans"], "headline-xl": ["Plus Jakarta Sans"], "title-md": ["Plus Jakarta Sans"], "display-lg-mobile": ["Plus Jakarta Sans"], "label-md": ["Plus Jakarta Sans"], "body-sm": ["Plus Jakarta Sans"] }, fontSize: { "headline-xl-mobile": ["28px", { "lineHeight": "36px", "letterSpacing": "-0.01em", "fontWeight": "700" }], "headline-md": ["24px", { "lineHeight": "32px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "headline-lg": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "body-lg": ["18px", { "lineHeight": "28px", "fontWeight": "400" }], "headline-sm": ["20px", { "lineHeight": "28px", "fontWeight": "600" }], "body-md": ["16px", { "lineHeight": "24px", "fontWeight": "400" }], "label-sm": ["11px", { "lineHeight": "14px", "letterSpacing": "0.08em", "fontWeight": "700" }], "label-lg": ["14px", { "lineHeight": "20px", "letterSpacing": "0.02em", "fontWeight": "600" }], "display-lg": ["56px", { "lineHeight": "64px", "letterSpacing": "-0.03em", "fontWeight": "800" }], "headline-xl": ["40px", { "lineHeight": "48px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "title-md": ["18px", { "lineHeight": "26px", "fontWeight": "600" }], "display-lg-mobile": ["36px", { "lineHeight": "44px", "letterSpacing": "-0.02em", "fontWeight": "800" }], "label-md": ["12px", { "lineHeight": "16px", "letterSpacing": "0.04em", "fontWeight": "600" }], "body-sm": ["14px", { "lineHeight": "20px", "fontWeight": "400" }] } } } }</script></head><body class="bg-surface font-body-md text-body-md text-on-surface"><aside class="fixed left-0 top-0 h-full w-72 bg-primary-container text-surface-container-lowest z-50 flex flex-col pt-space-lg pb-space-lg"><div class="px-space-lg pb-space-lg border-b border-on-primary-container/20"><div class="flex items-center gap-space-sm"><img alt="ATAC Logo Officiel" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDMYp98xoabXdZaOBbEdppWiIC20BdDWxw1a_hasmH9wFe1tEZKPqECDEyAVFEgM98V446sN-I6H0eBjQz2HawG9bqZhH11mz41Znwnsatk4m4nCJ121uXdXAA8A4LW1MyItJGR-q8W7xpPtCqkM1pYTCW69kpVYnQVgwTLq8z9CsZERNP91GQMUpR5npfbzFoI7-3rSIEd0f0owpnSNaPze3aUShJNF90-JkTnQNzAZut634bP1qtr0A"><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-surface-container-lowest font-bold leading-none">ATAC</span><span class="font-label-sm text-label-sm text-secondary-fixed font-semibold uppercase tracking-wider">Espace Membres RDC</span></div></div></div><nav class="flex-1 px-space-md py-space-lg flex flex-col gap-1" data-active-classes="bg-secondary text-on-secondary font-bold shadow-sm"><a aria-current="page" class="flex items-center gap-space-sm px-space-md py-2.5 rounded-lg transition-all bg-secondary text-on-secondary font-bold shadow-sm" data-path="espace-membres" href="#"><span class="material-symbols-outlined text-[20px]">dashboard</span>Tableau de Bord</a><a class="flex items-center gap-space-sm px-space-md py-2.5 rounded-lg text-surface-container-highest hover:bg-on-primary-container/20 hover:text-surface-container-lowest transition-all" data-path="mon-dossier-artisan" href="#"><span class="material-symbols-outlined text-[20px]">badge</span>Mon Dossier Artisan</a><a class="flex items-center gap-space-sm px-space-md py-2.5 rounded-lg text-surface-container-highest hover:bg-on-primary-container/20 hover:text-surface-container-lowest transition-all" data-path="cotisations-certificats" href="#"><span class="material-symbols-outlined text-[20px]">workspace_premium</span>Cotisations &amp; Certificats</a><a class="flex items-center gap-space-sm px-space-md py-2.5 rounded-lg text-surface-container-highest hover:bg-on-primary-container/20 hover:text-surface-container-lowest transition-all" data-path="chantiers-et-marches" href="#"><span class="material-symbols-outlined text-[20px]">handyman</span>Chantiers &amp; Marchés</a><a class="flex items-center gap-space-sm px-space-md py-2.5 rounded-lg text-surface-container-highest hover:bg-on-primary-container/20 hover:text-surface-container-lowest transition-all" data-path="formations-fiitac" href="#"><span class="material-symbols-outlined text-[20px]">school</span>Formations FIITAC</a><a class="mt-auto flex items-center gap-space-sm px-space-md py-2.5 rounded-lg text-secondary-fixed hover:bg-on-primary-container/20 hover:text-surface-container-lowest transition-all" data-path="accueil" href="#"><span class="material-symbols-outlined text-[20px]">arrow_back</span>Retour au Portail Public</a></nav><div class="px-space-lg pt-space-sm border-t border-on-primary-container/20 flex items-center gap-space-sm"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB_HHcFKchUPnZkcwgyybd5yw3rWMuB2Ix2Ll7eDmf8OZ7ph2nlbRBfytx_TEtdKGWGvjwVJSrDrZyhToPVtkkMC8A5WjJye7xCcHW3UtMzVMbGF9w4xk2_ovhaOY_lRgxWy8G8-1Uaxa_bTXgJxCqv3MTX1NTkgYOI3Yu3Jkz-yxFZVMyU3z3_8hWMb8II2_xID_wj4XYJmrel4sXTAFL8c57ADXabOqrdrHaauBBx"><div class="flex flex-col"><span class="font-label-lg text-label-lg font-semibold text-surface-container-lowest">Maître Artisan</span><span class="font-label-sm text-label-sm text-tertiary-fixed">Matricule Actif</span></div></div></aside><div class="pl-72"><header class="fixed top-0 left-72 right-0 h-16 bg-surface-container-lowest/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)] z-40 flex items-center justify-between px-space-lg"><div class="flex items-center gap-space-sm text-on-surface-variant font-label-md text-label-md"><span class="material-symbols-outlined text-[18px] text-tertiary-container">verified_user</span>Registre Officiel ATAC RDC - Session Sécurisée</div><div class="flex items-center gap-space-md"><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors" data-path="accueil" href="#">Portail Public</a><div class="h-4 w-[1px] bg-surface-container-highest"></div><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB_HHcFKchUPnZkcwgyybd5yw3rWMuB2Ix2Ll7eDmf8OZ7ph2nlbRBfytx_TEtdKGWGvjwVJSrDrZyhToPVtkkMC8A5WjJye7xCcHW3UtMzVMbGF9w4xk2_ovhaOY_lRgxWy8G8-1Uaxa_bTXgJxCqv3MTX1NTkgYOI3Yu3Jkz-yxFZVMyU3z3_8hWMb8II2_xID_wj4XYJmrel4sXTAFL8c57ADXabOqrdrHaauBBx"></div></header><main class="relative pt-16 w-full px-gutter bg-surface min-h-screen"><div class="flex flex-col w-full pb-16 space-y-8">
+<div class="relative bg-gradient-to-r from-primary-container via-primary to-primary-container text-surface-container-lowest rounded-xl p-8 shadow-xl overflow-hidden"><div class="w-full mb-6 rounded-lg overflow-hidden border border-surface-container-lowest/15 shadow-md bg-surface-container-lowest"><img src="https://lh3.googleusercontent.com/aida-public/AB6AXuDVxLWGC_50iU5lWih9ATxy_9nhmDnFq6MnzvOWY4CqPwHVqJLs7MWHCGpfYvtjGJ-tHPokJ7ir3idOgFcpT2m8ocraGXLZbXhPo8gkPficRgTrbmMN2MPZzsgslSVJE6iVE2dPnYeabJftuBtnnwzUobdtjJ11bgHgr0pGL-me9W1DmJaLfst1S_gjkS6WIddCOY_kdvtkxOtRH0UAzvauNaf2fWtnNBXE3zg_NNDUvqK7qcgRqhm2Wg" alt="Ministère de la Formation Professionnelle - ATAC Chambre des Métiers" class="w-full h-auto object-cover max-h-24 md:max-h-28"></div>
+<div class="absolute -right-12 -top-12 w-64 h-64 rounded-full bg-secondary/15 blur-3xl pointer-events-none"></div>
+<div class="absolute right-1/3 -bottom-8 w-48 h-48 rounded-full bg-tertiary-fixed/10 blur-2xl pointer-events-none"></div>
+<div class="relative z-10 flex flex-col lg:flex-row lg:items-center justify-between gap-6">
+<div class="space-y-3">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-secondary/20 text-secondary-fixed">
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">verified</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider">Matricule National Vérifié</span>
+<span class="font-headline-sm text-label-sm font-bold text-surface-container-lowest px-2 py-0.5 rounded bg-primary-container/80">ATAC-CD-2024-8842</span>
+</div>
+<div>
+<h1 class="font-headline-xl text-headline-xl font-bold tracking-tight text-surface-container-lowest">
+            Bienvenue, Maître Dieudonné Kalala
+          </h1>
+<p class="font-body-lg text-body-lg text-surface-container-highest mt-1 flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary-container">carpenter</span>
+            Menuisier Ébéniste d'Art • Ateliers Royaux du Fleuve • Kinshasa - Gombe (RDC)
+          </p>
+</div>
+</div>
+<div class="flex flex-wrap items-center gap-3 self-start lg:self-center">
+<button class="inline-flex items-center gap-2 px-4 py-2.5 rounded-lg bg-surface-container-lowest text-primary font-label-lg text-label-lg font-semibold shadow-md hover:bg-surface-container-low transition-all">
+<span class="material-symbols-outlined text-lg">share</span>
+          Partager ma fiche
+        </button>
+<button class="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg bg-secondary text-on-secondary font-label-lg text-label-lg font-bold shadow-md hover:bg-secondary-container transition-all">
+<span class="material-symbols-outlined text-lg">download</span>
+          Télécharger Attestation 2025
+        </button>
+</div>
+</div>
+</div>
+<div class="grid grid-cols-1 xl:grid-cols-12 gap-8 items-start">
+<div class="xl:col-span-4 flex flex-col gap-6">
+<div class="bg-surface-container-lowest rounded-xl shadow-xl border border-surface-container-high overflow-hidden flex flex-col" id="official-card-widget"><div class="bg-primary-container text-surface-container-lowest px-5 py-3.5 flex items-center justify-between border-b border-surface-container-high/20"><div class="flex items-center gap-2"><span class="material-symbols-outlined text-secondary-fixed text-xl">badge</span><span class="font-label-sm uppercase tracking-wider font-bold text-surface-container-lowest">Carte Consulaire Officielle ATAC</span></div><span class="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-xs font-bold bg-tertiary-fixed text-on-tertiary-fixed"><span class="w-2 h-2 rounded-full bg-on-tertiary-fixed"></span>ACTIF 2025</span></div><div class="p-4 bg-surface-container-low flex flex-col gap-4"><div class="flex items-center justify-between bg-surface-container-high/60 p-1 rounded-lg"><button type="button" id="btn-card-recto" class="flex-1 py-1.5 px-3 rounded-md text-xs font-bold transition-all bg-surface-container-lowest text-primary shadow-sm flex items-center justify-center gap-1.5"><span class="material-symbols-outlined text-sm text-primary">credit_card</span>Face Recto (Membre)</button><button type="button" id="btn-card-verso" class="flex-1 py-1.5 px-3 rounded-md text-xs font-semibold text-on-surface-variant hover:text-on-surface transition-all flex items-center justify-center gap-1.5"><span class="material-symbols-outlined text-sm text-secondary">shield</span>Face Verso (Laisser-Passez)</button></div><div id="card-face-recto-container" class="space-y-2"><div class="flex items-center justify-between px-1"><span class="font-label-sm text-xs font-bold uppercase tracking-wider text-on-surface-variant flex items-center gap-1"><span class="material-symbols-outlined text-sm text-primary">verified</span>Recto — Carte Consulaire Artisanale</span><span class="font-mono text-xs font-bold text-primary bg-surface-container px-2 py-0.5 rounded">MATRICULE : 8842</span></div><div class="relative rounded-lg overflow-hidden shadow-md border border-surface-container hover:shadow-lg transition-shadow bg-surface-container-lowest"><img src="https://lh3.googleusercontent.com/aida-public/AB6AXuBX2k7he4XNOLZcMsU0OK7YM_u2ubbfb-92PMb-Gp-HJPYbTnesjHwRFWWxOdGeBsQLW-780U21bNKvP-7DNvEr07FEsheV5W8RnLWZCeuQGyM8fCqDx8tal_S8WLdzYlGWzqOJibmq4XWRVbKBQjXHS2X6a809S1b_bxGOujRZk2t2SMfO4lPmWW95yzaVr-1CKtkuvLSYtq_MROkQOH2du8pGvBTJl5rIN8yTrkpbcF_y7eU0T7alVQ" alt="Carte de Membre ATAC - Recto Officiel avec QR Code et armoiries RDC" class="w-full h-auto object-contain block"></div></div><div id="card-face-verso-container" class="space-y-2"><div class="flex items-center justify-between px-1"><span class="font-label-sm text-xs font-bold uppercase tracking-wider text-secondary flex items-center gap-1"><span class="material-symbols-outlined text-sm text-secondary">security</span>Verso — LAISSER PASSEZ Solennel</span><span class="text-[11px] font-semibold text-on-surface-variant bg-surface-container px-2 py-0.5 rounded">Assistance Obligatoire RDC</span></div><div class="relative rounded-lg overflow-hidden shadow-md border border-surface-container hover:shadow-lg transition-shadow bg-surface-container-lowest"><img src="https://lh3.googleusercontent.com/aida-public/AB6AXuB1x8_L_101woQNRdac4ZoZqsk0ADE5F3OtZon06QO-K6yMYwspAVsUOagH2bBB0K75hBS1ebHHLHukIGOAPLHCWl-cqd6AUUOjdtBkaAjD1aC-BDhyiBBvVLET_U-gw1vxEVSlj6rnJdupgdBlC7ZqLkY8rwp16Rl7__UkIsUL22aeGJnmgk5fNL6665HImfYi0B7ajzjs7yl8cWDTeCtqU647sVjZQ4wTmHjJcfEwicc9WEKTKgoRXQ" alt="Carte ATAC Verso - LAISSER PASSEZ - Assistance Autorités Civiles et Militaires RDC" class="w-full h-auto object-contain block"></div></div><div class="bg-surface-container-lowest rounded-lg p-3 border border-surface-container-high/60 space-y-2"><div class="flex items-center justify-between text-xs"><span class="text-on-surface-variant flex items-center gap-1.5 font-medium"><span class="material-symbols-outlined text-sm text-tertiary-fixed-dim">lock</span>Puce NFC Cryptée :</span><span class="font-mono font-bold text-on-surface text-[11px]">AES-256 (Actif)</span></div><div class="flex items-center justify-between text-xs"><span class="text-on-surface-variant flex items-center gap-1.5 font-medium"><span class="material-symbols-outlined text-sm text-secondary">qr_code_2</span>Contrôle Numérique :</span><span class="font-semibold text-on-surface text-[11px]">Scannable en patrouille</span></div><div class="flex items-center justify-between text-xs"><span class="text-on-surface-variant flex items-center gap-1.5 font-medium"><span class="material-symbols-outlined text-sm text-primary">calendar_today</span>Validité Consulaire :</span><span class="font-bold text-on-surface text-[11px]">Jusqu'au 31 Décembre 2025</span></div></div></div><div class="p-4 bg-surface-container-lowest border-t border-surface-container-high space-y-3"><div class="bg-surface-container-low rounded-lg p-3 text-xs text-on-surface-variant space-y-1.5"><div class="flex items-center justify-between"><span class="font-medium">Titulaire :</span><span class="font-bold text-on-surface">Maître Dieudonné Kalala</span></div><div class="flex items-center justify-between"><span class="font-medium">Profession :</span><span class="font-bold text-on-surface">Menuisier Ébéniste d'Art</span></div><div class="flex items-center justify-between"><span class="font-medium">Province / Ville :</span><span class="font-bold text-on-surface">Kinshasa (Gombe)</span></div><div class="flex items-center justify-between"><span class="font-medium">Statut Juridique :</span><span class="font-bold text-tertiary-fixed-dim">Artisan Agréé RDC</span></div></div><div class="grid grid-cols-2 gap-2"><button class="py-2 px-3 rounded-lg bg-primary-container hover:bg-primary text-surface-container-lowest font-label-md text-xs font-bold text-center transition-colors flex items-center justify-center gap-1.5 shadow-sm"><span class="material-symbols-outlined text-sm">download</span>Télécharger PDF</button><button class="py-2 px-3 rounded-lg bg-surface-container-high hover:bg-surface-container-highest text-on-surface font-label-md text-xs font-semibold text-center transition-colors flex items-center justify-center gap-1.5"><span class="material-symbols-outlined text-sm text-secondary">contactless</span>Apple Wallet / NFC</button></div></div></div>
+<div class="bg-surface-container-lowest rounded-xl p-6 shadow-md flex flex-col gap-4">
+<div class="flex items-center justify-between">
+<h2 class="font-headline-sm text-headline-sm font-bold text-on-surface">Indicateurs de Conformité</h2>
+<span class="font-label-sm text-label-sm font-semibold px-2 py-0.5 rounded bg-tertiary-container text-tertiary-fixed">98% Complet</span>
+</div>
+<div class="space-y-3">
+<div class="flex items-center justify-between text-body-sm font-body-sm">
+<span class="text-on-surface-variant flex items-center gap-2">
+<span class="material-symbols-outlined text-tertiary-fixed-dim text-lg">check_circle</span>
+              Registre de Commerce (RCCM)
+            </span>
+<span class="font-label-sm text-label-sm font-bold text-on-surface">Conforme</span>
+</div>
+<div class="flex items-center justify-between text-body-sm font-body-sm">
+<span class="text-on-surface-variant flex items-center gap-2">
+<span class="material-symbols-outlined text-tertiary-fixed-dim text-lg">check_circle</span>
+              Assurance Décennale Métier
+            </span>
+<span class="font-label-sm text-label-sm font-bold text-on-surface">Validée</span>
+</div>
+<div class="flex items-center justify-between text-body-sm font-body-sm">
+<span class="text-on-surface-variant flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-lg">pending</span>
+              Agrément Éco-Responsable FIITAC
+            </span>
+<span class="font-label-sm text-label-sm font-bold text-secondary">En révision</span>
+</div>
+</div>
+<div class="w-full bg-surface-container rounded-full h-2 mt-1 overflow-hidden">
+<div class="bg-secondary h-2 rounded-full w-[98%]"></div>
+</div>
+</div>
+</div>
+<div class="xl:col-span-8 space-y-8">
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+<div class="bg-surface-container-lowest p-5 rounded-xl shadow-md flex flex-col justify-between group hover:shadow-lg transition-shadow">
+<div class="flex items-center justify-between mb-3">
+<span class="font-label-sm text-label-sm font-bold uppercase tracking-wider text-on-surface-variant">Vues Annuaire</span>
+<span class="w-8 h-8 rounded-lg bg-surface-container-high flex items-center justify-center text-primary-container group-hover:bg-primary-container group-hover:text-surface-container-lowest transition-colors">
+<span class="material-symbols-outlined text-lg">visibility</span>
+</span>
+</div>
+<div>
+<div class="font-headline-xl text-headline-xl font-extrabold text-on-surface">342</div>
+<p class="font-label-sm text-label-sm text-on-tertiary-container flex items-center gap-1 mt-1 font-semibold">
+<span class="material-symbols-outlined text-sm">trending_up</span> +28% ce mois
+            </p>
+</div>
+</div>
+<div class="bg-surface-container-lowest p-5 rounded-xl shadow-md flex flex-col justify-between group hover:shadow-lg transition-shadow">
+<div class="flex items-center justify-between mb-3">
+<span class="font-label-sm text-label-sm font-bold uppercase tracking-wider text-on-surface-variant">Devis Reçus</span>
+<span class="w-8 h-8 rounded-lg bg-secondary-fixed flex items-center justify-center text-secondary group-hover:bg-secondary group-hover:text-on-secondary transition-colors">
+<span class="material-symbols-outlined text-lg">request_quote</span>
+</span>
+</div>
+<div>
+<div class="font-headline-xl text-headline-xl font-extrabold text-on-surface">18</div>
+<p class="font-label-sm text-label-sm text-on-tertiary-container flex items-center gap-1 mt-1 font-semibold">
+<span class="material-symbols-outlined text-sm">notifications_active</span> 4 non traités
+            </p>
+</div>
+</div>
+<div class="bg-surface-container-lowest p-5 rounded-xl shadow-md flex flex-col justify-between group hover:shadow-lg transition-shadow">
+<div class="flex items-center justify-between mb-3">
+<span class="font-label-sm text-label-sm font-bold uppercase tracking-wider text-on-surface-variant">Appels d'Offres</span>
+<span class="w-8 h-8 rounded-lg bg-surface-container-high flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-on-primary transition-colors">
+<span class="material-symbols-outlined text-lg">campaign</span>
+</span>
+</div>
+<div>
+<div class="font-headline-xl text-headline-xl font-extrabold text-secondary">6</div>
+<p class="font-label-sm text-label-sm text-on-surface-variant flex items-center gap-1 mt-1">
+              Profil 100% éligible
+            </p>
+</div>
+</div>
+<div class="bg-surface-container-lowest p-5 rounded-xl shadow-md flex flex-col justify-between group hover:shadow-lg transition-shadow">
+<div class="flex items-center justify-between mb-3">
+<span class="font-label-sm text-label-sm font-bold uppercase tracking-wider text-on-surface-variant">Cotisation ATAC</span>
+<span class="w-8 h-8 rounded-lg bg-tertiary-container flex items-center justify-center text-tertiary-fixed group-hover:bg-tertiary group-hover:text-on-tertiary transition-colors">
+<span class="material-symbols-outlined text-lg">check_circle</span>
+</span>
+</div>
+<div>
+<div class="font-headline-md text-headline-md font-bold text-on-surface">À jour</div>
+<p class="font-label-sm text-label-sm text-on-surface-variant flex items-center gap-1 mt-1">
+              Échéance : Nov 2025
+            </p>
+</div>
+</div>
+</div>
+<div class="bg-surface-container-lowest rounded-xl shadow-md overflow-hidden">
+<div class="flex flex-wrap items-center gap-2 p-3 bg-surface-container-low" id="management-tabs">
+<button class="px-4 py-2 rounded-lg font-label-md text-label-md font-bold transition-all bg-primary-container text-surface-container-lowest shadow-sm" data-tab="marches">
+            Bourse des Marchés (6)
+          </button>
+<button class="px-4 py-2 rounded-lg font-label-md text-label-md font-semibold text-on-surface-variant hover:bg-surface-container transition-all" data-tab="dossier">
+            Mon Dossier &amp; Diplômes
+          </button>
+<button class="px-4 py-2 rounded-lg font-label-md text-label-md font-semibold text-on-surface-variant hover:bg-surface-container transition-all" data-tab="portfolio">
+            Mes Réalisations (Portfolio)
+          </button>
+<button class="px-4 py-2 rounded-lg font-label-md text-label-md font-semibold text-on-surface-variant hover:bg-surface-container transition-all" data-tab="cotisations">
+            Cotisations &amp; Reçus Fiscaux
+          </button>
+<button class="px-4 py-2 rounded-lg font-label-md text-label-md font-semibold text-on-surface-variant hover:bg-surface-container transition-all" data-tab="assistance">
+            Assistance Juridique
+          </button>
+</div>
+<div class="p-6">
+<div class="flex items-center justify-between mb-6">
+<div>
+<h2 class="font-headline-md text-headline-md font-bold text-on-surface flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary">gavel</span>
+                Bourse aux Opportunités &amp; Marchés Publics / Privés
+              </h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Appels d'offres prioritaires réservés aux artisans accrédités ATAC</p>
+</div>
+<span class="font-label-sm text-label-sm font-bold text-primary-container bg-surface-container-high px-3 py-1 rounded-full">
+              Filtre automatique : Menuiserie &amp; Agencement
+            </span>
+</div>
+<div class="space-y-4">
+<div class="bg-surface-container-low rounded-xl p-5 hover:shadow-md transition-all flex flex-col md:flex-row md:items-center justify-between gap-4">
+<div class="space-y-2 max-w-xl">
+<div class="flex items-center gap-2">
+<span class="font-label-sm text-label-sm font-bold px-2 py-0.5 rounded bg-secondary-fixed text-on-secondary-fixed-variant uppercase">Marché d'État</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-xs">location_on</span> Kinshasa - Gombe
+                  </span>
+<span class="font-label-sm text-label-sm text-error font-semibold">Clôture dans 6 jours</span>
+</div>
+<h3 class="font-title-md text-title-md font-bold text-on-surface">
+                  Rénovation mobilière &amp; boiseries patrimoniales — Ministère des Finances
+                </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">
+                  Restauration de 42 bureaux d'apparat en acajou et conception de 3 tables de conférence ovales. Agrément ATAC Catégorie A requis.
+                </p>
+<div class="flex items-center gap-4 text-xs font-label-sm text-on-surface-variant">
+<span class="">Budget prévisionnel : <strong>45 000 $ - 60 000 $</strong></span>
+<span class="">Cautionnement : Dispense membre agréé</span>
+</div>
+</div>
+<div class="flex flex-col gap-2 flex-shrink-0">
+<button class="px-5 py-2.5 rounded-lg bg-primary-container text-surface-container-lowest font-label-md text-label-md font-bold shadow hover:bg-primary transition-all">
+                  Postuler au dossier
+                </button>
+<button class="px-5 py-2 rounded-lg bg-surface-container-high text-on-surface font-label-md text-label-md font-semibold hover:bg-surface-container-highest transition-all">
+                  Cahier des charges (PDF)
+                </button>
+</div>
+</div>
+<div class="bg-surface-container-low rounded-xl p-5 hover:shadow-md transition-all flex flex-col md:flex-row md:items-center justify-between gap-4">
+<div class="space-y-2 max-w-xl">
+<div class="flex items-center gap-2">
+<span class="font-label-sm text-label-sm font-bold px-2 py-0.5 rounded bg-tertiary-container text-tertiary-fixed uppercase">Grand Chantier Privé</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-xs">location_on</span> Lubumbashi (Haut-Katanga)
+                  </span>
+<span class="font-label-sm text-label-sm text-on-tertiary-container font-semibold">Clôture dans 14 jours</span>
+</div>
+<h3 class="font-title-md text-title-md font-bold text-on-surface">
+                  Menuiserie bois rouge &amp; structures décoratives pour complexe hôtelier 5 étoiles
+                </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">
+                  Fourniture et pose de portes sculptées, claustras traditionnels revisités et comptoirs de réception en essence Wengé massif.
+                </p>
+<div class="flex items-center gap-4 text-xs font-label-sm text-on-surface-variant">
+<span class="">Budget prévisionnel : <strong>120 000 $</strong></span>
+<span class="">Avance de démarrage : 30% garanti ATAC</span>
+</div>
+</div>
+<div class="flex flex-col gap-2 flex-shrink-0">
+<button class="px-5 py-2.5 rounded-lg bg-primary-container text-surface-container-lowest font-label-md text-label-md font-bold shadow hover:bg-primary transition-all">
+                  Postuler au dossier
+                </button>
+<button class="px-5 py-2 rounded-lg bg-surface-container-high text-on-surface font-label-md text-label-md font-semibold hover:bg-surface-container-highest transition-all">
+                  Cahier des charges (PDF)
+                </button>
+</div>
+</div>
+<div class="bg-surface-container-low rounded-xl p-5 hover:shadow-md transition-all flex flex-col md:flex-row md:items-center justify-between gap-4">
+<div class="space-y-2 max-w-xl">
+<div class="flex items-center gap-2">
+<span class="font-label-sm text-label-sm font-bold px-2 py-0.5 rounded bg-surface-container-high text-on-surface uppercase">Appel Partenariat</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-xs">location_on</span> Kolwezi (Lualaba)
+                  </span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Nouveau</span>
+</div>
+<h3 class="font-title-md text-title-md font-bold text-on-surface">
+                  Aménagement intérieur modulaire pour Cité Résidentielle Minière
+                </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">
+                  Conception de 65 ensembles mobiliers en kit bois local traité contre les xylophages. Possibilité de groupement d'artisans membres.
+                </p>
+</div>
+<div class="flex flex-col gap-2 flex-shrink-0">
+<button class="px-5 py-2.5 rounded-lg bg-primary-container text-surface-container-lowest font-label-md text-label-md font-bold shadow hover:bg-primary transition-all">
+                  Rejoindre le groupement
+                </button>
+<button class="px-5 py-2 rounded-lg bg-surface-container-high text-on-surface font-label-md text-label-md font-semibold hover:bg-surface-container-highest transition-all">
+                  Détails &amp; Spécifications
+                </button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+<div class="lg:col-span-8 bg-surface-container-lowest rounded-xl p-6 shadow-md space-y-6">
+<div class="flex items-center justify-between">
+<div>
+<h2 class="font-headline-md text-headline-md font-bold text-on-surface flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary">school</span>
+            Formations &amp; Perfectionnement Recommandées (F.I.I.T.A.C.)
+          </h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Modules d'accréditation et de montée en compétences financés jusqu'à 80% par le Fonds ATAC
+          </p>
+</div>
+<a class="font-label-md text-label-md text-secondary font-bold hover:underline flex items-center gap-1" href="#">
+          Voir le catalogue complet <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</a>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div class="bg-surface-container-low rounded-xl overflow-hidden flex flex-col group shadow-sm hover:shadow-md transition-shadow">
+<div class="relative h-44 w-full">
+<img class="w-full h-full object-cover" data-alt="Atelier moderne de design assisté par ordinateur pour le bois en Afrique centrale, artisans concentrés sur des modélisations 3D de mobilier artisanal d'art, écrans professionnels et plans architecturaux." src="https://lh3.googleusercontent.com/aida-public/AB6AXuALuVJ-3YRKQL8y6n6sZ8-ZAgWFAJHCjCKKxfxn-GGoRnLz2R97RFWw_zI5kRL7JQ280rVer6Z01uD8yAbhgpjnJHQu1Ob3OdiS8PwsfstIzbX3k2pTnxAPz9zeiD36BxFjA-756t3nCUZBTCoLwRdiSGshCDenCsRgVewrWac3yfalQFkEOH6z9IPZi6CxaOjWjfglgJ-PsqiyCky80woemIXouflEb_v3ZaDyDgkK">
+<div class="absolute top-3 left-3 bg-primary text-surface-container-lowest px-2.5 py-1 rounded text-xs font-bold">
+              Certificat Métier FIITAC
+            </div>
+<div class="absolute bottom-3 right-3 bg-surface-container-lowest/90 backdrop-blur-md px-2 py-0.5 rounded text-xs font-bold text-on-surface">
+              30 Heures en présentiel
+            </div>
+</div>
+<div class="p-5 flex flex-col flex-1 justify-between gap-4">
+<div>
+<div class="flex items-center gap-2 text-xs font-label-sm text-secondary font-bold uppercase mb-1">
+<span class="">Technologie du Bois</span> • <span class="">Session Mai 2025</span>
+</div>
+<h3 class="font-title-md text-title-md font-bold text-on-surface mb-2">
+                Conception CAO 3D &amp; Découpe Numérique CNC pour Ébénistes
+              </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                Maîtrisez la modélisation paramétrique et l'usinage assisté pour répondre aux standards internationaux des marchés haut de gamme.
+              </p>
+</div>
+<div class="pt-3 flex items-center justify-between border-t border-surface-container-high/60">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant line-through">450 $ USD</span>
+<span class="font-headline-sm text-headline-sm font-bold text-on-surface">90 $ USD <span class="text-xs text-tertiary-fixed-dim font-normal">(Subvention 80%)</span></span>
+</div>
+<button class="px-4 py-2 rounded-lg bg-secondary text-on-secondary font-label-md text-label-md font-bold hover:bg-secondary-container transition-all">
+                Inscription Immédiate
+              </button>
+</div>
+</div>
+</div>
+<div class="bg-surface-container-low rounded-xl overflow-hidden flex flex-col group shadow-sm hover:shadow-md transition-shadow">
+<div class="relative h-44 w-full">
+<img class="w-full h-full object-cover" data-alt="Artisans africains en atelier inspectant des vernis biologiques et résines locales naturelles sur des pièces de bois sculptées, ambiance technique lumineuse et soignée." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCT091f98GyI42uYKwZ1QpUYhHurI86LCzTe5Rcyf69jKmDd-coWfwWBv8zLlbTBV-yGi2thQe4KHcE2c-orMECGvKUlAuIh_DosfA9iJY3ljbOObYqnPeGZKt_qxpVIP9ebD6_GMqvqrqkWygr7udQbWAu-MzpSr0NHP0JSln6cBcZKfu9YlDNg2kEbVOG7A8W5_kPBrKUnE-vCdDtDQCC31go5xu42TbIzMnrvVZH">
+<div class="absolute top-3 left-3 bg-tertiary-container text-tertiary-fixed px-2.5 py-1 rounded text-xs font-bold">
+              Transition Écologique
+            </div>
+<div class="absolute bottom-3 right-3 bg-surface-container-lowest/90 backdrop-blur-md px-2 py-0.5 rounded text-xs font-bold text-on-surface">
+              20 Heures hybride
+            </div>
+</div>
+<div class="p-5 flex flex-col flex-1 justify-between gap-4">
+<div>
+<div class="flex items-center gap-2 text-xs font-label-sm text-tertiary-fixed-dim font-bold uppercase mb-1">
+<span class="">Normes &amp; Finitions</span> • <span class="">Session Juin 2025</span>
+</div>
+<h3 class="font-title-md text-title-md font-bold text-on-surface mb-2">
+                Finitions Écoresponsables &amp; Traitement Fongicide sans Métaux Lourds
+              </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                Formulations de vernis et cires protectrices basées sur les ressources naturelles congolaises pour l'exportation vers l'Union Européenne.
+              </p>
+</div>
+<div class="pt-3 flex items-center justify-between border-t border-surface-container-high/60">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant line-through">300 $ USD</span>
+<span class="font-headline-sm text-headline-sm font-bold text-on-surface">60 $ USD <span class="text-xs text-tertiary-fixed-dim font-normal">(Subvention 80%)</span></span>
+</div>
+<button class="px-4 py-2 rounded-lg bg-secondary text-on-secondary font-label-md text-label-md font-bold hover:bg-secondary-container transition-all">
+                Inscription Immédiate
+              </button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="lg:col-span-4 space-y-6">
+<div class="bg-surface-container-lowest rounded-xl p-6 shadow-md flex flex-col gap-4">
+<div class="flex items-center justify-between">
+<h2 class="font-headline-sm text-headline-sm font-bold text-on-surface flex items-center gap-2">
+<span class="material-symbols-outlined text-primary-container">support_agent</span>
+            Guichet Assistance Membres
+          </h2>
+<span class="w-2.5 h-2.5 rounded-full bg-tertiary-fixed animate-pulse"></span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+          Votre conseiller juridique et fiscal dédié ATAC est disponible du lundi au samedi.
+        </p>
+<div class="bg-surface-container-low rounded-lg p-4 space-y-2">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-primary-container text-surface-container-lowest flex items-center justify-center font-bold">
+              MT
+            </div>
+<div>
+<p class="font-label-md text-label-md font-bold text-on-surface">Maître Thierry Mwamba</p>
+<p class="font-label-sm text-label-sm text-on-surface-variant">Conseiller Droit des Marchés Publics</p>
+</div>
+</div>
+<div class="pt-2 flex gap-2">
+<a class="flex-1 py-1.5 rounded bg-surface-container-highest text-on-surface text-center font-label-sm text-label-sm font-semibold hover:bg-surface-dim transition-colors" href="tel:+243810000000">
+              Appeler
+            </a>
+<button class="flex-1 py-1.5 rounded bg-primary-container text-surface-container-lowest text-center font-label-sm text-label-sm font-semibold hover:bg-primary transition-colors">
+              Poser une question
+            </button>
+</div>
+</div>
+<div class="space-y-2">
+<h3 class="font-label-sm text-label-sm font-bold uppercase tracking-wider text-on-surface-variant">Services Inclus dans votre Adhésion</h3>
+<div class="flex items-center justify-between text-body-sm font-body-sm p-2 rounded hover:bg-surface-container-low">
+<span class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-base">balance</span>
+              Médiation litiges clients
+            </span>
+<span class="font-label-sm text-label-sm text-tertiary-fixed-dim font-bold">Gratuit</span>
+</div>
+<div class="flex items-center justify-between text-body-sm font-body-sm p-2 rounded hover:bg-surface-container-low">
+<span class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-base">receipt_long</span>
+              Attestation fiscale de conformité
+            </span>
+<span class="font-label-sm text-label-sm text-on-surface font-semibold">Instantané</span>
+</div>
+<div class="flex items-center justify-between text-body-sm font-body-sm p-2 rounded hover:bg-surface-container-low">
+<span class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-base">verified</span>
+              Certification d'origine des bois
+            </span>
+<span class="font-label-sm text-label-sm text-tertiary-fixed-dim font-bold">Inclus</span>
+</div>
+</div>
+</div>
+<div class="bg-gradient-to-br from-surface-container-high to-surface-container p-6 rounded-xl shadow-md space-y-4">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-3xl text-secondary">security</span>
+<div>
+<h3 class="font-title-md text-title-md font-bold text-on-surface">Sécurité &amp; Puce NFC</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Carte physique livrée à l'atelier</p>
+</div>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+          Votre carte PVC biométrique avec puce sécurisée a été expédiée via le point relais ATAC Gombe.
+        </p>
+<div class="bg-surface-container-lowest p-3 rounded-lg flex items-center justify-between">
+<span class="font-mono text-xs font-bold text-primary">COLIS #ATAC-8842-RDC</span>
+<span class="font-label-sm text-label-sm font-bold text-on-tertiary-container bg-surface-container px-2 py-0.5 rounded">En transit</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const tabs = document.querySelectorAll('#management-tabs button');
+    tabs.forEach(tab => {
+      tab.addEventListener('click', () => {
+        tabs.forEach(t => {
+          t.classList.remove('bg-primary-container', 'text-surface-container-lowest', 'font-bold', 'shadow-sm');
+          t.classList.add('text-on-surface-variant', 'font-semibold');
+        });
+        tab.classList.add('bg-primary-container', 'text-surface-container-lowest', 'font-bold', 'shadow-sm');
+        tab.classList.remove('text-on-surface-variant', 'font-semibold');
+      });
+    });
+  });
+</script></main></div>
+
+
+
+
+
+</body></html>

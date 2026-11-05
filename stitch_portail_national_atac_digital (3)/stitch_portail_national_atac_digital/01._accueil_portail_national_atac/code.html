@@ -1,0 +1,795 @@
+<!DOCTYPE html><html class="light" lang="fr"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title class="">01. Accueil - Portail National ATAC (Haute Précision &amp; Industrie)</title>
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com" rel="preconnect">
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&amp;family=Noto+Sans:wght@400;500;700&amp;display=swap" rel="stylesheet">
+<!-- Material Symbols -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          "colors": {
+            "primary-container": "#0c2340",
+            "error": "#ba1a1a",
+            "on-primary-container": "#778bad",
+            "secondary": "#904d00",
+            "surface-container-low": "#f2f4f6",
+            "on-surface": "#191c1e",
+            "surface-variant": "#e0e3e5",
+            "on-tertiary-container": "#199d6f",
+            "inverse-on-surface": "#eff1f3",
+            "surface-bright": "#f7f9fb",
+            "tertiary": "#001008",
+            "on-error-container": "#93000a",
+            "outline-variant": "#c4c6ce",
+            "surface": "#f7f9fb",
+            "outline": "#74777e",
+            "tertiary-fixed-dim": "#68dba9",
+            "background": "#f7f9fb",
+            "on-background": "#191c1e",
+            "surface-container-high": "#e6e8ea",
+            "secondary-fixed-dim": "#ffb77d",
+            "on-primary-fixed-variant": "#334766",
+            "inverse-primary": "#b3c7ec",
+            "surface-container-highest": "#e0e3e5",
+            "secondary-fixed": "#ffdcc3",
+            "on-primary-fixed": "#031c38",
+            "surface-container-lowest": "#ffffff",
+            "error-container": "#ffdad6",
+            "on-secondary": "#ffffff",
+            "tertiary-container": "#00291a",
+            "on-error": "#ffffff",
+            "primary-fixed-dim": "#b3c7ec",
+            "on-surface-variant": "#44474d",
+            "on-secondary-fixed": "#2f1500",
+            "surface-container": "#eceef0",
+            "on-tertiary-fixed-variant": "#005137",
+            "inverse-surface": "#2d3133",
+            "primary-fixed": "#d5e3ff",
+            "on-secondary-fixed-variant": "#6e3900",
+            "tertiary-fixed": "#85f8c4",
+            "on-tertiary-fixed": "#002114",
+            "on-primary": "#ffffff",
+            "primary": "#000d21",
+            "on-secondary-container": "#663500",
+            "on-tertiary": "#ffffff",
+            "surface-tint": "#4b5f7f",
+            "surface-dim": "#d8dadc",
+            "secondary-container": "#fe932c"
+          },
+          "borderRadius": {
+            "DEFAULT": "0.25rem",
+            "lg": "0.5rem",
+            "xl": "0.75rem",
+            "full": "9999px"
+          },
+          "fontFamily": {
+            "headline-sm": ["Plus Jakarta Sans"],
+            "body-lg": ["Plus Jakarta Sans"],
+            "display-lg": ["Plus Jakarta Sans"],
+            "headline-xl": ["Plus Jakarta Sans"],
+            "body-sm": ["Plus Jakarta Sans"],
+            "label-sm": ["Plus Jakarta Sans"],
+            "headline-lg": ["Plus Jakarta Sans"],
+            "body-md": ["Plus Jakarta Sans"],
+            "headline-md": ["Plus Jakarta Sans"]
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-background text-on-surface antialiased overflow-x-hidden selection:bg-secondary-container selection:text-primary">
+<!-- Top Institutional Bar (République Démocratique du Congo) -->
+<div class="bg-primary text-surface-container-lowest text-xs py-1.5 px-6 border-b border-primary-container/40"><div class="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-4 py-1"><div class="flex items-center gap-3"><img src="https://lh3.googleusercontent.com/aida-public/AB6AXuBQjv5op2cw1cNbp-fQlFY_EQc7mKWBHEycqBBhTiJjuBVAnOALEKXq8trEfe5fNw4MlEGLCmtsSYH1ZgtqnpHlOB7vTR9EwDR4V0Xw1-TBu4nEi9WF7QoIWiIu1R7LDsH1Jxl2ja1x6GLqJ-QTqu6oc95BFVDLIFCeAwN1FADIitb54feQuXYe3pMGAhqeC835Kaw922A1D5TIKxrPqCd60hbXlg8oKXY92NCzC-25tceIrqXYUHCaeA" alt="Ministère de la Formation Professionnelle RDC" class="h-9 w-auto object-contain bg-white rounded p-0.5 shadow-sm"><div class="flex flex-col"><span class="font-bold tracking-wider uppercase text-[10px] text-surface-container-highest">RÉPUBLIQUE DÉMOCRATIQUE DU CONGO</span><span class="text-surface-variant font-medium text-[11px]">Ministère de la Formation Professionnelle, Arts et Métiers</span></div></div><div class="flex items-center gap-6 text-[11px] text-surface-variant"><span class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-secondary-container">verified</span>Portail Fédéral Homologué</span><span class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px]">call</span>Assistance: +243 (0) 81 000 2822</span></div></div></div>
+<!-- Shared TopNavBar Component -->
+<div class="relative flex h-auto w-full flex-col bg-gray-50 group/design-root overflow-x-hidden" style="font-family: &quot;Plus Jakarta Sans&quot;, &quot;Noto Sans&quot;, sans-serif;">
+<div class="layout-container flex h-full grow flex-col">
+<div class="px-4 md:px-12 lg:px-40 flex flex-1 justify-center py-2 md:py-4">
+<div class="layout-content-container flex flex-col max-w-[1200px] flex-1">
+<header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#e8edf2] px-4 md:px-10 py-3">
+<div class="flex items-center gap-4 text-[#0f141a]"><a href="#" class="flex items-center gap-3 text-[#0f141a] group"><img src="https://lh3.googleusercontent.com/aida-public/AB6AXuCN3-RqIJqQK8JQTDtfm2VwPQUbJUzJUc7RjGs7rSd0F1Z6_XOg8_6VhLaq-SCBPTpk3Gj1csNJZ5o6PXZu6QnssYjtd--FXGH1i08Xt4FmdU8DsDjDTBKl9IfEztAU4H1Zh-LDc45xTUqQBsXB0W8G3vjow_lyAU9IO-mJAHzmQNoCs8OgIa1J-ZuiyASgG2WzIh7Pszk9ExF5F90D_1mV-xh9jrNGGEf7YM3mbeOLxEoJnh5AHW29NA" alt="Logo Officiel ATAC RDC" class="h-12 w-12 object-contain rounded-full shadow-sm bg-white p-0.5 border border-outline-variant/40 shrink-0 group-hover:scale-105 transition-transform"><div class="flex flex-col text-left"><div class="flex items-center gap-1.5"><h2 class="text-[#0f141a] text-lg font-extrabold leading-tight tracking-[-0.015em]">ATAC RDC</h2><span class="bg-secondary-container/20 text-on-secondary-container text-[10px] font-bold px-1.5 py-0.2 rounded border border-secondary-container/40 uppercase">Officiel</span></div><span class="text-[10px] uppercase tracking-wider font-semibold text-outline">Artisans &amp; Techniciens du Congo</span><span class="text-[9px] uppercase tracking-widest font-medium text-secondary">Chambre des Métiers</span></div></a></div>
+<div class="flex flex-1 justify-end gap-6 md:gap-8 items-center">
+<div class="hidden lg:flex items-center gap-7">
+<a class="text-[#0f141a] text-sm font-semibold hover:text-secondary-container transition-colors" href="#">Accueil</a>
+<a class="text-[#0f141a] text-sm font-medium hover:text-secondary-container transition-colors" href="#annuaire">Annuaire National</a>
+<a class="text-[#0f141a] text-sm font-medium hover:text-secondary-container transition-colors" href="#piliers">Services &amp; Piliers</a>
+<a class="text-[#0f141a] text-sm font-medium hover:text-secondary-container transition-colors" href="#metiers">Métiers</a>
+<a class="text-[#0f141a] text-sm font-medium hover:text-secondary-container transition-colors" href="#actualites">Actualités</a>
+</div>
+<div class="flex gap-2">
+<button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-[#0c2340] text-gray-50 text-sm font-bold leading-normal tracking-[0.015em] shadow-sm hover:opacity-95 transition-all">
+<span class="truncate">Devenir Membre</span>
+</button>
+<button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-[#e8edf2] text-[#0f141a] text-sm font-bold leading-normal tracking-[0.015em] hover:bg-surface-variant transition-colors">
+<span class="truncate">Connexion</span>
+</button>
+</div>
+</div>
+</header>
+<!-- Hero Section Embedded within Container -->
+<div class="@container">
+<div class="flex flex-col gap-8 px-4 py-8 md:py-12 @[864px]:flex-row @[864px]:items-center">
+<!-- Visual Hero Illustration / Photography -->
+<div class="w-full relative overflow-hidden rounded-xl aspect-[4/3] @[864px]:w-1/2 shadow-lg border border-outline-variant/30">
+<div class="w-full h-full bg-center bg-no-repeat bg-cover transform hover:scale-105 transition-transform duration-700" data-alt="High precision close-up of a master Congolese artisan and technical apprentice collaborating over an advanced electronic robotic circuit and industrial measurement equipment in a modern vocational training lab. Crisp bright daylight, technical precision instruments, focused professional gestures." style="background-image: url(&quot;https://lh3.googleusercontent.com/aida-public/AB6AXuAxzOt9iGa9vz2c27qmePeQP3NyyzGq_pkh832K3w9m6eguRjKdhDrv5FRPTw0ZcDWF2mEewQuIeSfwbqiNHY-rmLWJiFQTpmC3MAzR3RTNkNG5mXamB4VUos0ddcthazU9cpCxAjo5xVrTJEGcSRyNEPW2SLb9PUEBK51fU_LOtClhC6BO5f9BnT4JfV4OWWLcbX9tYoUw7qSbzjy9B2iaufGTo5azR5miUfvonTxu&quot;);">
+</div>
+<div class="absolute bottom-4 left-4 right-4 bg-surface-container-lowest/90 backdrop-blur-md p-4 rounded-lg border border-outline-variant/40 flex items-center justify-between">
+<div class="flex items-center gap-3">
+<div class="p-2 bg-primary-container text-surface-container-lowest rounded-md">
+<span class="material-symbols-outlined text-xl">workspace_premium</span>
+</div>
+<div>
+<p class="text-xs font-bold text-primary">Agrément Officiel d'État</p>
+<p class="text-[11px] text-on-surface-variant">Conformité Loi N° 23/007 Régulation des Métiers</p>
+</div>
+</div>
+<span class="bg-secondary-container/20 text-on-secondary-container font-bold text-[10px] uppercase px-2.5 py-1 rounded-full border border-secondary-container/40">26 Provinces</span>
+</div>
+</div>
+<!-- Hero Copywriting -->
+<div class="flex flex-col gap-5 @[864px]:w-1/2">
+<div class="inline-flex items-center gap-2 self-start bg-primary-container/10 border border-primary-container/20 px-3.5 py-1.5 rounded-full text-primary text-xs font-bold">
+<span class="material-symbols-outlined text-sm text-secondary-container">shield</span>
+                  PORTAIL OFFICIEL DE L'ARTISANAT ET DES TECHNICIENS EN RDC
+                </div>
+<div class="flex flex-col gap-3 text-left">
+<h1 class="text-[#0f141a] text-3xl font-black leading-tight tracking-[-0.033em] @[480px]:text-4xl @[864px]:text-5xl">
+                    Unir les compétences&nbsp;<div><span style="font-size: 3rem; letter-spacing: -0.033em;" class="">techniques</span><span style="font-size: 3rem; letter-spacing: -0.033em;" class="">&nbsp;et artisanales&nbsp;</span><span style="font-size: 3rem; letter-spacing: -0.033em;" class="">pour bâtir la rdc</span></div></h1>
+<h2 class="text-on-surface-variant text-sm font-normal leading-relaxed @[480px]:text-base">
+                    La plateforme nationale de référence pour la valorisation, la certification, la mise en relation et l'expansion des artisans qualifiés à travers les 26 provinces de la République Démocratique du Congo.
+                  </h2>
+</div>
+<!-- CTAs -->
+<div class="flex flex-wrap gap-3 pt-2">
+<button class="flex min-w-[160px] cursor-pointer items-center justify-center gap-2 rounded-lg h-12 px-6 bg-secondary-container text-primary font-bold text-sm tracking-[0.015em] shadow-md hover:bg-secondary hover:text-surface-container-lowest transition-all">
+<span class="material-symbols-outlined text-lg">badge</span>
+<span class="truncate">Devenir Membre Certifié</span>
+</button>
+<button class="flex min-w-[160px] cursor-pointer items-center justify-center gap-2 rounded-lg h-12 px-6 border-2 border-primary-container text-primary-container bg-transparent text-sm font-bold hover:bg-primary-container hover:text-surface-container-lowest transition-all">
+<span class="material-symbols-outlined text-lg">menu_book</span>
+<span class="truncate">Consulter l'Annuaire National</span>
+</button>
+</div>
+<!-- Fast Verification Mention -->
+<div class="flex items-center gap-4 text-xs text-on-surface-variant pt-2 border-t border-outline-variant/40">
+<span class="flex items-center gap-1.5"><span class="material-symbols-outlined text-sm text-tertiary-fixed-dim" style="font-variation-settings: &quot;FILL&quot; 1;">check_circle</span> Vérification Identitaire</span>
+<span class="flex items-center gap-1.5"><span class="material-symbols-outlined text-sm text-tertiary-fixed-dim" style="font-variation-settings: &quot;FILL&quot; 1;">check_circle</span> Carte Numérique QR</span>
+<span class="flex items-center gap-1.5"><span class="material-symbols-outlined text-sm text-tertiary-fixed-dim" style="font-variation-settings: &quot;FILL&quot; 1;">check_circle</span> Assurance &amp; Garantie</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Central Search Bar Module -->
+<div class="mt-4 p-4 md:p-6 bg-surface-container-lowest rounded-xl shadow-lg border border-outline-variant/50" id="annuaire">
+<div class="mb-4">
+<span class="text-xs uppercase tracking-wider font-bold text-secondary">Moteur de Recherche Public</span>
+<h3 class="text-lg font-bold text-primary">Recherchez un technicien certifié par métier et territoire</h3>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-12 gap-3 items-end">
+<label class="flex flex-col md:col-span-6">
+<span class="text-[#0f141a] text-sm font-semibold pb-1.5 flex items-center gap-1">
+<span class="material-symbols-outlined text-base text-primary">construction</span>
+                  Métier ou Service recherché
+                </span>
+<input class="form-input flex w-full rounded-lg text-[#0f141a] border border-[#d2dae5] bg-gray-50 focus:border-primary-container focus:ring-1 focus:ring-primary-container h-12 placeholder:text-[#547092] px-4 text-sm font-normal" placeholder="Ex: Menuisier, Électricien, Maçon, Frigoriste, Plombier..." value="">
+</label>
+<label class="flex flex-col md:col-span-4">
+<span class="text-[#0f141a] text-sm font-semibold pb-1.5 flex items-center gap-1">
+<span class="material-symbols-outlined text-base text-primary">location_on</span>
+                  Province / Ville
+                </span>
+<select class="form-select flex w-full rounded-lg text-[#0f141a] border border-[#d2dae5] bg-gray-50 focus:border-primary-container focus:ring-1 focus:ring-primary-container h-12 px-4 text-sm font-normal">
+<option value="">Sélectionner (Kinshasa, Lubumbashi, Goma...)</option>
+<option value="kinshasa">Kinshasa (Capitale)</option>
+<option value="haut-katanga">Haut-Katanga (Lubumbashi)</option>
+<option value="nord-kivu">Nord-Kivu (Goma)</option>
+<option value="kongo-central">Kongo Central (Matadi / Boma)</option>
+<option value="tshopo">Tshopo (Kisangani)</option>
+<option value="lualaba">Lualaba (Kolwezi)</option>
+<option value="sud-kivu">Sud-Kivu (Bukavu)</option>
+<option value="kasai-oriental">Kasaï Oriental (Mbuji-Mayi)</option>
+</select>
+</label>
+<div class="md:col-span-2">
+<button class="w-full flex cursor-pointer items-center justify-center rounded-lg h-12 px-4 bg-[#0c2340] text-gray-50 gap-2 text-sm font-bold tracking-[0.015em] hover:bg-primary transition-all">
+<span class="material-symbols-outlined text-lg">search</span>
+<span class="truncate">Rechercher</span>
+</button>
+</div>
+</div>
+<div class="mt-3 flex flex-wrap items-center gap-2 text-xs text-on-surface-variant">
+<span class="font-semibold text-primary">Filtres rapides :</span>
+<button class="px-2.5 py-1 bg-surface-container rounded-full hover:bg-surface-variant">Frigoriste &amp; Climatisation</button>
+<button class="px-2.5 py-1 bg-surface-container rounded-full hover:bg-surface-variant">Électromécanicien</button>
+<button class="px-2.5 py-1 bg-surface-container rounded-full hover:bg-surface-variant">Charpentier Métallique</button>
+<button class="px-2.5 py-1 bg-surface-container rounded-full hover:bg-surface-variant">Staffeur / Plâtrier</button>
+</div>
+</div>
+<!-- National Statistics Row -->
+<div class="grid grid-cols-2 md:grid-cols-4 gap-4 py-8">
+<div class="flex flex-col gap-1 rounded-xl p-5 bg-surface-container-lowest border border-[#d2dae5] shadow-sm hover:border-secondary-container transition-colors">
+<div class="flex items-center justify-between">
+<span class="material-symbols-outlined text-primary-container text-2xl">groups</span>
+<span class="text-[10px] font-bold text-secondary bg-secondary-fixed/50 px-2 py-0.5 rounded">VÉRIFIÉS</span>
+</div>
+<p class="text-[#0f141a] tracking-tight text-3xl font-extrabold leading-tight mt-1">48 500+</p>
+<p class="text-on-surface-variant text-xs font-semibold">Artisans &amp; Techniciens Enregistrés</p>
+</div>
+<div class="flex flex-col gap-1 rounded-xl p-5 bg-surface-container-lowest border border-[#d2dae5] shadow-sm hover:border-secondary-container transition-colors">
+<div class="flex items-center justify-between">
+<span class="material-symbols-outlined text-primary-container text-2xl">map</span>
+<span class="text-[10px] font-bold text-primary bg-primary-fixed px-2 py-0.5 rounded">RDC</span>
+</div>
+<p class="text-[#0f141a] tracking-tight text-3xl font-extrabold leading-tight mt-1">26</p>
+<p class="text-on-surface-variant text-xs font-semibold">Provinces Représentées</p>
+</div>
+<div class="flex flex-col gap-1 rounded-xl p-5 bg-surface-container-lowest border border-[#d2dae5] shadow-sm hover:border-secondary-container transition-colors">
+<div class="flex items-center justify-between">
+<span class="material-symbols-outlined text-primary-container text-2xl">handyman</span>
+<span class="text-[10px] font-bold text-on-tertiary-fixed-variant bg-tertiary-fixed px-2 py-0.5 rounded">CERTIFIÉS</span>
+</div>
+<p class="text-[#0f141a] tracking-tight text-3xl font-extrabold leading-tight mt-1">180+</p>
+<p class="text-on-surface-variant text-xs font-semibold">Métiers Homologués d'État</p>
+</div>
+<div class="flex flex-col gap-1 rounded-xl p-5 bg-surface-container-lowest border border-[#d2dae5] shadow-sm hover:border-secondary-container transition-colors">
+<div class="flex items-center justify-between">
+<span class="material-symbols-outlined text-primary-container text-2xl">verified_user</span>
+<span class="text-[10px] font-bold text-secondary bg-secondary-fixed/50 px-2 py-0.5 rounded">EXCELLENCE</span>
+</div>
+<p class="text-[#0f141a] tracking-tight text-3xl font-extrabold leading-tight mt-1">98%</p>
+<p class="text-on-surface-variant text-xs font-semibold">Taux de Satisfaction Clients</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Section: Strategic Pillars & Core Services -->
+<section class="py-16 px-4 md:px-12 bg-surface-container-low border-t border-outline-variant/40" id="piliers">
+<div class="max-w-[1200px] mx-auto">
+<div class="flex flex-col items-center text-center mb-12">
+<div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-primary-container text-surface-container-lowest text-xs font-bold uppercase tracking-wider mb-2">
+<span class="material-symbols-outlined text-sm">military_tech</span>
+          Missions Régulatrices &amp; Structurantes
+        </div>
+<h2 class="text-3xl md:text-4xl font-extrabold text-primary tracking-tight">Nos 5 Piliers Stratégiques</h2>
+<p class="text-on-surface-variant text-sm md:text-base max-w-2xl mt-2">
+          L'ATAC met en œuvre des instruments digitaux et juridiques novateurs pour professionnaliser le secteur informel et booster l'économie congolaise.
+        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-5">
+<!-- Pilier 1 -->
+<div class="bg-surface-container-lowest p-6 rounded-xl border border-outline-variant/50 hover:shadow-xl transition-all group flex flex-col justify-between">
+<div>
+<div class="w-12 h-12 rounded-lg bg-primary-fixed flex items-center justify-center text-primary-container mb-4 group-hover:bg-secondary-container transition-colors">
+<span class="material-symbols-outlined text-2xl">qr_code_2</span>
+</div>
+<h3 class="font-bold text-base text-primary mb-2">Identification &amp; Carte QR</h3>
+<p class="text-xs text-on-surface-variant leading-relaxed">
+              Attribution d'un identifiant national biométrique sécurisé et carte physique équipée d'un QR code vérifiable instantanément.
+            </p>
+</div>
+<div class="pt-4 mt-4 border-t border-surface-container text-[11px] font-bold text-primary flex items-center gap-1">
+            En savoir plus <span class="material-symbols-outlined text-xs">arrow_forward</span>
+</div>
+</div>
+<!-- Pilier 2 -->
+<div class="bg-surface-container-lowest p-6 rounded-xl border border-outline-variant/50 hover:shadow-xl transition-all group flex flex-col justify-between">
+<div>
+<div class="w-12 h-12 rounded-lg bg-primary-fixed flex items-center justify-center text-primary-container mb-4 group-hover:bg-secondary-container transition-colors">
+<span class="material-symbols-outlined text-2xl">school</span>
+</div>
+<h3 class="font-bold text-base text-primary mb-2">Académie F.I.I.T.A.C.</h3>
+<p class="text-xs text-on-surface-variant leading-relaxed">
+              Cycles continus de perfectionnement technique, mise aux normes internationales, sécurité sur chantier et habilitations certifiées.
+            </p>
+</div>
+<div class="pt-4 mt-4 border-t border-surface-container text-[11px] font-bold text-primary flex items-center gap-1">
+            En savoir plus <span class="material-symbols-outlined text-xs">arrow_forward</span>
+</div>
+</div>
+<!-- Pilier 3 -->
+<div class="bg-surface-container-lowest p-6 rounded-xl border border-outline-variant/50 hover:shadow-xl transition-all group flex flex-col justify-between">
+<div>
+<div class="w-12 h-12 rounded-lg bg-primary-fixed flex items-center justify-center text-primary-container mb-4 group-hover:bg-secondary-container transition-colors">
+<span class="material-symbols-outlined text-2xl">verified</span>
+</div>
+<h3 class="font-bold text-base text-primary mb-2">Labellisation &amp; Visibilité</h3>
+<p class="text-xs text-on-surface-variant leading-relaxed">
+              Audit qualité, octroi du label de conformité ATAC RDC et intégration au registre officiel consultable par les bailleurs de fonds.
+            </p>
+</div>
+<div class="pt-4 mt-4 border-t border-surface-container text-[11px] font-bold text-primary flex items-center gap-1">
+            En savoir plus <span class="material-symbols-outlined text-xs">arrow_forward</span>
+</div>
+</div>
+<!-- Pilier 4 -->
+<div class="bg-surface-container-lowest p-6 rounded-xl border border-outline-variant/50 hover:shadow-xl transition-all group flex flex-col justify-between">
+<div>
+<div class="w-12 h-12 rounded-lg bg-primary-fixed flex items-center justify-center text-primary-container mb-4 group-hover:bg-secondary-container transition-colors">
+<span class="material-symbols-outlined text-2xl">hub</span>
+</div>
+<h3 class="font-bold text-base text-primary mb-2">Bourse d'Opportunités</h3>
+<p class="text-xs text-on-surface-variant leading-relaxed">
+              Accès prioritaire aux marchés d'appels d'offres publics et privés, partenariats miniers et chantiers de reconstruction nationale.
+            </p>
+</div>
+<div class="pt-4 mt-4 border-t border-surface-container text-[11px] font-bold text-primary flex items-center gap-1">
+            En savoir plus <span class="material-symbols-outlined text-xs">arrow_forward</span>
+</div>
+</div>
+<!-- Pilier 5 -->
+<div class="bg-surface-container-lowest p-6 rounded-xl border border-outline-variant/50 hover:shadow-xl transition-all group flex flex-col justify-between">
+<div>
+<div class="w-12 h-12 rounded-lg bg-primary-fixed flex items-center justify-center text-primary-container mb-4 group-hover:bg-secondary-container transition-colors">
+<span class="material-symbols-outlined text-2xl">handshake</span>
+</div>
+<h3 class="font-bold text-base text-primary mb-2">Mise en Relation Sécurisée</h3>
+<p class="text-xs text-on-surface-variant leading-relaxed">
+              Système de paiement garanti par séquestre bancaire, devis normalisés et résolution amiable en cas de contentieux technique.
+            </p>
+</div>
+<div class="pt-4 mt-4 border-t border-surface-container text-[11px] font-bold text-primary flex items-center gap-1">
+            En savoir plus <span class="material-symbols-outlined text-xs">arrow_forward</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Section: Featured Excellence Trades -->
+<section class="py-16 px-4 md:px-12 bg-surface" id="metiers">
+<div class="max-w-[1200px] mx-auto">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-10">
+<div>
+<span class="text-xs uppercase font-bold tracking-wider text-secondary">Secteurs &amp; Filières Clés</span>
+<h2 class="text-3xl font-extrabold text-primary tracking-tight">Métiers d'Excellence Homologués</h2>
+</div>
+<a class="mt-4 md:mt-0 text-sm font-bold text-primary hover:text-secondary flex items-center gap-1" href="#">
+          Voir les 180 spécialités répertoriées <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</a>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+<!-- Card 1: Bâtiment & Travaux -->
+<div class="group relative bg-surface-container-lowest rounded-xl overflow-hidden border border-outline-variant/40 hover:shadow-xl transition-all">
+<div class="h-44 w-full bg-cover bg-center overflow-hidden" data-alt="Civil engineer and construction supervisor reviewing structural reinforced concrete foundations on a large urban site with optical theodolite survey tools." style="background-image: url(&quot;https://lh3.googleusercontent.com/aida-public/AB6AXuAY5562PtxD9MS5pyiyo-SG3AN1AXri3k0FxBZC03aPqwH7blmuMkPqVvHV1ax82Xd_Fej8kHMVXKa8q6F2xmX5IwtkTV2bAGyTWDFFf8516GNzVcB16PWoNvun6aLVi3vRN7y2loJjFQCWbhgJBznKjc0LsS-XPDr2YC4osh-4Qqyt6QFOHhp9dJPWuc5kGx7TKSLAafVsYCU-znexkf_sSDYpEAFx0mpCum1r2kns&quot;);">
+</div>
+<div class="p-5">
+<span class="text-[10px] font-extrabold text-primary-container bg-primary-fixed px-2.5 py-0.5 rounded-full uppercase">12 400 Inscrits</span>
+<h3 class="text-lg font-bold text-primary mt-2 group-hover:text-secondary transition-colors">Bâtiment &amp; Travaux Publics</h3>
+<p class="text-xs text-on-surface-variant mt-1">Maçonnerie, coffrage, génie civil, étanchéité, plâtrerie et pose carrelage haute précision.</p>
+<div class="mt-4 flex items-center justify-between text-xs font-semibold text-primary">
+<span class="">Voir les profils certifiés</span>
+<span class="material-symbols-outlined text-base">east</span>
+</div>
+</div>
+</div>
+<!-- Card 2: Énergie & Électricité -->
+<div class="group relative bg-surface-container-lowest rounded-xl overflow-hidden border border-outline-variant/40 hover:shadow-xl transition-all">
+<div class="h-44 w-full bg-cover bg-center overflow-hidden" data-alt="High precision wiring calibration by a certified electrical technician testing a complex modular distribution panel using specialized multimeter probes." style="background-image: url(&quot;https://lh3.googleusercontent.com/aida-public/AB6AXuAjmfSQvrfdr3SKUPWTDCz2ueHPIB5VkHL5ftlAb_-dRnWEn53RwJFJqroudDneww3cycTGdA-HuE5ssiTJh0eZU9OqnkoTQ75C2DRzBr7XYGnEesIo1w7rbqkIQpMZQzJvWIBCLJMBFzTP8sWCDxtWyxbdDdQVwjR4R03JATzMp4RXtOj-E3i1A1NDM5-nGSJtDM2nEv8il9WwRLm616VTP0EUqw4vUohmsWNN4n5S&quot;);">
+</div>
+<div class="p-5">
+<span class="text-[10px] font-extrabold text-on-secondary-container bg-secondary-fixed px-2.5 py-0.5 rounded-full uppercase">8 920 Inscrits</span>
+<h3 class="text-lg font-bold text-primary mt-2 group-hover:text-secondary transition-colors">Énergie, Solaire &amp; Électricité</h3>
+<p class="text-xs text-on-surface-variant mt-1">Installations photovoltaïques, réseaux industriels HTA/BT, maintenance groupes électrogènes.</p>
+<div class="mt-4 flex items-center justify-between text-xs font-semibold text-primary">
+<span class="">Voir les profils certifiés</span>
+<span class="material-symbols-outlined text-base">east</span>
+</div>
+</div>
+</div>
+<!-- Card 3: Bois & Ébénisterie -->
+<div class="group relative bg-surface-container-lowest rounded-xl overflow-hidden border border-outline-variant/40 hover:shadow-xl transition-all">
+<div class="h-44 w-full bg-cover bg-center overflow-hidden" data-alt="Macro perspective of a master cabinetmaker hand-planing fine solid wood grain, curls of wood shavings spilling beside precision chisel tools." style="background-image: url(&quot;https://lh3.googleusercontent.com/aida-public/AB6AXuC8FmhGHf94JGY8N7xDruNHObXOg8Ebm-mFDOjq0LJy9nQNlnRNcC3Ynu2G8UFUI6qUug8KEerhtZDPPfevtsq40ajUgqIVyI1hmfJBSl0K1WmoEI35ga-3lEhQMK6N5mpON6uGDK9FTk4VzTXbBVcqJSpmdiqE421Gpxkl6aa7QXNOp6qnFKSSPN0RcaNthM2nI8-tM-w48u9XKb_fNMLSRh2L9KpblHhmfVI4JuPr&quot;);">
+</div>
+<div class="p-5">
+<span class="text-[10px] font-extrabold text-primary-container bg-primary-fixed px-2.5 py-0.5 rounded-full uppercase">6 750 Inscrits</span>
+<h3 class="text-lg font-bold text-primary mt-2 group-hover:text-secondary transition-colors">Bois &amp; Ébénisterie d'Art</h3>
+<p class="text-xs text-on-surface-variant mt-1">Menuiserie moderne, fabrication de mobilier en bois noble congolais, charpente et agencement.</p>
+<div class="mt-4 flex items-center justify-between text-xs font-semibold text-primary">
+<span class="">Voir les profils certifiés</span>
+<span class="material-symbols-outlined text-base">east</span>
+</div>
+</div>
+</div>
+<!-- Card 4: Métallurgie & Soudure -->
+<div class="group relative bg-surface-container-lowest rounded-xl overflow-hidden border border-outline-variant/40 hover:shadow-xl transition-all">
+<div class="h-44 w-full bg-cover bg-center overflow-hidden" data-alt="Close up of an advanced metal fabrication technician operating a heavy lathe milling machine with glowing steel swarf in a modern mechanical workshop." style="background-image: url(&quot;https://lh3.googleusercontent.com/aida-public/AB6AXuD9ofyWYyAgzqGZYniTWml7ID6QmOsKiwr3B4gHtLWaLDyNgaITWy6nvoggyfh2_nnG043yGOqlKvpnGrzkeyKQ6zotNSpG4lebXwe3JfDqwU4__wEBUCNH_1B8QFoBGVX_QwhPS3auSYe_NSBZyhvtPBROF9T3eLpf5uB6sFUKlQrvOBOASAcNUG3K9TFyOHNKuyCAV8W0ShXxLPl4RnfLwYjlLlT_dZ8D3VieqI6G&quot;);">
+</div>
+<div class="p-5">
+<span class="text-[10px] font-extrabold text-on-tertiary-fixed-variant bg-tertiary-fixed px-2.5 py-0.5 rounded-full uppercase">7 300 Inscrits</span>
+<h3 class="text-lg font-bold text-primary mt-2 group-hover:text-secondary transition-colors">Métallurgie, Soudure &amp; Chaudronnerie</h3>
+<p class="text-xs text-on-surface-variant mt-1">Ferronnerie décorative, soudure à l'arc/TIG, structures métalliques pour usines et hangars.</p>
+<div class="mt-4 flex items-center justify-between text-xs font-semibold text-primary">
+<span class="">Voir les profils certifiés</span>
+<span class="material-symbols-outlined text-base">east</span>
+</div>
+</div>
+</div>
+<!-- Card 5: Textile & Stylisme -->
+<div class="group relative bg-surface-container-lowest rounded-xl overflow-hidden border border-outline-variant/40 hover:shadow-xl transition-all">
+<div class="h-44 w-full bg-cover bg-center overflow-hidden" data-alt="Hands of a professional couturier guiding delicate embroidered fabric through an industrial high-speed sewing machine, tailoring garments with surgical accuracy." style="background-image: url(&quot;https://lh3.googleusercontent.com/aida-public/AB6AXuDTjKOVaBAyoGQ_eFglzetZK9q7J3A1LpUEYAphKsR36ug_4CH9rD3Uk3DwbAh0i6QXEqce4RpUZt_-1LXPw5VaVXzDP56c11pW2klEt0R1wZc__jH-8NVr4t98OtrSeJc1D-PgjqfnUBelkkJT3CdOg9IgthsMwhLIve-BpAsvPAzJ8zNIcKegks6eVFdxGglfWRF58kko6u0vdNDbr_Gw9z_A4nBWp7ccJ9L6_DwE&quot;);">
+</div>
+<div class="p-5">
+<span class="text-[10px] font-extrabold text-on-secondary-container bg-secondary-fixed px-2.5 py-0.5 rounded-full uppercase">8 110 Inscrits</span>
+<h3 class="text-lg font-bold text-primary mt-2 group-hover:text-secondary transition-colors">Textile, Haute Couture &amp; Broderie</h3>
+<p class="text-xs text-on-surface-variant mt-1">Stylisme, confection industrielle, uniformes corporatifs et valorisation des motifs traditionnels.</p>
+<div class="mt-4 flex items-center justify-between text-xs font-semibold text-primary">
+<span class="">Voir les profils certifiés</span>
+<span class="material-symbols-outlined text-base">east</span>
+</div>
+</div>
+</div>
+<!-- Card 6: Technologies & Numérique -->
+<div class="group relative bg-surface-container-lowest rounded-xl overflow-hidden border border-outline-variant/40 hover:shadow-xl transition-all">
+<div class="h-44 w-full bg-cover bg-center overflow-hidden" data-alt="Telecommunication and network technician splicing high speed fiber optic cables inside an organized server room rack cabinet." style="background-image: url(&quot;https://lh3.googleusercontent.com/aida-public/AB6AXuC6OEfDVDFHgYG4YF7YXf8GLXW07IXXYn5fGUf58ChP48VsR1dsf95FQN_EQgwGUUxr5F7DdUbKxDaCVXK8TK2F-5kXU9hXNMS11ZsfJc0mcDdzugOpbo0egONO8PIzd2RxEAsmJZ1MXlaDIlaNKVcmlB9HIsHkZRDohHpsjBuS4EwPtwCkBXdMLjQVswku4fJy418DdyCu431M4QEsgwnC0FwOFrYUySPSiqGTpiVd&quot;);">
+</div>
+<div class="p-5">
+<span class="text-[10px] font-extrabold text-primary-container bg-primary-fixed px-2.5 py-0.5 rounded-full uppercase">5 020 Inscrits</span>
+<h3 class="text-lg font-bold text-primary mt-2 group-hover:text-secondary transition-colors">Fibre Optique, Froid &amp; Télécoms</h3>
+<p class="text-xs text-on-surface-variant mt-1">Câblage réseau, climatisation industrielle, maintenance électronique et domotique de pointe.</p>
+<div class="mt-4 flex items-center justify-between text-xs font-semibold text-primary">
+<span class="">Voir les profils certifiés</span>
+<span class="material-symbols-outlined text-base">east</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Section: Artisans of the Month (Honneur & Mérite) -->
+<section class="py-16 px-4 md:px-12 bg-surface-container-low border-y border-outline-variant/40">
+<div class="max-w-[1200px] mx-auto">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-10">
+<div>
+<div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-secondary-container/20 text-on-secondary-container text-xs font-bold uppercase tracking-wider mb-2">
+<span class="material-symbols-outlined text-sm">hotel_class</span>
+            Tableau d'Honneur National
+          </div>
+<h2 class="text-3xl font-extrabold text-primary tracking-tight">Artisans du Mois à l'Honneur</h2>
+<p class="text-on-surface-variant text-sm mt-1">Sélectionnés pour leur rigueur déontologique, la ponctualité de livraison et les retours clients irréprochables.</p>
+</div>
+<button class="mt-4 md:mt-0 px-4 py-2 bg-surface-container-lowest border border-outline-variant rounded-lg text-xs font-bold text-primary hover:bg-surface-variant transition-colors">
+          Consulter le barème d'évaluation
+        </button>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<!-- Artisan 1 -->
+<div class="bg-surface-container-lowest rounded-xl p-5 border border-outline-variant/60 shadow-md relative flex flex-col justify-between">
+<div>
+<div class="flex items-center gap-4 mb-4">
+<div class="w-16 h-16 rounded-full overflow-hidden border-2 border-secondary-container shrink-0">
+<img class="w-full h-full object-cover" data-alt="Professional portrait of a female industrial electrical engineering supervisor in an inspection vest and safety gear holding blueprints." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAKtCNC0766riVCPYvAA8FcpWEEqY2_o5GLqDFNrLi4GJfmg8gngCYOgbEnBU0g_zaq1pWkmnUmTibx3mXxSzcoJzVTjspTIyYNDV_gw4X0K6VrVKyT_gJ9OPIQqkondd0nQcMqPFMD-fKKIYwIK_NtWp-wAQnKelVQfnNlrryAPsYakHuXUY6MI9CLJXquIFhiWW6PekH0A9h_h-ETfni2XR6NhUGrXvthFEJV1BwQ">
+</div>
+<div>
+<div class="flex items-center gap-1">
+<h4 class="font-bold text-base text-primary">Ing. Arlette Mwamba</h4>
+<span class="material-symbols-outlined text-base text-secondary-container" style="font-variation-settings: &quot;FILL&quot; 1;">verified</span>
+</div>
+<p class="text-xs font-semibold text-secondary">Maître Électricienne Industrielle</p>
+<p class="text-[11px] text-on-surface-variant flex items-center gap-1 mt-0.5">
+<span class="material-symbols-outlined text-xs">pin_drop</span> Kinshasa (Gombe &amp; Limete)
+                </p>
+</div>
+</div>
+<div class="flex items-center gap-2 mb-3 bg-surface-container-low p-2 rounded-lg text-xs">
+<div class="flex text-secondary-container text-sm">
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+</div>
+<span class="font-bold text-primary">4.95/5</span>
+<span class="text-outline text-[11px]">(64 avis chantiers)</span>
+</div>
+<p class="text-xs text-on-surface-variant leading-relaxed">
+              « Spécialiste de la rénovation de câblages haute tension et domotique d'immeubles. Chantier phare : Électrification intégrale du complexe logistique Kingabwa. »
+            </p>
+</div>
+<div class="mt-4 pt-4 border-t border-surface-container flex items-center justify-between">
+<span class="text-[11px] text-on-surface-variant font-mono">ID: ATAC-KIN-00892</span>
+<button class="px-3 py-1.5 bg-primary-container text-surface-container-lowest text-xs font-bold rounded hover:bg-primary transition-colors">
+              Voir Profil Complet
+            </button>
+</div>
+</div>
+<!-- Artisan 2 -->
+<div class="bg-surface-container-lowest rounded-xl p-5 border border-outline-variant/60 shadow-md relative flex flex-col justify-between">
+<div>
+<div class="flex items-center gap-4 mb-4">
+<div class="w-16 h-16 rounded-full overflow-hidden border-2 border-secondary-container shrink-0">
+<img class="w-full h-full object-cover" data-alt="Portrait of an experienced artisanal master craftsman in his workshop standing beside finely finished hardwood pieces." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDS1C38fa70vhCMOtAhsTrzlZ0K8DgRgnVUJ6_vIPeplXF3xgYxPV76ZCd8o-U0OR5_PNjTsfR45Qz072Nc1LcNEduqYOFVkb9qHGm5vIZb3M3tMf_rT5cpAxLsZlaT0MGktIkJM1XMmNp2QZ2L-AhtdHO1j8bP6RJvTGB6hpE6vPxigQJetCHWa4hWoGp4BxIlUaivByzYkrLOux17iWycDdBuQnn-2221zLB5gzKV">
+</div>
+<div>
+<div class="flex items-center gap-1">
+<h4 class="font-bold text-base text-primary">Félicien Kalonji</h4>
+<span class="material-symbols-outlined text-base text-secondary-container" style="font-variation-settings: &quot;FILL&quot; 1;">verified</span>
+</div>
+<p class="text-xs font-semibold text-secondary">Artisan Ébéniste d'Art &amp; Menuisier</p>
+<p class="text-[11px] text-on-surface-variant flex items-center gap-1 mt-0.5">
+<span class="material-symbols-outlined text-xs">pin_drop</span> Haut-Katanga (Lubumbashi)
+                </p>
+</div>
+</div>
+<div class="flex items-center gap-2 mb-3 bg-surface-container-low p-2 rounded-lg text-xs">
+<div class="flex text-secondary-container text-sm">
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: &quot;FILL&quot; 1;">star_half</span>
+</div>
+<span class="font-bold text-primary">4.92/5</span>
+<span class="text-outline text-[11px]">(88 chantiers certifiés)</span>
+</div>
+<p class="text-xs text-on-surface-variant leading-relaxed">
+              « 18 ans de savoir-faire dans le travail du bois rouge et afrormosia. Chantier phare : Aménagement intérieur et boiseries acoustiques du Palais de Justice local. »
+            </p>
+</div>
+<div class="mt-4 pt-4 border-t border-surface-container flex items-center justify-between">
+<span class="text-[11px] text-on-surface-variant font-mono">ID: ATAC-KAT-03104</span>
+<button class="px-3 py-1.5 bg-primary-container text-surface-container-lowest text-xs font-bold rounded hover:bg-primary transition-colors">
+              Voir Profil Complet
+            </button>
+</div>
+</div>
+<!-- Artisan 3 -->
+<div class="bg-surface-container-lowest rounded-xl p-5 border border-outline-variant/60 shadow-md relative flex flex-col justify-between">
+<div>
+<div class="flex items-center gap-4 mb-4">
+<div class="w-16 h-16 rounded-full overflow-hidden border-2 border-secondary-container shrink-0">
+<img class="w-full h-full object-cover" data-alt="Portrait of a young certified technical maintenance engineer in uniform smiling in front of industrial cooling infrastructure." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB772RgXcggg5SS0SKa0bbC2Zr5RX-Lo-mLXoxC76E1MaiIW89ZKb6yzE_Ry2OllWITKjEdt-wYp6zHMSV7jGWbzVJsbVaCZCtXxbnoOx9km0s19_gPoRAuMuQMBmGS99QvHGkvo0FvRaoMfvZpScbqIy-QaBgK7o8MXTyEnWwIUW7sM57bsb6xuIM4tWAMzjqEvPVZdk2jfokc0r2nS7HT_-IsOtZ3m75hKXG1eNzg">
+</div>
+<div>
+<div class="flex items-center gap-1">
+<h4 class="font-bold text-base text-primary">Patrick Kambale</h4>
+<span class="material-symbols-outlined text-base text-secondary-container" style="font-variation-settings: &quot;FILL&quot; 1;">verified</span>
+</div>
+<p class="text-xs font-semibold text-secondary">Frigoriste &amp; Climatisation Centrale</p>
+<p class="text-[11px] text-on-surface-variant flex items-center gap-1 mt-0.5">
+<span class="material-symbols-outlined text-xs">pin_drop</span> Nord-Kivu (Goma)
+                </p>
+</div>
+</div>
+<div class="flex items-center gap-2 mb-3 bg-surface-container-low p-2 rounded-lg text-xs">
+<div class="flex text-secondary-container text-sm">
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+</div>
+<span class="font-bold text-primary">4.98/5</span>
+<span class="text-outline text-[11px]">(52 interventions d'urgence)</span>
+</div>
+<p class="text-xs text-on-surface-variant leading-relaxed">
+              « Spécialiste des chambres froides agroalimentaires et climatisation hospitalière. Réactivité exemplaire et zéro panne récurrente enregistrée sur 24 mois. »
+            </p>
+</div>
+<div class="mt-4 pt-4 border-t border-surface-container flex items-center justify-between">
+<span class="text-[11px] text-on-surface-variant font-mono">ID: ATAC-NK-01775</span>
+<button class="px-3 py-1.5 bg-primary-container text-surface-container-lowest text-xs font-bold rounded hover:bg-primary transition-colors">
+              Voir Profil Complet
+            </button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Section: News & Official Communiques -->
+<section class="py-16 px-4 md:px-12 bg-surface" id="actualites">
+<div class="max-w-[1200px] mx-auto">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-10">
+<div>
+<span class="text-xs uppercase font-bold tracking-wider text-secondary">Communication Institutionnelle</span>
+<h2 class="text-3xl font-extrabold text-primary tracking-tight">Dernières Actualités &amp; Communiqués Officiels</h2>
+</div>
+<a class="mt-4 md:mt-0 text-sm font-bold text-primary hover:text-secondary flex items-center gap-1" href="#">
+          Accéder à la revue de presse <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</a>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<!-- Article 1 -->
+<article class="bg-surface-container-lowest rounded-xl overflow-hidden border border-outline-variant/40 hover:shadow-lg transition-all flex flex-col justify-between">
+<div>
+<div class="h-44 w-full bg-cover bg-center" data-alt="National exposition pavilion filled with professional delegations and artisan exhibits under contemporary exhibition lighting." style="background-image: url(&quot;https://lh3.googleusercontent.com/aida-public/AB6AXuDqWSi-UM8_u__Arik1klZfHId7lbpLAzcbE0SJDwxWVByA4cya9NqBY37Qn8gprjFIRzPeslsa5FqPDnr56WAKME-72Qlf-UlxR7GxCXM6LKjM0t6VilDTabOkz6nitNzuA9vapFcUk520H9XLFLsspWdL4bqBTNTWf0uG3Y1oeoc4783_etfYzUv_NQKo6Lommvmet2Z5XzJvW0ruun0KAowrFFWOhjEPzkdl61E9&quot;);">
+</div>
+<div class="p-5">
+<div class="flex items-center gap-2 text-xs text-on-surface-variant mb-2">
+<span class="material-symbols-outlined text-sm text-secondary-container">calendar_month</span>
+<span class="">15 Octobre 2025</span>
+<span class="">•</span>
+<span class="font-bold text-primary">Événement National</span>
+</div>
+<h3 class="font-bold text-base text-primary mb-2 leading-snug hover:text-secondary cursor-pointer">
+                Salon National de l'Artisanat Kinshasa 2025 : Plus de 10 000 participants attendus
+              </h3>
+<p class="text-xs text-on-surface-variant leading-relaxed">
+                Le Ministère et l'ATAC confirment l'ouverture de la plus grande foire d'exposition commerciale dédiée aux artisans congolais sur l'esplanade du Palais du Peuple.
+              </p>
+</div>
+</div>
+<div class="p-5 pt-0">
+<span class="text-xs font-bold text-secondary inline-flex items-center gap-1">Lire le communiqué officiel <span class="material-symbols-outlined text-xs">arrow_forward</span></span>
+</div>
+</article>
+<!-- Article 2 -->
+<article class="bg-surface-container-lowest rounded-xl overflow-hidden border border-outline-variant/40 hover:shadow-lg transition-all flex flex-col justify-between">
+<div>
+<div class="h-44 w-full bg-cover bg-center" data-alt="Digital registration terminal and optical biometric identity card scanner being operated in a governmental administrative branch." style="background-image: url(&quot;https://lh3.googleusercontent.com/aida-public/AB6AXuC50DukNRhTKH9HVb5Uw1QCK0-chpZLa9zNN8uVcUbpxYJlUP_jbY7TRu90CgCncugNTkj94AcpgTe-7j1ydhQlNuvqzFzgp2oCPLRWTjxqIPebY6XJ8LBfA3Os6KNECa3SU7sJlPtcK-OUR1FHpFsTHOqEsjocGHiGOvzB6TDZCuNTAGL6zCx5WJ31yUGco_DIadUXzxZpetVqBhkPh1JsMF-2pBzJUIn_qp7KEpNY&quot;);">
+</div>
+<div class="p-5">
+<div class="flex items-center gap-2 text-xs text-on-surface-variant mb-2">
+<span class="material-symbols-outlined text-sm text-secondary-container">calendar_month</span>
+<span class="">02 Novembre 2025</span>
+<span class="">•</span>
+<span class="font-bold text-primary">Numérisation</span>
+</div>
+<h3 class="font-bold text-base text-primary mb-2 leading-snug hover:text-secondary cursor-pointer">
+                Déploiement de la carte biométrique professionnelle dans le Grand Katanga
+              </h3>
+<p class="text-xs text-on-surface-variant leading-relaxed">
+                Lancement des guichets mobiles d'enrôlement à Lubumbashi, Kolwezi et Likasi pour sécuriser le statut social des techniciens miniers et du génie électrique.
+              </p>
+</div>
+</div>
+<div class="p-5 pt-0">
+<span class="text-xs font-bold text-secondary inline-flex items-center gap-1">Lire le communiqué officiel <span class="material-symbols-outlined text-xs">arrow_forward</span></span>
+</div>
+</article>
+<!-- Article 3 -->
+<article class="bg-surface-container-lowest rounded-xl overflow-hidden border border-outline-variant/40 hover:shadow-lg transition-all flex flex-col justify-between">
+<div>
+<div class="h-44 w-full bg-cover bg-center" data-alt="Official ministerial summit and partnership signing ceremony with dignitaries and executive officials at a formal mahogany conference table." style="background-image: url(&quot;https://lh3.googleusercontent.com/aida-public/AB6AXuDmz-9J7Z98eYdkOPLkPiN5vRldw1R30xnboRX1wklzGW9c6kUJZ7kL5RDb5EyOY7-g4D-RTUv9kKFCvTilaZqovrS3FwbEwInvGCH1PV3mnyzv_J_ORKEdXmtTSFzvE9vPkdek2yxFgOOoITyYVo4orCwN6Us_65G4kjCbYtu0DEjU4xtFX5pDZhHl5azfDt9vzh1vEfM6YSRjytxSwJL2TNQH0i9Iu5vVXDX6aQsB&quot;);">
+</div>
+<div class="p-5">
+<div class="flex items-center gap-2 text-xs text-on-surface-variant mb-2">
+<span class="material-symbols-outlined text-sm text-secondary-container">calendar_month</span>
+<span class="">28 Novembre 2025</span>
+<span class="">•</span>
+<span class="font-bold text-primary">Partenariat Stratégique</span>
+</div>
+<h3 class="font-bold text-base text-primary mb-2 leading-snug hover:text-secondary cursor-pointer">
+                Protocole d'accord avec le Ministère de la Formation Professionnelle
+              </h3>
+<p class="text-xs text-on-surface-variant leading-relaxed">
+                Reconnaissance mutuelle des diplômes de l'Académie F.I.I.T.A.C. et accès réservé de 15% des marchés de rénovation des édifices publics aux membres ATAC.
+              </p>
+</div>
+</div>
+<div class="p-5 pt-0">
+<span class="text-xs font-bold text-secondary inline-flex items-center gap-1">Lire le communiqué officiel <span class="material-symbols-outlined text-xs">arrow_forward</span></span>
+</div>
+</article>
+</div>
+</div>
+</section>
+<!-- Section: Institutional Partners & Multilateral Stakeholders -->
+<section class="py-12 px-4 md:px-12 bg-surface-container-low border-t border-outline-variant/40">
+<div class="max-w-[1200px] mx-auto text-center">
+<span class="text-xs uppercase font-bold tracking-widest text-outline">Partenaires Institutionnels &amp; Soutiens Multilatéraux</span>
+<div class="mt-8 flex flex-wrap items-center justify-center gap-8 md:gap-14 opacity-80">
+<div class="flex items-center gap-2 text-primary font-bold text-sm tracking-tight border border-outline-variant/50 bg-surface-container-lowest px-4 py-2 rounded-lg">
+<span class="material-symbols-outlined text-primary-container text-xl">account_balance</span>
+<span class="">FEC (Fédération des Entreprises du Congo)</span>
+</div>
+<div class="flex items-center gap-2 text-primary font-bold text-sm tracking-tight border border-outline-variant/50 bg-surface-container-lowest px-4 py-2 rounded-lg">
+<span class="material-symbols-outlined text-primary-container text-xl">assured_workload</span>
+<span class="">Ministère de la Formation Professionnelle</span>
+</div>
+<div class="flex items-center gap-2 text-primary font-bold text-sm tracking-tight border border-outline-variant/50 bg-surface-container-lowest px-4 py-2 rounded-lg">
+<span class="material-symbols-outlined text-primary-container text-xl">public</span>
+<span class="">Banque Mondiale (Projet PADMPME)</span>
+</div>
+<div class="flex items-center gap-2 text-primary font-bold text-sm tracking-tight border border-outline-variant/50 bg-surface-container-lowest px-4 py-2 rounded-lg">
+<span class="material-symbols-outlined text-primary-container text-xl">eco</span>
+<span class="">PNUD RDC</span>
+</div>
+<div class="flex items-center gap-2 text-primary font-bold text-sm tracking-tight border border-outline-variant/50 bg-surface-container-lowest px-4 py-2 rounded-lg">
+<span class="material-symbols-outlined text-primary-container text-xl">school</span>
+<span class="">F.I.I.T.A.C. Académie</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Bannière d'appel solennel à l'adhésion -->
+<section class="py-16 px-4 md:px-12 bg-primary text-surface-container-lowest relative overflow-hidden">
+<div class="absolute inset-0 opacity-10 bg-[radial-gradient(#fe932c_1px,transparent_1px)] [background-size:16px_16px]"></div>
+<div class="max-w-[1000px] mx-auto text-center relative z-10">
+<span class="inline-block p-3 rounded-full bg-secondary-container/20 text-secondary-container mb-4">
+<span class="material-symbols-outlined text-3xl">build_circle</span>
+</span>
+<h2 class="text-3xl md:text-5xl font-extrabold tracking-tight text-white mb-4">
+        Faites reconnaître votre savoir-faire.<br>Rejoignez la communauté des bâtisseurs du Congo.
+      </h2>
+<p class="text-sm md:text-base text-surface-variant max-w-2xl mx-auto mb-8 font-normal">
+        Obtenez votre matricule professionnel d'État, votre carte biométrique QR code et accédez à des dizaines d'opportunités de marchés sur l'ensemble du territoire national.
+      </p>
+<div class="flex flex-wrap items-center justify-center gap-4">
+<button class="px-8 py-4 bg-secondary-container text-primary font-extrabold text-base rounded-xl shadow-lg hover:bg-white hover:text-primary transition-all flex items-center gap-2">
+<span class="material-symbols-outlined text-xl">how_to_reg</span>
+<span class="">S'inscrire en ligne maintenant</span>
+</button>
+<button class="px-6 py-4 border border-outline-variant text-white font-bold text-sm rounded-xl hover:bg-surface-container-lowest/10 transition-colors flex items-center gap-2">
+<span class="material-symbols-outlined text-lg">download</span>
+<span class="">Télécharger le Guide d'adhésion (PDF)</span>
+</button>
+</div>
+<p class="text-[11px] text-surface-variant/70 mt-6">
+        Procédure ouverte à tout technicien, artisan indépendant, atelier familial ou coopérative formelle ou informelle des 26 provinces.
+      </p>
+</div>
+</section>
+<!-- Footer National -->
+<footer class="bg-tertiary text-surface-variant pt-12 pb-8 px-4 md:px-12 text-xs">
+<div class="max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 pb-10 border-b border-surface-container-highest/20">
+<div>
+<div class="flex items-center gap-2 text-white font-bold text-lg mb-3">
+<div class="size-5 text-secondary-container">
+<svg fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M44 4H30.6666V17.3334H17.3334V30.6666H4V44H44V4Z" fill="currentColor"></path>
+</svg>
+</div>
+<span class="">ATAC RDC</span>
+</div>
+<p class="text-xs text-outline-variant leading-relaxed">
+          Association et Plateforme Nationale des Techniciens et Artisans du Congo. Établissement régulateur de la qualification professionnelle et de la promotion du travail décent.
+        </p>
+<p class="text-[11px] text-outline-variant mt-3">Kinshasa - Gombe, Av. de la Justice N° 45</p>
+</div>
+<div>
+<h4 class="text-white font-bold text-sm mb-3">Navigation</h4>
+<ul class="space-y-2">
+<li class=""><a class="hover:text-white transition-colors" href="#">Accueil officiel</a></li>
+<li class=""><a class="hover:text-white transition-colors" href="#annuaire">Annuaire National des Métiers</a></li>
+<li class=""><a class="hover:text-white transition-colors" href="#piliers">Services &amp; Carte QR</a></li>
+<li class=""><a class="hover:text-white transition-colors" href="#metiers">Répertoire des 180 Spécialités</a></li>
+<li class=""><a class="hover:text-white transition-colors" href="#actualites">Communiqués &amp; Journal Officiel</a></li>
+</ul>
+</div>
+<div>
+<h4 class="text-white font-bold text-sm mb-3">Services Artisans</h4>
+<ul class="space-y-2">
+<li class=""><a class="hover:text-white transition-colors" href="#">Demande d'enrôlement biométrique</a></li>
+<li class=""><a class="hover:text-white transition-colors" href="#">Vérification de QR Code de conformité</a></li>
+<li class=""><a class="hover:text-white transition-colors" href="#">Académie F.I.I.T.A.C. Formations</a></li>
+<li class=""><a class="hover:text-white transition-colors" href="#">Assurance Responsabilité Civile Décennale</a></li>
+<li class=""><a class="hover:text-white transition-colors" href="#">Bourse aux marchés publics</a></li>
+</ul>
+</div>
+<div>
+<h4 class="text-white font-bold text-sm mb-3">Antennes Provinciales</h4>
+<p class="text-outline-variant mb-2">Bureaux permanents ouverts de 08h à 16h30 à Kinshasa, Lubumbashi, Kolwezi, Matadi, Goma, Kisangani, Bukavu, et Kananga.</p>
+<div class="mt-4 p-3 bg-primary-container rounded-lg border border-primary-container/40">
+<span class="text-white font-bold block text-xs">Ligne Verte Gratuite Artisans</span>
+<span class="text-secondary-container font-extrabold text-sm">+243 (0) 800 00 ATAC</span>
+</div>
+</div>
+</div>
+<div class="max-w-[1200px] mx-auto pt-6 flex flex-col md:flex-row items-center justify-between text-[11px] text-outline-variant">
+<p class="">© 2025 ATAC RDC — République Démocratique du Congo. Tous droits réservés.</p>
+<div class="flex gap-4 mt-2 md:mt-0">
+<a class="hover:text-white" href="#">Mentions Légales</a>
+<a class="hover:text-white" href="#">Politique de Confidentialité des Données</a>
+<a class="hover:text-white" href="#">Normes de Certification</a>
+</div>
+</div>
+</footer>
+
+
+
+
+
+
+
+
+</body></html>

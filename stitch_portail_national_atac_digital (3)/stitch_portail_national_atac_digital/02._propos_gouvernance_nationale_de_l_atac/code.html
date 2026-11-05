@@ -1,0 +1,809 @@
+<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0" name="viewport"><meta content="web_standard" name="shell-type"><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&amp;family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100..900&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { colors: { "on-primary-container": "#778bad", "on-surface-variant": "#44474d", "primary-fixed-dim": "#b3c7ec", "secondary-fixed-dim": "#ffb77d", "on-error": "#ffffff", "surface-container-highest": "#e0e3e5", "on-error-container": "#93000a", "on-primary-fixed-variant": "#334766", "surface-variant": "#e0e3e5", "on-secondary-container": "#663500", "tertiary-fixed": "#85f8c4", "background": "#f7f9fb", "on-tertiary-container": "#199d6f", "primary-container": "#0c2340", "secondary-fixed": "#ffdcc3", "inverse-primary": "#b3c7ec", "surface-container": "#eceef0", "on-background": "#191c1e", "on-secondary-fixed-variant": "#6e3900", "surface-container-high": "#e6e8ea", "surface-dim": "#d8dadc", "tertiary-fixed-dim": "#68dba9", "tertiary": "#001008", "error-container": "#ffdad6", "on-tertiary-fixed-variant": "#005137", "surface-container-lowest": "#ffffff", "on-secondary": "#ffffff", "primary": "#000d21", "tertiary-container": "#00291a", "secondary-container": "#fe932c", "on-primary-fixed": "#031c38", "inverse-on-surface": "eff1f3", "surface-tint": "#4b5f7f", "error": "#ba1a1a", "on-primary": "#ffffff", "surface-bright": "#f7f9fb", "on-tertiary": "#ffffff", "surface": "#f7f9fb", "outline": "#74777e", "inverse-surface": "#2d3133", "on-tertiary-fixed": "#002114", "secondary": "#904d00", "on-surface": "#191c1e", "surface-container-low": "#f2f4f6", "primary-fixed": "#d5e3ff", "on-secondary-fixed": "#2f1500", "outline-variant": "#c4c6ce" }, borderRadius: { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, spacing: { "gutter": "1.5rem", "space-xs": "0.25rem", "gutter-mobile": "1rem", "margin": "3rem", "margin-mobile": "1.25rem", "space-md": "1rem", "space-sm": "0.5rem", "space-lg": "1.5rem", "space-xl": "2.5rem" }, fontFamily: { "headline-xl-mobile": ["Plus Jakarta Sans"], "headline-md": ["Plus Jakarta Sans"], "headline-lg": ["Plus Jakarta Sans"], "body-lg": ["Plus Jakarta Sans"], "headline-sm": ["Plus Jakarta Sans"], "body-md": ["Plus Jakarta Sans"], "label-sm": ["Plus Jakarta Sans"], "label-lg": ["Plus Jakarta Sans"], "display-lg": ["Plus Jakarta Sans"], "headline-xl": ["Plus Jakarta Sans"], "title-md": ["Plus Jakarta Sans"], "display-lg-mobile": ["Plus Jakarta Sans"], "label-md": ["Plus Jakarta Sans"], "body-sm": ["Plus Jakarta Sans"] }, fontSize: { "headline-xl-mobile": ["28px", { "lineHeight": "36px", "letterSpacing": "-0.01em", "fontWeight": "700" }], "headline-md": ["24px", { "lineHeight": "32px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "headline-lg": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "body-lg": ["18px", { "lineHeight": "28px", "fontWeight": "400" }], "headline-sm": ["20px", { "lineHeight": "28px", "fontWeight": "600" }], "body-md": ["16px", { "lineHeight": "24px", "fontWeight": "400" }], "label-sm": ["11px", { "lineHeight": "14px", "letterSpacing": "0.08em", "fontWeight": "700" }], "label-lg": ["14px", { "lineHeight": "20px", "letterSpacing": "0.02em", "fontWeight": "600" }], "display-lg": ["56px", { "lineHeight": "64px", "letterSpacing": "-0.03em", "fontWeight": "800" }], "headline-xl": ["40px", { "lineHeight": "48px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "title-md": ["18px", { "lineHeight": "26px", "fontWeight": "600" }], "display-lg-mobile": ["36px", { "lineHeight": "44px", "letterSpacing": "-0.02em", "fontWeight": "800" }], "label-md": ["12px", { "lineHeight": "16px", "letterSpacing": "0.04em", "fontWeight": "600" }], "body-sm": ["14px", { "lineHeight": "20px", "fontWeight": "400" }] } } } }</script></head><body class="bg-surface font-body-md text-body-md text-on-surface"><header class="fixed top-0 left-0 w-full z-50 bg-surface-container-lowest/95 backdrop-blur-xl shadow-[0_4px_20px_-2px_rgba(12,35,64,0.06)]"><div class="w-full bg-[#62bbf5] flex justify-center items-center border-b border-primary-container/20 overflow-hidden"><img src="https://lh3.googleusercontent.com/aida-public/AB6AXuC82kko-rF7e1l6pCKUp3QxXolsmi6RaM1O4nHS-EoV3k1v0yDPSN047wOchAtsluyAKPXtizqAY22IKkUcxeKmbjYMx29C1zgeaQaXGHWyvlU_FWoOLk_xb7d2LSNmOruDE-AJpIlcTpRV3TkFxqTp_8rkcDuepQE3TRbIy-vodzPQpIP7Wmn8m9wj3Ifeysdfy4QZfOVBWfMA7Lj3J1juAwOqDoZ9S8qxQBWiyyqi-GpVGOdiWLVkwA" alt="Ministère de la Formation Professionnelle - ATAC Chambre des Métiers" class="w-full max-h-20 object-contain mx-auto"></div><div class="w-full flex h-1"><div class="flex-1 bg-[#007fff]"></div><div class="w-24 bg-[#fcd116]"></div><div class="flex-1 bg-[#ce1126]"></div></div><div class="bg-primary-container text-on-primary border-b border-primary-container/20"><div class="max-w-[1360px] mx-auto px-gutter flex flex-wrap items-center justify-between py-1.5 gap-2"><div class="flex items-center gap-space-md"><span class="inline-flex items-center gap-1.5 font-label-sm text-label-sm uppercase tracking-wider text-secondary-fixed"><span class="material-symbols-outlined text-[14px]">verified</span>République Démocratique du Congo - Chambre des Métiers</span><span class="hidden lg:inline text-outline-variant font-label-sm">•</span><span class="hidden lg:inline font-label-sm text-label-sm text-surface-container-highest">Autorité Nationale de Régulation de l'Artisanat</span></div><div class="flex items-center gap-space-lg"><div class="flex items-center gap-space-sm text-surface-container-highest font-label-sm text-label-sm"><span class="material-symbols-outlined text-[15px] text-tertiary-fixed">call</span><span class="">Kinshasa: +243 81 000 0000</span><span class="text-outline-variant">|</span><span class="text-tertiary-fixed font-semibold">WhatsApp Artisans Actif</span></div><div class="flex items-center gap-1 font-label-sm text-label-sm text-surface-container-highest"><span class="text-secondary-fixed font-bold cursor-pointer">FR</span><span class="text-outline-variant">/</span><span class="hover:text-surface-container-lowest cursor-pointer transition-colors">EN</span><span class="text-outline-variant">/</span><span class="hover:text-surface-container-lowest cursor-pointer transition-colors">LN</span></div></div></div></div><div class="h-20 max-w-[1360px] mx-auto px-gutter flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-md flex-shrink-0"><img alt="ATAC Logo Officiel" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBnttz52iDzDXSXQTt-Oho-4fzGsc9j2Nux8gKQOCKqLoungaVK5fmS3lJPaKxVHsRm-t28JB3gv6H6vH6OzhP-C4US7Pegs1DkI3JOiSB8wofctMe88kO_s_6QSzF1vD38Qj-sHRZT-zL62BwKArTDNNYXLCyMzyhdrXDs9l3IOZIzEQxZ4LT6CKmDvyRL1HzrM0bnKbMtVYdd9nAJNlosbSMwDvX9rr0vEmximxEi"><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-primary tracking-tight leading-tight font-bold">ATAC</span><span class="font-label-sm text-label-sm tracking-wider uppercase text-on-surface-variant font-semibold">Portail National des Métiers</span></div></div><nav class="hidden xl:flex items-center gap-1" data-active-classes="bg-primary-container text-on-primary font-bold rounded-lg shadow-sm"><a class="px-3 py-2 font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface rounded-lg transition-colors" data-path="accueil" href="#">Accueil</a><a class="px-3 py-2 font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface rounded-lg transition-colors" data-path="a-propos" href="#">À Propos</a><a class="px-3 py-2 font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface rounded-lg transition-colors" data-path="services" href="#">Services</a><a class="px-3 py-2 font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface rounded-lg transition-colors" data-path="annuaire-des-artisans" href="#">Annuaire des Artisans</a><a class="px-3 py-2 font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface rounded-lg transition-colors" data-path="adhesion" href="#">Adhésion</a><a class="px-3 py-2 font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface rounded-lg transition-colors" data-path="opportunites" href="#">Opportunités</a><a class="px-3 py-2 font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface rounded-lg transition-colors" data-path="actualites" href="#">Actualités</a><a class="px-3 py-2 font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface rounded-lg transition-colors" data-path="contact" href="#">Contact</a></nav><div class="flex items-center gap-space-sm flex-shrink-0"><a class="hidden sm:inline-flex items-center gap-1.5 px-3.5 py-2 font-label-lg text-label-lg rounded-lg bg-primary-container text-on-primary hover:bg-primary transition-all shadow-sm" data-path="annuaire-des-artisans" href="#"><span class="material-symbols-outlined text-[18px]">search</span>Trouver un Artisan</a><a class="inline-flex items-center gap-1.5 px-3.5 py-2 font-label-lg text-label-lg rounded-lg bg-secondary text-on-secondary hover:bg-on-secondary-container transition-all shadow-[0_4px_12px_rgba(217,119,6,0.25)]" data-path="adhesion" href="#"><span class="material-symbols-outlined text-[18px]">workspace_premium</span>Devenir Membre</a><a class="inline-flex items-center gap-2 px-3 py-1.5 font-label-lg text-label-lg rounded-lg border border-primary-container/20 bg-surface-container-lowest text-primary hover:bg-surface-container transition-all" data-path="espace-membres" href="#"><span class="material-symbols-outlined text-[18px] text-secondary">lock</span><span class="hidden md:inline font-semibold">Espace Membres</span><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB_HHcFKchUPnZkcwgyybd5yw3rWMuB2Ix2Ll7eDmf8OZ7ph2nlbRBfytx_TEtdKGWGvjwVJSrDrZyhToPVtkkMC8A5WjJye7xCcHW3UtMzVMbGF9w4xk2_ovhaOY_lRgxWy8G8-1Uaxa_bTXgJxCqv3MTX1NTkgYOI3Yu3Jkz-yxFZVMyU3z3_8hWMb8II2_xID_wj4XYJmrel4sXTAFL8c57ADXabOqrdrHaauBBx"></a></div></div></header><main class="w-full bg-surface pt-40"><div class="flex flex-col w-full">
+<!-- EN-TÊTE SOUVERAIN & BREADCRUMB -->
+<section class="relative bg-primary-container text-surface-container-lowest overflow-hidden py-space-xl">
+<div class="absolute inset-0 opacity-10 bg-[radial-gradient(#ffdcc3_1px,transparent_1px)] [background-size:20px_20px] pointer-events-none"></div>
+<div class="absolute -right-24 -top-24 w-96 h-96 rounded-full bg-secondary-container/20 blur-3xl pointer-events-none"></div>
+<div class="max-w-[1360px] mx-auto px-gutter relative z-10">
+<!-- Breadcrumb -->
+<nav aria-label="Fil d'Ariane" class="flex items-center gap-2 font-label-md text-label-md text-surface-container-highest mb-space-md">
+<a class="hover:text-secondary-fixed transition-colors flex items-center gap-1" href="#">
+<span class="material-symbols-outlined text-[16px]">home</span>
+<span class="">Accueil</span>
+</a>
+<span class="text-on-primary-container">/</span>
+<span class="text-surface-container-highest">L'Institution</span>
+<span class="text-on-primary-container">/</span>
+<span class="text-secondary-fixed font-semibold">À Propos &amp; Gouvernance</span>
+</nav>
+<!-- Badges officiels -->
+<div class="flex flex-wrap items-center gap-space-sm mb-space-md">
+<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-primary text-secondary-fixed font-label-sm text-label-sm shadow-sm">
+<span class="material-symbols-outlined text-[14px]">gavel</span>
+          Agréé par Arrêté Ministériel
+        </span>
+<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container-lowest/10 text-surface-container-lowest font-label-sm text-label-sm backdrop-blur-md">
+<span class="material-symbols-outlined text-[14px]">public</span>
+          Présence dans les 26 Provinces
+        </span>
+<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-tertiary-container text-tertiary-fixed font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[14px]">account_balance</span>
+          Sous tutelle du Ministère de l'Artisanat &amp; des PME
+        </span>
+</div>
+<!-- Titres Institutionnels -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg items-end">
+<div class="lg:col-span-8 flex flex-col gap-space-sm">
+<span class="font-label-sm text-label-sm tracking-widest uppercase text-secondary-container">Chambre Nationale Consulaire des Métiers</span>
+<h1 class="font-display-lg text-display-lg text-surface-container-lowest tracking-tight">
+            Au Cœur de la Renaissance Artisanale Congolaise
+          </h1>
+<p class="font-body-lg text-body-lg text-surface-container-highest leading-relaxed mt-2 max-w-3xl">
+            L'Association des Techniciens et Artisans du Congo (ATAC), agissant en tant que Chambre Consulaire et Régulatrice des Métiers, fédère, protège et valorise le génie manuel et technique à travers les 26 provinces de la République Démocratique du Congo.
+          </p>
+</div>
+<div class="lg:col-span-4 flex flex-col gap-3 justify-end items-start lg:items-end">
+<div class="p-4 rounded-xl bg-surface-container-lowest/10 backdrop-blur-md text-surface-container-lowest w-full lg:max-w-xs shadow-md">
+<div class="flex items-center gap-2 mb-1">
+<span class="material-symbols-outlined text-secondary-fixed text-[20px]">shield</span>
+<span class="font-label-sm text-label-sm tracking-wider uppercase text-secondary-fixed">Mandat Consulaire</span>
+</div>
+<p class="font-body-sm text-body-sm text-surface-container-highest">
+              Registre d'immatriculation biométrique souverain RN-ATAC sous accréditation républicaine continue.
+            </p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION CHIFFRES CLÉS DE L'INSTITUTION -->
+<section class="relative z-20 -mt-8 max-w-[1360px] mx-auto px-gutter w-full">
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-space-md">
+<!-- Stat 1 -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-md flex items-center gap-space-md group hover:bg-surface-container-low transition-all">
+<div class="w-14 h-14 rounded-lg bg-primary-container text-secondary-fixed flex items-center justify-center flex-shrink-0">
+<span class="material-symbols-outlined text-[28px]">calendar_today</span>
+</div>
+<div class="flex flex-col">
+<span class="font-headline-xl text-headline-xl text-primary font-bold">1998</span>
+<span class="font-label-md text-label-md text-on-surface-variant">Fondation &amp; Refondation Statutaire</span>
+</div>
+</div>
+<!-- Stat 2 -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-md flex items-center gap-space-md group hover:bg-surface-container-low transition-all">
+<div class="w-14 h-14 rounded-lg bg-secondary text-surface-container-lowest flex items-center justify-center flex-shrink-0">
+<span class="material-symbols-outlined text-[28px]">map</span>
+</div>
+<div class="flex flex-col">
+<span class="font-headline-xl text-headline-xl text-primary font-bold">26</span>
+<span class="font-label-md text-label-md text-on-surface-variant">Délégations Provinciales Actives</span>
+</div>
+</div>
+<!-- Stat 3 -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-md flex items-center gap-space-md group hover:bg-surface-container-low transition-all">
+<div class="w-14 h-14 rounded-lg bg-tertiary-container text-tertiary-fixed flex items-center justify-center flex-shrink-0">
+<span class="material-symbols-outlined text-[28px]">badge</span>
+</div>
+<div class="flex flex-col">
+<span class="font-headline-xl text-headline-xl text-primary font-bold">48 200+</span>
+<span class="font-label-md text-label-md text-on-surface-variant">Artisans Immatriculés (RN-ATAC)</span>
+</div>
+</div>
+<!-- Stat 4 -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-md flex items-center gap-space-md group hover:bg-surface-container-low transition-all">
+<div class="w-14 h-14 rounded-lg bg-surface-container-high text-primary flex items-center justify-center flex-shrink-0">
+<span class="material-symbols-outlined text-[28px]">construction</span>
+</div>
+<div class="flex flex-col">
+<span class="font-headline-xl text-headline-xl text-primary font-bold">180+</span>
+<span class="font-label-md text-label-md text-on-surface-variant">Corps de Métiers Répertoriés</span>
+</div>
+</div>
+</div>
+</section>
+<!-- NOTRE HISTOIRE & VISION STRATÉGIQUE CONGO 2035 -->
+<section class="max-w-[1360px] mx-auto px-gutter py-space-xl w-full">
+<div class="flex flex-col items-center text-center max-w-2xl mx-auto mb-space-xl">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary font-bold">Trajectoire Républicaine</span>
+<h2 class="font-headline-xl text-headline-xl text-primary tracking-tight mt-1">Histoire Séculaire &amp; Vision Souveraine</h2>
+<div class="h-1 w-16 bg-secondary-container mt-2 rounded-full"></div>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-space-xl items-stretch">
+<!-- Colonne 1: Récit Fondateur -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm flex flex-col justify-between">
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<span class="px-3 py-1 rounded bg-primary-fixed text-on-primary-fixed font-label-sm text-label-sm font-bold">Genèse &amp; Consolidation</span>
+<span class="text-outline-variant font-label-sm text-label-sm">Archives Nationales • Doc RDC-98</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary mt-2">
+            De la Corporation au Statut d'Ordre Républicain des Artisans
+          </h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+            Fondée en 1998 au sortir des mutations institutionnelles majeures de la République, l'ATAC est née de l'impératif vital de sortir le secteur des métiers de la précarité informelle. Face à un vivier de talents méconnus et atomisés à travers le pays, les maîtres pionniers de Kinshasa, Lubumbashi et Kisangani se sont réunis pour ériger une chambre corporative souveraine.
+          </p>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+            Aujourd'hui, l'ATAC est un pilier de la politique économique nationale. Reconnue d'utilité publique, elle collabore étroitement avec l'Autorité de Régulation de la Sous-traitance dans le Secteur Privé (ARSP) pour exiger la préférence locale dans les concessions minières, les marchés d'ouvrages d'art et les infrastructures civiles majeures.
+          </p>
+</div>
+<div class="mt-space-md pt-space-md bg-surface-container-low rounded-lg p-4 flex items-center gap-space-md">
+<img class="w-16 h-16 rounded-lg object-cover flex-shrink-0" data-alt="Photographie historique noir et blanc de maîtres artisans congolais signant le premier traité corporatif en atelier en 1998 à Kinshasa avec sceaux officiels et outils de travail" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC8rWMgQOW8ZI5Cg-Cgb9HckNWkNKQHBg3Xk7tJ7zJDWTACoU7yZuUl5nImOq2uWzcmxcDJ2YjUbDq6UHNwt9Jh6g3ERwOqMOrpzfd4XwEKJNBWTd8zZ9ODgX5_r0w8gLKv5XVzT3kJQH6_VrXZSZn70Cl0zW32FLpzvM9QFck5vOOUtr2Wm3nGYmMG93pbF4_PpMawjkbX9pI5lIlC8C5ZOY_tsB2sOTcEx7B7R5TW">
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg font-bold text-primary">Le Serment de la Gombe (Octobre 1998)</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">L'engagement solennel de normaliser les compétences et de transmettre le savoir-faire congolais aux générations futures.</span>
+</div>
+</div>
+</div>
+<!-- Colonne 2: Vision Congo 2035 -->
+<div class="bg-primary-container text-surface-container-lowest rounded-xl p-space-lg shadow-md flex flex-col justify-between relative overflow-hidden">
+<div class="absolute -right-12 -bottom-12 w-64 h-64 bg-secondary/20 rounded-full blur-2xl pointer-events-none"></div>
+<div class="flex flex-col gap-space-sm relative z-10">
+<div class="flex items-center justify-between">
+<span class="px-3 py-1 rounded bg-secondary text-surface-container-lowest font-label-sm text-label-sm font-bold">Feuille de Route</span>
+<span class="text-surface-container-highest font-label-sm text-label-sm">Plan National de Relance</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-surface-container-lowest mt-2">
+            Vision Congo Horizon 2035 : L'Industrie au Bout des Doigts
+          </h3>
+<p class="font-body-md text-body-md text-surface-container-highest leading-relaxed">
+            À l'horizon 2035, l'ATAC vise à métamorphoser l'artisanat congolais en première force manufacturière légère du continent. Nous refusons l'exportation exclusive de nos minerais bruts sans transformation locale : les artisans du métal, de la joaillerie, du bois noble et de l'électrotechnique congolais incarnent les bâtisseurs directs de notre souveraineté industrielle.
+          </p>
+<!-- Objectifs clés visualisés -->
+<div class="space-y-3 mt-2">
+<div class="flex flex-col gap-1">
+<div class="flex justify-between font-label-sm text-label-sm">
+<span class="text-surface-container-lowest">Immatriculation Numérique &amp; Carte Biométrique</span>
+<span class="text-secondary-fixed">82% atteint</span>
+</div>
+<div class="w-full bg-surface-container-highest/20 h-2 rounded-full overflow-hidden">
+<div class="bg-secondary-fixed h-full w-[82%]"></div>
+</div>
+</div>
+<div class="flex flex-col gap-1">
+<div class="flex justify-between font-label-sm text-label-sm">
+<span class="text-surface-container-lowest">Insertion Sous-Traitance Locale (ARSP)</span>
+<span class="text-tertiary-fixed">64% des chantiers</span>
+</div>
+<div class="w-full bg-surface-container-highest/20 h-2 rounded-full overflow-hidden">
+<div class="bg-tertiary-fixed h-full w-[64%]"></div>
+</div>
+</div>
+<div class="flex flex-col gap-1">
+<div class="flex justify-between font-label-sm text-label-sm">
+<span class="text-surface-container-lowest">Ateliers Modernisés &amp; Transition Énergétique Solaire</span>
+<span class="text-secondary-container">55% déployé</span>
+</div>
+<div class="w-full bg-surface-container-highest/20 h-2 rounded-full overflow-hidden">
+<div class="bg-secondary-container h-full w-[55%]"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="mt-space-md pt-space-sm relative z-10 flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-surface-container-highest uppercase tracking-wider">Pilier du Plan Quinquennal</span>
+<span class="inline-flex items-center gap-1 font-label-lg text-label-lg text-secondary-fixed font-bold">
+            Souveraineté Technologique
+            <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</span>
+</div>
+</div>
+</div>
+</section>
+<!-- MISSIONS D'ÉTAT & VALEURS RÉPUBLICAINES -->
+<section class="bg-surface-container-low py-space-xl w-full">
+<div class="max-w-[1360px] mx-auto px-gutter">
+<div class="flex flex-col items-center text-center max-w-3xl mx-auto mb-space-xl">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary font-bold">Mandat Statutaire</span>
+<h2 class="font-headline-xl text-headline-xl text-primary tracking-tight mt-1">Quatre Missions d'État au Service des Artisans</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2">
+          Exercées sous délégation administrative, nos missions régulent les pratiques, soutiennent l'humain et propulsent l'artisanat dans l'économie formelle.
+        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-lg">
+<!-- Mission 1 -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
+<div>
+<div class="w-12 h-12 rounded-lg bg-primary-container text-surface-container-lowest flex items-center justify-center mb-space-sm">
+<span class="material-symbols-outlined text-[24px]">verified</span>
+</div>
+<span class="font-label-sm text-label-sm tracking-wider uppercase text-secondary font-bold">Pilier I</span>
+<h4 class="font-title-md text-title-md text-primary font-bold mt-1">Régulation &amp; Labellisation</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-2 leading-relaxed">
+              Attribution du Sceau d'État officiel, immatriculation au RN-ATAC avec carte consulaire biométrique infalsifiable, et audit technique périodique des ateliers de production.
+            </p>
+</div>
+<div class="mt-4 pt-3 flex items-center gap-1.5 text-tertiary-fixed-dim">
+<span class="material-symbols-outlined text-[16px]">check_circle</span>
+<span class="font-label-sm text-label-sm font-semibold text-primary">Certification Reconnue</span>
+</div>
+</div>
+<!-- Mission 2 -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
+<div>
+<div class="w-12 h-12 rounded-lg bg-secondary text-surface-container-lowest flex items-center justify-center mb-space-sm">
+<span class="material-symbols-outlined text-[24px]">health_and_safety</span>
+</div>
+<span class="font-label-sm text-label-sm tracking-wider uppercase text-secondary font-bold">Pilier II</span>
+<h4 class="font-title-md text-title-md text-primary font-bold mt-1">Défense &amp; Protection Sociale</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-2 leading-relaxed">
+              Dispositif de prévoyance santé artisanale, micro-assurance solidaire contre les accidents d'atelier, et médiation juridique gratuite contre les impayés et litiges de chantiers.
+            </p>
+</div>
+<div class="mt-4 pt-3 flex items-center gap-1.5 text-secondary">
+<span class="material-symbols-outlined text-[16px]">security</span>
+<span class="font-label-sm text-label-sm font-semibold text-primary">Protection des Maîtres</span>
+</div>
+</div>
+<!-- Mission 3 -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
+<div>
+<div class="w-12 h-12 rounded-lg bg-tertiary-container text-tertiary-fixed flex items-center justify-center mb-space-sm">
+<span class="material-symbols-outlined text-[24px]">school</span>
+</div>
+<span class="font-label-sm text-label-sm tracking-wider uppercase text-secondary font-bold">Pilier III</span>
+<h4 class="font-title-md text-title-md text-primary font-bold mt-1">Formation &amp; Transfert F.I.I.T.A.C.</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-2 leading-relaxed">
+              Programmes de perfectionnement au sein de l'Académie F.I.I.T.A.C., compagnonnage ancestral couplé aux nouvelles technologies : machines CNC, kits solaires et soudure haute pression.
+            </p>
+</div>
+<div class="mt-4 pt-3 flex items-center gap-1.5 text-tertiary-fixed-dim">
+<span class="material-symbols-outlined text-[16px]">memory</span>
+<span class="font-label-sm text-label-sm font-semibold text-primary">Savoirs Hybrides</span>
+</div>
+</div>
+<!-- Mission 4 -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
+<div>
+<div class="w-12 h-12 rounded-lg bg-primary text-secondary-fixed flex items-center justify-center mb-space-sm">
+<span class="material-symbols-outlined text-[24px]">handshake</span>
+</div>
+<span class="font-label-sm text-label-sm tracking-wider uppercase text-secondary font-bold">Pilier IV</span>
+<h4 class="font-title-md text-title-md text-primary font-bold mt-1">Marchés Publics &amp; ARSP</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-2 leading-relaxed">
+              Application rigoureuse de la loi sur la sous-traitance pour garantir l'accès prioritaire des artisans congolais aux appels d'offres des sociétés minières, pétrolières et de l'État.
+            </p>
+</div>
+<div class="mt-4 pt-3 flex items-center gap-1.5 text-primary">
+<span class="material-symbols-outlined text-[16px]">business_center</span>
+<span class="font-label-sm text-label-sm font-semibold text-primary">Préférence Nationale</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- GOUVERNANCE & BUREAU EXÉCUTIF NATIONAL -->
+<section class="max-w-[1360px] mx-auto px-gutter py-space-xl w-full">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-space-xl gap-space-md">
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary font-bold">Autorité Consulaire</span>
+<h2 class="font-headline-xl text-headline-xl text-primary tracking-tight mt-1">Bureau Exécutif National</h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-xl mt-1">
+          Élus par l'Assemblée Générale Nationale des 26 Coordinations pour un mandat de 5 ans renouvelable.
+        </p>
+</div>
+<div class="flex items-center gap-2">
+<span class="px-3 py-1.5 rounded-lg bg-surface-container-high text-primary font-label-md text-label-md font-semibold flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">history_edu</span>
+          Mandat Triennal 2024 - 2029
+        </span>
+</div>
+</div>
+<!-- Le mot du Président National -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-md mb-space-xl">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg items-center">
+<div class="lg:col-span-4 flex flex-col items-center sm:items-start text-center sm:text-left">
+<div class="relative w-44 h-44 rounded-xl overflow-hidden shadow-md mb-space-sm">
+<img class="w-full h-full object-cover" data-alt="Portrait officiel digne d'un haut dignitaire congolais, homme mature en tenue consulaire d'apparat avec insigne d'artisan en or, regard bienveillant et solennel, studio éclairé aux tons chauds" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBjwxA8g_MbL7FETu3-tv8ohzWdHD5tCzqC_EubR3v_ESo_DfCoWeu1xLCj6XYA5z9V29_l9MY5VlcQy4Ag5cdpmkfSr_IB3VQKY44BTdq8M5BwdKg-V8jyw_HKzbn7gjQ_2vkjzy8eZq1lxtv2Xe9Zmq4_tcgJSMyAIP0Ev1HgffRHceqJQ7agP3YtSv8AUg5QhD2g8mdA3VHrAA2dhw1EDu1sYKoJqKhulX4O9lBLPEkMKqx5hfQHw2ytUwBOAl8iqw">
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary font-bold">Michel Hathy KIBANSA&nbsp;</h3>
+<span class="font-label-md text-label-md text-secondary font-bold uppercase tracking-wider">ARCHITECTE SENIOR&nbsp;</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Président National Consulaire de l'ATAC</span>
+<div class="mt-2 text-xs font-mono text-outline font-semibold tracking-wider">RN-ATAC / BEN-001-KIN</div>
+</div>
+<div class="lg:col-span-8 flex flex-col justify-between">
+<div class="flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-secondary-fixed-dim text-4xl leading-none select-none">format_quote</span>
+<div class="flex flex-col gap-space-sm">
+<h4 class="font-title-md text-title-md text-primary font-bold">
+                « Aucun pays n'a franchi le seuil de la souveraineté sans valoriser la main de ses techniciens et maîtres ouvriers. »
+              </h4>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                « Trop longtemps relégué à la marge des statistiques économiques, l'artisanat de la République Démocratique du Congo s'affirme désormais comme l'armature même de notre développement intérieur. Chaque pièce de forge, chaque mètre de filature de coton indigène, chaque circuit électronique rénové sur notre sol est un acte d'affranchissement national. Notre devoir est de transformer ce talent instinctif en puissance certifiée et respectée à l'international. »
+              </p>
+</div>
+</div>
+<div class="mt-space-md pt-space-sm flex flex-wrap items-center justify-between gap-space-sm">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[20px]">draw</span>
+<span class="font-headline-sm text-headline-sm font-serif italic text-primary">Michel KIBANSA</span>
+</div>
+<span class="font-label-sm text-label-sm text-outline uppercase tracking-wider">Cachet Consulaire Officiel Apposé</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Les 4 Membres Exécutifs Dirigeants -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-space-md">
+<!-- Membre 1 -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm hover:shadow-md transition-all flex flex-col">
+<div class="w-full h-48 rounded-lg overflow-hidden mb-space-sm bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Portrait en buste d'une femme cadre congolaise expérimentée, vêtue d'un pagne officiel soigné et tailleur bleu république, souriante et autoritaire, fond sobre" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCzZrLSp-GpC0GydMfw8An_NvnWjj2nwRDOL-Ps-7gFZCxCrAi8GmISu8zDgTmAu89IU2bUolRWg4UMmI2YJzZHiwebsL0t80LN8S_Z9t4thZlcUmUQ4TxVJi34ZueQvrEJb2ZaZmgk0o0LhjVRo8DJf0pZmb1gkuDSWmAZTovgACiAvxpL-aFdP3Zov7DWodxuvAhNBV1vRAS-e4kMijzFU6KdU9ptIgUNkI6Q5BaX">
+</div>
+<span class="font-label-sm text-label-sm text-secondary uppercase font-bold tracking-wider">Vice-Présidente</span>
+<h4 class="font-title-md text-title-md text-primary font-bold mt-0.5">Me Espérance Kabedi</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1 mb-4 flex-grow">
+          En charge des Métiers d'Art, Textile &amp; Valorisation des Matières Précieuses Indigènes.
+        </p>
+<div class="pt-3 font-label-sm text-label-sm text-outline flex items-center justify-between">
+<span class="">Coordination Femmes Artisanes</span>
+<span class="material-symbols-outlined text-[16px]">verified</span>
+</div>
+</div>
+<!-- Membre 2 -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm hover:shadow-md transition-all flex flex-col">
+<div class="w-full h-48 rounded-lg overflow-hidden mb-space-sm bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Portrait d'un ingénieur congolais masculin d'âge moyen, lunettes rectangulaires, chemise blanche impeccable avec cravate bleu foncé, pose professionnelle assurée" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD23-k6h3jzG5G02e2exlkaODD2-_-4TaejgcGWhOFfotsWDJN77QJsruxhv-GP86f1IBa3rhmniu7Rv6letlYzeE2ySnnr8B7bVkkDFZDjVGUIZhUBfGS6ofOPncaeLuCejoanyP-T4AAtNm4qnRh-5lMEurOpNKwgQMB_xt47GQunHYY1OAN4Ia-l82MAwpUvA6VLmTNgmomls_k2mypmNEEvLqPOvfV8-Y3RgUm2">
+</div>
+<span class="font-label-sm text-label-sm text-secondary uppercase font-bold tracking-wider">Secrétaire Général</span>
+<h4 class="font-title-md text-title-md text-primary font-bold mt-0.5">Ing. Dieudonné Ilunga K.</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1 mb-4 flex-grow">
+          Direction du Registre Biométrique National RN-ATAC &amp; Relations Administratives Interministérielles.
+        </p>
+<div class="pt-3 font-label-sm text-label-sm text-outline flex items-center justify-between">
+<span class="">Gestion des Données d'État</span>
+<span class="material-symbols-outlined text-[16px]">fingerprint</span>
+</div>
+</div>
+<!-- Membre 3 -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm hover:shadow-md transition-all flex flex-col">
+<div class="w-full h-48 rounded-lg overflow-hidden mb-space-sm bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Portrait d'un économiste juriste congolais, homme confiant en costume d'affaires avec insigne doré, atmosphère de cabinet institutionnel" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDpIMa-U5jLmCOTVcg5NvRt-eu4P9m7fLsFCcVistpq3aXJ3D6pIWVGa4s9I6FjKGWGImPYsw7UUeHV8JJtOIOB8IIpDHtQ5COUpm0JZyrKryLD6kj5rhIWP0zUTE_vYeDTelGRnJftoiMSXPi9Qe6ez28fK2ejlbNtiJDQhLz03VT-sXBlOyLLG2tpQtTKtW6YgIBEoy6piMOuN9jqKhHTKYEHOy6QQmh6B6D9jhxA">
+</div>
+<span class="font-label-sm text-label-sm text-secondary uppercase font-bold tracking-wider">Trésorier Général</span>
+<h4 class="font-title-md text-title-md text-primary font-bold mt-0.5">Me Patrick Kasongo</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1 mb-4 flex-grow">
+          Supervision du Fonds Consulaire de Garantie Solidaire &amp; des Partenariats de Micro-Crédit d'Outillage.
+        </p>
+<div class="pt-3 font-label-sm text-label-sm text-outline flex items-center justify-between">
+<span class="">Fonds Autonome Artisans</span>
+<span class="material-symbols-outlined text-[16px]">account_balance_wallet</span>
+</div>
+</div>
+<!-- Membre 4 -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm hover:shadow-md transition-all flex flex-col">
+<div class="w-full h-48 rounded-lg overflow-hidden mb-space-sm bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Portrait officiel d'un inspecteur technique congolais vêtu d'un casque de chantier blanc en main et d'une veste professionnelle, posture rigoureuse et expérimentée" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDADTbT1oHbbWNWlEr3L9xl5c5BILR8-Bxe7jo0BvO5Oz1SFVOnwQc2mMAEG9SIjuYtbJXEBwvVNgQD9w5YSovmDPwkS85r1ShRPW_XszTV147WxlQHH_HJmzO9l2BlWAXGibcB6Ko-ZLKgufYvUHMnXEjL1PPxnOU-0fMxSnTVdpdw-K2_rIbmrYDMzheWZ-PvzmJKT2ZQFQYoW4FBYanDPVCBQDKB2u7IS0ECyP4Z">
+</div>
+<span class="font-label-sm text-label-sm text-secondary uppercase font-bold tracking-wider">Inspecteur Général</span>
+<h4 class="font-title-md text-title-md text-primary font-bold mt-0.5">Ir. Faustin Mbuyi Ntita</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1 mb-4 flex-grow">
+          Contrôle de Conformité des Normes de Sécurité Industrielle, Ateliers BTP &amp; Accréditations FIITAC.
+        </p>
+<div class="pt-3 font-label-sm text-label-sm text-outline flex items-center justify-between">
+<span class="">Contrôle Qualité &amp; Normes</span>
+<span class="material-symbols-outlined text-[16px]">fact_check</span>
+</div>
+</div>
+</div>
+</section>
+<!-- ORGANISATION TERRITORIALE (LES 26 PROVINCES) -->
+<section class="bg-surface-container-low py-space-xl w-full">
+<div class="max-w-[1360px] mx-auto px-gutter">
+<div class="flex flex-col items-center text-center max-w-3xl mx-auto mb-space-xl">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary font-bold">Maillage Républicain</span>
+<h2 class="font-headline-xl text-headline-xl text-primary tracking-tight mt-1">26 Coordinations Provinciales &amp; 5 Pôles Stratégiques</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2">
+          De Banana à Kasumbalesa, de Moanda à Bunia : une permanence consulaire ouverte à tout artisan, qu'il travaille en milieu rural ou urbain.
+        </p>
+</div>
+<!-- Onglets interactifs des 5 grands pôles -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm">
+<div class="flex flex-wrap gap-2 mb-space-lg bg-surface-container p-1.5 rounded-lg" id="pole-tabs">
+<button class="px-4 py-2 rounded-lg font-label-md text-label-md font-bold bg-primary text-surface-container-lowest transition-all" onclick="showPole('ouest', this)">
+            Pôle Ouest (Capitale &amp; Fleuve)
+          </button>
+<button class="px-4 py-2 rounded-lg font-label-md text-label-md font-bold text-on-surface-variant hover:text-primary transition-all" onclick="showPole('sud', this)">
+            Pôle Sud / Katanga Minier
+          </button>
+<button class="px-4 py-2 rounded-lg font-label-md text-label-md font-bold text-on-surface-variant hover:text-primary transition-all" onclick="showPole('est', this)">
+            Pôle Est &amp; Grands Lacs
+          </button>
+<button class="px-4 py-2 rounded-lg font-label-md text-label-md font-bold text-on-surface-variant hover:text-primary transition-all" onclick="showPole('centre', this)">
+            Pôle Centre &amp; Grand Kasaï
+          </button>
+<button class="px-4 py-2 rounded-lg font-label-md text-label-md font-bold text-on-surface-variant hover:text-primary transition-all" onclick="showPole('nord', this)">
+            Pôle Nord / Équateur &amp; Tshopo
+          </button>
+</div>
+<!-- Contenus des Pôles -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg" id="pole-content-ouest">
+<div class="lg:col-span-7 flex flex-col justify-between">
+<div>
+<div class="flex items-center gap-2 mb-2">
+<span class="px-2.5 py-0.5 rounded bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm font-bold">Siège &amp; Façade Maritime</span>
+<span class="font-body-sm text-body-sm text-outline">5 Provinces Couvertes</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary">Pôle Ouest : Centre Décisionnel &amp; Portuaire</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2 leading-relaxed">
+                Ce pôle regroupe Kinshasa (siège national consulaire), le Kongo-Central (zones portuaires de Matadi et Boma), le Kwilu, le Kwango et le Mai-Ndombe. Il concentre les ateliers de prototypage avancés, les grands chantiers navals fluviaux et les manufactures textiles certifiées.
+              </p>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-sm mt-4">
+<div class="bg-surface-container-low p-3 rounded-lg">
+<span class="font-label-sm text-label-sm text-secondary font-bold uppercase">Kinshasa (Siège Général)</span>
+<p class="font-body-sm text-body-sm text-primary font-semibold">Boulevard du 30 Juin, Gombe</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant text-xs">Permanence : +243 81 000 0000</p>
+</div>
+<div class="bg-surface-container-low p-3 rounded-lg">
+<span class="font-label-sm text-label-sm text-secondary font-bold uppercase">Matadi (Kongo-Central)</span>
+<p class="font-body-sm text-body-sm text-primary font-semibold">Av. Mpozo, Quartier Ville-Haute</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant text-xs">Ateliers Navals &amp; Logistique</p>
+</div>
+<div class="bg-surface-container-low p-3 rounded-lg">
+<span class="font-label-sm text-label-sm text-secondary font-bold uppercase">Bandundu-Ville (Kwilu)</span>
+<p class="font-body-sm text-body-sm text-primary font-semibold">Av. du Commerce, Centre Consulaire</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant text-xs">Filière Bois &amp; Agro-mécanique</p>
+</div>
+<div class="bg-surface-container-low p-3 rounded-lg">
+<span class="font-label-sm text-label-sm text-secondary font-bold uppercase">Kenge (Kwango)</span>
+<p class="font-body-sm text-body-sm text-primary font-semibold">Route Nationale 1, Antenne Provinciale</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant text-xs">Artisanat de Forge &amp; Bâtiment</p>
+</div>
+</div>
+</div>
+<div class="lg:col-span-5 flex flex-col gap-space-sm">
+<div class="h-64 rounded-xl overflow-hidden bg-surface-container relative">
+<div class="w-full h-full bg-cover bg-center" data-location="Kinshasa, Democratic Republic of the Congo" style="background-image: url(&quot;https://lh3.googleusercontent.com/aida-public/AB6AXuA69RgJ3XXfBXZN5vck2Y9n9ibIjGdLMbfP9wSfqZsNJuOTym3LI40Ir1a2TRHpo160iGTsoa9aiIr4t_KQB-8r_cg_84bDNKU_6B2u4ViVvaLBqLElqGmfUNd0QytrB-rxARB8XQ_I_vvfhrZAQB8mvGt2hlfjOpp3qk0hPW8EJlKmPZUJXoUaDui4mo7ocmxT-RjWDQgDELU7r9p4LrLTBBo7IeRi4HklVc-I5B0c&quot;);"></div>
+<div class="absolute bottom-3 left-3 bg-primary/80 backdrop-blur-md px-3 py-1 rounded text-surface-container-lowest font-label-sm text-label-sm flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[14px] text-tertiary-fixed">location_on</span>
+                Kinshasa Gombe • Siège Opérationnel
+              </div>
+</div>
+<div class="p-3 rounded-lg bg-surface-container text-body-sm text-on-surface-variant flex items-center justify-between">
+<span class="font-label-md text-label-md text-primary font-bold">Total Immatriculés Pôle Ouest :</span>
+<span class="font-bold text-secondary text-headline-sm">18 450</span>
+</div>
+</div>
+</div>
+<!-- Pôle Sud (Masqué par défaut) -->
+<div class="hidden grid-cols-1 lg:grid-cols-12 gap-space-lg" id="pole-content-sud">
+<div class="lg:col-span-7 flex flex-col justify-between">
+<div>
+<div class="flex items-center gap-2 mb-2">
+<span class="px-2.5 py-0.5 rounded bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm font-bold">Secteur Minier &amp; Métallurgique</span>
+<span class="font-body-sm text-body-sm text-outline">4 Provinces Couvertes</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary">Pôle Sud : Métallurgie, Usinage &amp; Électromécanique</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2 leading-relaxed">
+                Haut-Katanga (Lubumbashi), Lualaba (Kolwezi), Haut-Lomami (Kamina) et Tanganyika (Kalemie). Cœur de la sous-traitance industrielle avec les groupes miniers, centré sur la chaudronnerie lourde, les automatismes et le bobinage électrique.
+              </p>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-sm mt-4">
+<div class="bg-surface-container-low p-3 rounded-lg">
+<span class="font-label-sm text-label-sm text-secondary font-bold uppercase">Lubumbashi (Haut-Katanga)</span>
+<p class="font-body-sm text-body-sm text-primary font-semibold">Av. Kasavubu, Immeuble Katanga Craft</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant text-xs">Usinage &amp; Soudure Haute Pression</p>
+</div>
+<div class="bg-surface-container-low p-3 rounded-lg">
+<span class="font-label-sm text-label-sm text-secondary font-bold uppercase">Kolwezi (Lualaba)</span>
+<p class="font-body-sm text-body-sm text-primary font-semibold">Boulevard Laurent Désiré Kabila</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant text-xs">Guichet Unique ARSP / ATAC</p>
+</div>
+</div>
+</div>
+<div class="lg:col-span-5 flex flex-col gap-space-sm">
+<div class="h-64 rounded-xl overflow-hidden bg-surface-container relative">
+<div class="w-full h-full bg-cover bg-center" data-location="Lubumbashi, Democratic Republic of the Congo" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCVMw9YVLzGjb5PSfHcEpbrwcBLdoby7NHACy9tAd2FLswBSMrCx1-0w3gXAyNNlBpX_0kmu9uNpK9Z_pX0TMDzSWuLtDue8Qu-f7aG_VSel5HjrHVp_D8PSwMzUizYFw4E7WNhD2-VVufltUUACKapiJ6M2-pynGzxVQCr3d3cPC6_DvFJCmHIqYJLp9YPsEBtfyDHHv-5_HpAhneahJE8tTNoBpCEJ3lvepV7S7-R');"></div>
+</div>
+<div class="p-3 rounded-lg bg-surface-container text-body-sm text-on-surface-variant flex items-center justify-between">
+<span class="font-label-md text-label-md text-primary font-bold">Total Immatriculés Pôle Sud :</span>
+<span class="font-bold text-secondary text-headline-sm">14 120</span>
+</div>
+</div>
+</div>
+<!-- Pôle Est (Masqué par défaut) -->
+<div class="hidden grid-cols-1 lg:grid-cols-12 gap-space-lg" id="pole-content-est">
+<div class="lg:col-span-7 flex flex-col justify-between">
+<div>
+<div class="flex items-center gap-2 mb-2">
+<span class="px-2.5 py-0.5 rounded bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm font-bold">Grands Lacs &amp; Résilience</span>
+<span class="font-body-sm text-body-sm text-outline">4 Provinces Couvertes</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary">Pôle Est : BTP, Énergies Renouvelables &amp; Artisanat Minier</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2 leading-relaxed">
+                Nord-Kivu (Goma), Sud-Kivu (Bukavu), Maniema (Kindu) et Ituri (Bunia). Spécialisé dans les micro-centrales hydroélectriques artisanales, la menuiserie des bois de montagne et la maçonnerie antisismique en pierre de lave.
+              </p>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-sm mt-4">
+<div class="bg-surface-container-low p-3 rounded-lg">
+<span class="font-label-sm text-label-sm text-secondary font-bold uppercase">Goma (Nord-Kivu)</span>
+<p class="font-body-sm text-body-sm text-primary font-semibold">Rond-point BDGL, Cité Consulaire</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant text-xs">Pôle Énergie &amp; Génie Civil</p>
+</div>
+<div class="bg-surface-container-low p-3 rounded-lg">
+<span class="font-label-sm text-label-sm text-secondary font-bold uppercase">Bukavu (Sud-Kivu)</span>
+<p class="font-body-sm text-body-sm text-primary font-semibold">Av. Patrice Lumumba, Ibanda</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant text-xs">Filière Céramique &amp; Métallerie</p>
+</div>
+</div>
+</div>
+<div class="lg:col-span-5 flex flex-col gap-space-sm">
+<div class="h-64 rounded-xl overflow-hidden bg-surface-container relative">
+<div class="w-full h-full bg-cover bg-center" data-location="Goma, Democratic Republic of the Congo" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuB5u6p9zmIJhqpxyL0FFhqMTLEFKhseIAiNyvYb6rd3bE3-VIRHNn3Dmp7f7sSS6sOujzBCxsWrq7nvN5hxvXA4flefGreocMBWbuSKGlWXvC8bUbuhGFmIk0NKwxSml91CLSEh2d8OJtd04nlCmgUz7xEe8EZm_EThLcsvCX54JDneOmhkXWSmuQz9N57iOa5V7nm1OWrC5FbLbL31fGhhx6nQapiLvcOGpfNbmvfy');"></div>
+</div>
+<div class="p-3 rounded-lg bg-surface-container text-body-sm text-on-surface-variant flex items-center justify-between">
+<span class="font-label-md text-label-md text-primary font-bold">Total Immatriculés Pôle Est :</span>
+<span class="font-bold text-secondary text-headline-sm">8 930</span>
+</div>
+</div>
+</div>
+<!-- Pôle Centre (Masqué par défaut) -->
+<div class="hidden grid-cols-1 lg:grid-cols-12 gap-space-lg" id="pole-content-centre">
+<div class="lg:col-span-7 flex flex-col justify-between">
+<div>
+<div class="flex items-center gap-2 mb-2">
+<span class="px-2.5 py-0.5 rounded bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm font-bold">Grand Kasaï</span>
+<span class="font-body-sm text-body-sm text-outline">5 Provinces Couvertes</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary">Pôle Centre : Diamant, Mécanique Agricole &amp; Bâtiment</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2 leading-relaxed">
+                Kasaï-Oriental (Mbuji-Mayi), Kasaï-Central (Kananga), Kasaï (Tshikapa), Lomami et Sankuru. Valorisation de la taille diamantaire consulaire, briqueteries mécanisées et machinisme agricole adapté.
+              </p>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-sm mt-4">
+<div class="bg-surface-container-low p-3 rounded-lg">
+<span class="font-label-sm text-label-sm text-secondary font-bold uppercase">Mbuji-Mayi (Kasaï-Oriental)</span>
+<p class="font-body-sm text-body-sm text-primary font-semibold">Av. Inga, Quartier Diulu</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant text-xs">Pôle Joaillerie &amp; Taille</p>
+</div>
+<div class="bg-surface-container-low p-3 rounded-lg">
+<span class="font-label-sm text-label-sm text-secondary font-bold uppercase">Kananga (Kasaï-Central)</span>
+<p class="font-body-sm text-body-sm text-primary font-semibold">Boulevard Lumumba, Centre Métiers</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant text-xs">Génie Rural &amp; BTP</p>
+</div>
+</div>
+</div>
+<div class="lg:col-span-5 flex flex-col gap-space-sm">
+<div class="h-64 rounded-xl overflow-hidden bg-surface-container relative">
+<div class="w-full h-full bg-cover bg-center" data-location="Mbuji-Mayi, Democratic Republic of the Congo" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDvr02lFDS0PaUvv4GHNORBZycAKTLGemDXKPdfT7e_5XD8hAo5QJxk7LeZ5BmBemTcPofr8VVEW47IMLxTdzMGgWSyhPJmF2pAF0HL4qdfhr8_BYEXAxSOjVK2gJXDxyeHrDmXsWJIRoqMeF5JDSA8MXSjbAhWEZStZXB1lBBhktOv96lGT6kUcm9kcqGrTu3uUXPhI3bjKOkW4CAqxFFAHCgzHr0Etm_Kex-r_yrm');"></div>
+</div>
+<div class="p-3 rounded-lg bg-surface-container text-body-sm text-on-surface-variant flex items-center justify-between">
+<span class="font-label-md text-label-md text-primary font-bold">Total Immatriculés Pôle Centre :</span>
+<span class="font-bold text-secondary text-headline-sm">4 150</span>
+</div>
+</div>
+</div>
+<!-- Pôle Nord (Masqué par défaut) -->
+<div class="hidden grid-cols-1 lg:grid-cols-12 gap-space-lg" id="pole-content-nord">
+<div class="lg:col-span-7 flex flex-col justify-between">
+<div>
+<div class="flex items-center gap-2 mb-2">
+<span class="px-2.5 py-0.5 rounded bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm font-bold">Bassin Fluvial Équatorial</span>
+<span class="font-body-sm text-body-sm text-outline">8 Provinces Couvertes</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary">Pôle Nord : Ébénisterie Équatoriale &amp; Navigation Fluviale</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2 leading-relaxed">
+                Tshopo (Kisangani), Équateur (Mbandaka), Mongala, Nord-Ubangi, Sud-Ubangi, Tshuapa, Bas-Uele et Haut-Uele. Épicentre de l'ébénisterie des essences précieuses certifiées FSC et de la maintenance des propulsions de baleinières fluviales.
+              </p>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-sm mt-4">
+<div class="bg-surface-container-low p-3 rounded-lg">
+<span class="font-label-sm text-label-sm text-secondary font-bold uppercase">Kisangani (Tshopo)</span>
+<p class="font-body-sm text-body-sm text-primary font-semibold">Av. Sergent Ketele, Commune Makiso</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant text-xs">Pôle d'Excellence Bois Noble</p>
+</div>
+<div class="bg-surface-container-low p-3 rounded-lg">
+<span class="font-label-sm text-label-sm text-secondary font-bold uppercase">Mbandaka (Équateur)</span>
+<p class="font-body-sm text-body-sm text-primary font-semibold">Av. Mobutu, Port Consulaire ATAC</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant text-xs">Charpente Navale Artisanale</p>
+</div>
+</div>
+</div>
+<div class="lg:col-span-5 flex flex-col gap-space-sm">
+<div class="h-64 rounded-xl overflow-hidden bg-surface-container relative">
+<div class="w-full h-full bg-cover bg-center" data-location="Kisangani, Democratic Republic of the Congo" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBmwFOiiz5K81qwyyMVOS6f7h4VtelUvinNdVplVnP0G-kt97uj6YPSMMrhbulXZgsTR0ISrENi_nrQacl7CwapcPEx2AQedxgtk6X5SJid4HQUqoANoomIBHWovsPUZZjUYZOzDPz7yb3NHAaS4BOAkahDKzV9TYRsK0G4sU175fITMIY1gFCQmpZw8UNf7u9jCLP11ZezMpLsOv29aZ9eVtiuCqMiyB0P4K1PC0gs');"></div>
+</div>
+<div class="p-3 rounded-lg bg-surface-container text-body-sm text-on-surface-variant flex items-center justify-between">
+<span class="font-label-md text-label-md text-primary font-bold">Total Immatriculés Pôle Nord :</span>
+<span class="font-bold text-secondary text-headline-sm">2 550</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- TEXTES FONDATEURS, LOIS & RÈGLEMENTS OFFICIELS -->
+<section class="max-w-[1360px] mx-auto px-gutter py-space-xl w-full">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-space-xl gap-space-md">
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary font-bold">Corpus Juridique Consulaire</span>
+<h2 class="font-headline-xl text-headline-xl text-primary tracking-tight mt-1">Textes Fondateurs &amp; Lois Républicaines</h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-xl mt-1">
+          Consultez et téléchargez en version authentifiée les textes régissant l'exercice des métiers et les prérogatives consulaires en RDC.
+        </p>
+</div>
+<div class="flex items-center gap-2 text-outline font-label-md text-label-md">
+<span class="material-symbols-outlined text-[18px]">verified_user</span>
+        Format PDF / Signatures Certifiées RN-ATAC
+      </div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-md">
+<!-- Document 1 -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm hover:shadow-md transition-all flex items-start gap-space-md group">
+<div class="w-12 h-14 rounded bg-error-container text-error flex items-center justify-center flex-shrink-0 group-hover:scale-105 transition-transform">
+<span class="material-symbols-outlined text-[28px]">picture_as_pdf</span>
+</div>
+<div class="flex flex-col justify-between flex-grow">
+<div>
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-secondary font-bold uppercase">Acte Statutaire Révisé</span>
+<span class="font-label-sm text-label-sm text-outline">PDF • 2.4 Mo</span>
+</div>
+<h4 class="font-title-md text-title-md text-primary font-bold mt-1">
+              Statuts Coordonnés de l'ATAC - Version Révisée 2024
+            </h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+              Texte constitutionnel régissant les compétences, l'élection des délégués provinciaux et le régime disciplinaire consulaire.
+            </p>
+</div>
+<div class="mt-3 flex items-center justify-between pt-2">
+<span class="font-label-sm text-label-sm text-outline">Adopté en Congrès le 14 Fév. 2024</span>
+<a class="inline-flex items-center gap-1 font-label-md text-label-md font-bold text-primary hover:text-secondary transition-colors" href="#">
+<span class="material-symbols-outlined text-[16px]">download</span>
+              Télécharger
+            </a>
+</div>
+</div>
+</div>
+<!-- Document 2 -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm hover:shadow-md transition-all flex items-start gap-space-md group">
+<div class="w-12 h-14 rounded bg-error-container text-error flex items-center justify-center flex-shrink-0 group-hover:scale-105 transition-transform">
+<span class="material-symbols-outlined text-[28px]">picture_as_pdf</span>
+</div>
+<div class="flex flex-col justify-between flex-grow">
+<div>
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-secondary font-bold uppercase">Éthique &amp; Devoir</span>
+<span class="font-label-sm text-label-sm text-outline">PDF • 1.1 Mo</span>
+</div>
+<h4 class="font-title-md text-title-md text-primary font-bold mt-1">
+              Code de Déontologie et Charte Éthique de l'Artisan Congolais
+            </h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+              Normes de probité, sécurité des ouvrages, respect des devis clients et obligations d'apprentissage solidaire envers les apprentis.
+            </p>
+</div>
+<div class="mt-3 flex items-center justify-between pt-2">
+<span class="font-label-sm text-label-sm text-outline">Homologué le 20 Nov. 2023</span>
+<a class="inline-flex items-center gap-1 font-label-md text-label-md font-bold text-primary hover:text-secondary transition-colors" href="#">
+<span class="material-symbols-outlined text-[16px]">download</span>
+              Télécharger
+            </a>
+</div>
+</div>
+</div>
+<!-- Document 3 -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm hover:shadow-md transition-all flex items-start gap-space-md group">
+<div class="w-12 h-14 rounded bg-error-container text-error flex items-center justify-center flex-shrink-0 group-hover:scale-105 transition-transform">
+<span class="material-symbols-outlined text-[28px]">picture_as_pdf</span>
+</div>
+<div class="flex flex-col justify-between flex-grow">
+<div>
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-secondary font-bold uppercase">Répertoire des Métiers</span>
+<span class="font-label-sm text-label-sm text-outline">PDF • 3.8 Mo</span>
+</div>
+<h4 class="font-title-md text-title-md text-primary font-bold mt-1">
+              Nomenclature Officielle des 180 Métiers et Grilles de Qualification
+            </h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+              Classification intégrale des filières techniques, barèmes d'évaluation des Maîtres Bâtisseurs et Techniciens Supérieurs.
+            </p>
+</div>
+<div class="mt-3 flex items-center justify-between pt-2">
+<span class="font-label-sm text-label-sm text-outline">Édition Spéciale Journal Officiel 2024</span>
+<a class="inline-flex items-center gap-1 font-label-md text-label-md font-bold text-primary hover:text-secondary transition-colors" href="#">
+<span class="material-symbols-outlined text-[16px]">download</span>
+              Télécharger
+            </a>
+</div>
+</div>
+</div>
+<!-- Document 4 -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm hover:shadow-md transition-all flex items-start gap-space-md group">
+<div class="w-12 h-14 rounded bg-error-container text-error flex items-center justify-center flex-shrink-0 group-hover:scale-105 transition-transform">
+<span class="material-symbols-outlined text-[28px]">picture_as_pdf</span>
+</div>
+<div class="flex flex-col justify-between flex-grow">
+<div>
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-secondary font-bold uppercase">Sous-Traitance &amp; ARSP</span>
+<span class="font-label-sm text-label-sm text-outline">PDF • 1.8 Mo</span>
+</div>
+<h4 class="font-title-md text-title-md text-primary font-bold mt-1">
+              Protocole d'Accord Cadre ATAC - Ministère des PME &amp; ARSP
+            </h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+              Accords de réservation de quotas de marchés obligatoires aux ateliers artisanaux locaux dans les projets miniers et d'État.
+            </p>
+</div>
+<div class="mt-3 flex items-center justify-between pt-2">
+<span class="font-label-sm text-label-sm text-outline">Signé à Kinshasa le 05 Jan. 2024</span>
+<a class="inline-flex items-center gap-1 font-label-md text-label-md font-bold text-primary hover:text-secondary transition-colors" href="#">
+<span class="material-symbols-outlined text-[16px]">download</span>
+              Télécharger
+            </a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- APPEL À L'ACTION & BANNIÈRE SOUVERAINE -->
+<section class="bg-primary-container text-surface-container-lowest py-space-xl relative overflow-hidden">
+<div class="absolute -right-24 -bottom-24 w-96 h-96 bg-secondary/20 rounded-full blur-3xl pointer-events-none"></div>
+<div class="absolute -left-24 -top-24 w-96 h-96 bg-tertiary-fixed-dim/10 rounded-full blur-3xl pointer-events-none"></div>
+<div class="max-w-[1360px] mx-auto px-gutter relative z-10">
+<div class="bg-primary/60 rounded-2xl p-space-xl backdrop-blur-md shadow-xl flex flex-col lg:flex-row items-center justify-between gap-space-lg">
+<div class="max-w-2xl flex flex-col gap-space-sm text-center lg:text-left">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-secondary text-surface-container-lowest font-label-sm text-label-sm self-center lg:self-start">
+<span class="material-symbols-outlined text-[14px]">workspace_premium</span>
+            Campagne Nationale d'Immatriculation Biométrique
+          </div>
+<h2 class="font-headline-xl text-headline-xl text-surface-container-lowest tracking-tight">
+            Vous êtes artisan ou maître d'atelier ? Faites reconnaître vos compétences par la République.
+          </h2>
+<p class="font-body-md text-body-md text-surface-container-highest">
+            L'adhésion confère le titre officiel de Maître Artisan Agréé, l'accès privilégié à la commande publique, la protection juridique consulaire et l'assurance santé collective.
+          </p>
+</div>
+<div class="flex flex-col sm:flex-row gap-space-sm w-full lg:w-auto flex-shrink-0">
+<a class="px-6 py-3.5 rounded-lg bg-secondary text-surface-container-lowest font-label-lg text-label-lg font-bold hover:bg-on-secondary-container transition-all text-center shadow-lg flex items-center justify-center gap-2" href="#">
+<span class="material-symbols-outlined text-[20px]">assignment_turned_in</span>
+            Déposer une demande d'agrément
+          </a>
+<a class="px-6 py-3.5 rounded-lg bg-surface-container-lowest text-primary font-label-lg text-label-lg font-bold hover:bg-surface-container-low transition-all text-center shadow-sm flex items-center justify-center gap-2" href="#">
+<span class="material-symbols-outlined text-[20px]">search</span>
+            Consulter le Registre Public
+          </a>
+</div>
+</div>
+</div>
+</section>
+<!-- Script d'interaction tabs -->
+<script>
+    function showPole(poleKey, triggerButton) {
+      // Masquer tous les contenus
+      const contents = ['ouest', 'sud', 'est', 'centre', 'nord'];
+      contents.forEach(function(k) {
+        const el = document.getElementById('pole-content-' + k);
+        if (el) {
+          el.classList.add('hidden');
+          el.classList.remove('grid');
+        }
+      });
+
+      // Afficher le sélectionné
+      const target = document.getElementById('pole-content-' + poleKey);
+      if (target) {
+        target.classList.remove('hidden');
+        target.classList.add('grid');
+      }
+
+      // Mettre à jour l'apparence des onglets
+      const tabContainer = document.getElementById('pole-tabs');
+      if (tabContainer) {
+        const buttons = tabContainer.querySelectorAll('button');
+        buttons.forEach(function(btn) {
+          btn.className = 'px-4 py-2 rounded-lg font-label-md text-label-md font-bold text-on-surface-variant hover:text-primary transition-all';
+        });
+        triggerButton.className = 'px-4 py-2 rounded-lg font-label-md text-label-md font-bold bg-primary text-surface-container-lowest transition-all';
+      }
+    }
+  </script>
+</div></main><footer class="w-full bg-primary-container text-surface-container-lowest pt-space-xl pb-space-lg"><div class="max-w-[1360px] mx-auto px-gutter"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-space-lg pb-space-xl border-b border-on-primary-container/20"><div class="lg:col-span-2 flex flex-col gap-space-sm"><div class="flex items-center gap-space-sm"><img alt="ATAC Logo Officiel" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBnttz52iDzDXSXQTt-Oho-4fzGsc9j2Nux8gKQOCKqLoungaVK5fmS3lJPaKxVHsRm-t28JB3gv6H6vH6OzhP-C4US7Pegs1DkI3JOiSB8wofctMe88kO_s_6QSzF1vD38Qj-sHRZT-zL62BwKArTDNNYXLCyMzyhdrXDs9l3IOZIzEQxZ4LT6CKmDvyRL1HzrM0bnKbMtVYdd9nAJNlosbSMwDvX9rr0vEmximxEi"><span class="font-headline-sm text-headline-sm text-surface-container-lowest font-bold">ATAC - RDC</span></div><p class="font-body-sm text-body-sm text-surface-container-highest max-w-md">Association des Techniciens et Artisans du Congo &amp; Chambre des Métiers. Organisme républicain garant de l'accréditation, du perfectionnement technique et du rayonnement des maîtres artisans à travers les 26 provinces.</p><div class="flex items-center gap-space-sm mt-space-sm"><span class="px-2.5 py-1 rounded bg-tertiary-container text-tertiary-fixed text-label-sm font-label-sm flex items-center gap-1"><span class="material-symbols-outlined text-[14px]">verified</span>Certification FIITAC</span><span class="px-2.5 py-1 rounded bg-secondary text-surface-container-lowest text-label-sm font-label-sm">Registre National RN-ATAC</span></div></div><div><h4 class="font-title-md text-title-md text-secondary-fixed mb-space-sm font-semibold">Antennes Principales</h4><ul class="flex flex-col gap-2 font-body-sm text-body-sm text-surface-container-highest"><li class=""><strong class="text-surface-container-lowest">Siège Kinshasa:</strong> Gombe, Boulevard du 30 Juin</li><li class=""><strong class="text-surface-container-lowest">Délégation Katanga:</strong> Lubumbashi, Av. Kasavubu</li><li class=""><strong class="text-surface-container-lowest">Délégation Kivu:</strong> Goma, Rond-point BDGL</li><li class="pt-1"><span class="text-tertiary-fixed">Permanence nationale:</span> 24/7</li></ul></div><div><h4 class="font-title-md text-title-md text-secondary-fixed mb-space-sm font-semibold">Navigation Régionale</h4><ul class="grid grid-cols-2 gap-1.5 font-label-md text-label-md text-surface-container-highest"><li class=""><a class="hover:text-surface-container-lowest transition-colors" href="#">Kinshasa</a></li><li class=""><a class="hover:text-surface-container-lowest transition-colors" href="#">Haut-Katanga</a></li><li class=""><a class="hover:text-surface-container-lowest transition-colors" href="#">Nord-Kivu</a></li><li class=""><a class="hover:text-surface-container-lowest transition-colors" href="#">Sud-Kivu</a></li><li class=""><a class="hover:text-surface-container-lowest transition-colors" href="#">Kongo Central</a></li><li class=""><a class="hover:text-surface-container-lowest transition-colors" href="#">Tshopo</a></li><li class=""><a class="hover:text-surface-container-lowest transition-colors" href="#">Lualaba</a></li><li class=""><a class="hover:text-surface-container-lowest transition-colors" href="#">Kasaï-Central</a></li><li class=""><a class="hover:text-surface-container-lowest transition-colors" href="#">Ituri</a></li><li class=""><a class="hover:text-surface-container-lowest transition-colors" href="#">+ 17 Provinces</a></li></ul></div><div><h4 class="font-title-md text-title-md text-secondary-fixed mb-space-sm font-semibold">Newsletter Officielle</h4><p class="font-body-sm text-body-sm text-surface-container-highest mb-space-sm">Recevez les appels d'offres publics et avis de qualification.</p><div class="flex flex-col gap-2"><input class="h-10 px-3 rounded bg-primary text-surface-container-lowest placeholder:text-on-primary-container border border-on-primary-container/30 font-body-sm text-body-sm focus:outline-none focus:border-secondary" placeholder="votre.email@domaine.cd" type="email"><button class="h-10 px-4 rounded bg-secondary text-surface-container-lowest font-label-lg text-label-lg font-semibold hover:bg-on-secondary-container transition-all flex items-center justify-center gap-1">Souscrire</button></div></div></div><div class="mt-space-lg flex flex-col md:flex-row items-center justify-between gap-space-md font-body-sm text-body-sm text-surface-container-highest"><p class="">© 2025 ATAC - Chambre Nationale des Métiers du Congo (RDC). Tous droits réservés.</p><div class="flex items-center gap-space-md"><a class="hover:text-surface-container-lowest transition-colors" data-path="mentions-legales" href="#">Mentions Légales</a><a class="hover:text-surface-container-lowest transition-colors" data-path="politique-de-confidentialite" href="#">Protection des Données</a><a class="hover:text-surface-container-lowest transition-colors" data-path="charte-deontologique" href="#">Charte Déontologique</a></div></div></div></footer>
+
+
+
+</body></html>
